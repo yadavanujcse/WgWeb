@@ -1,0 +1,38 @@
+.price sup {
+    font-size: 1.5rem;
+    position: absolute;
+    top: 4em;
+    left: 2.5em;
+}
+.price strike {
+    font-size: 1.5rem;
+    position: absolute;
+    top: 2.5em;
+    left: 2.2em;
+}
+.price span {
+    font-size: 5rem;
+    font-weight: bold;
+}
+.strikethrough {
+    position: relative;
+}
+.strikethrough:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 50%;
+    right: 0;
+    border-top: 1px solid;
+    border-color: inherit;
+
+    -webkit-transform:rotate(-5deg);
+    -moz-transform:rotate(-5deg);
+    -ms-transform:rotate(-5deg);
+    -o-transform:rotate(-5deg);
+    transform:rotate(-5deg);
+}
+.carousel-product-generic{
+    cursor:pointer;
+    cursor:hand;
+}
