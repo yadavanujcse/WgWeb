@@ -134,29 +134,26 @@
 </div>
 <!-- Full Page Image Background Carousel Header -->
 <header>
-    <div id="myCarousel" class="carousel slide">
-        <!-- Indicators -->
-        <ol class="carousel-indicators" style="z-index: 1;">
-            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner" role="listbox">
-            <div class="fill carousel-item active ">
-                <img src="images/mainSlider/SofaCleaning.jpg" class="center-block"  alt="Carpet Cleaning">
-                <div class="carousel-caption">
-                    <h3></h3>
-                    <p></p>
+    <div class="container-fluid" style="padding-left:0;padding-right:0;">
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active" style="height: 30em;background-position: center;background-repeat: no-repeat;background-image:url('images/mainSlider/SofaCleaning.jpg');background-size: cover;">
+
+                </div>
+                <div class="carousel-item" style="height: 30em;background-position: center;background-repeat: no-repeat;background-image:url('images/mainSlider/washinggunsHomeCleaning.jpg');background-size: cover;">
+
+                </div>
+                <div class="carousel-item" style="height: 30em;background-position: center;background-repeat: no-repeat;background-image:url('images/mainSlider/bathroomcleaning.jpg');background-size: cover;">
+
                 </div>
             </div>
-            <div class="fill carousel-item">
-                <img src="images/mainSlider/washinggunsHomeCleaning.jpg" class="center-block" alt="Home Cleaning">
-            </div>
-            <div class="fill carousel-item">
-                <img src="images/mainSlider/bathroomcleaning.jpg" class="center-block" alt="Hospital">
-            </div>
-        </div>
 
+        </div>
     </div>
     <div class="serviceSearchArea container">
         <div class="row" class"searchElements">
@@ -165,7 +162,7 @@
                     <div class="navbar-toggleable-sm collapse">
                         <ul class="nav navbar-nav pull-md-right pull-md-right pull-lg-left pull-xl-right">
                             <li class="nav-item dropdown menu-large">
-                                <a href="#" class="dropdown-toggle" id="initiator" data-toggle="dropdown" style="display:block;">Services <b class="caret"></b></a>
+                                <a href="#" class="dropdown-toggle" id="initiator" data-toggle="dropdown" style="display:none;">Services <b class="caret"></b></a>
                                 <ul class="dropdown-menu megamenu row">
                                     <li class="col-sm-4">
                                         <ul>

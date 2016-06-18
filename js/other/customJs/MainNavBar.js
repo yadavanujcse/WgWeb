@@ -5,16 +5,22 @@ $(document).ready(function(){
     $('.wgServices').on('click',function(){
         $('#userServiceSelection').val($(this).text().trim());
     });
-    $('#receiver').on('mouseenter mouseleave', function(e) {
+    $('#receiver').on('mouseenter mouseleave click', function(e) {
         if($('#selectUserLocation').attr('aria-expanded') && $('#selectUserLocation').parent().hasClass("open")){
             $('#selectUserLocation').attr('aria-expanded','false');
             $('#selectUserLocation').parent().removeClass('open');
         }
         $('#initiator').trigger(e.type);
+
+
+
         if(e.type=="mouseleave"){
             $('#receiver').blur();
         }
+
     });
+
+
     $('#receiver').on('click', function(e) {
         e.preventDefault();
         e.stopPropagation();
