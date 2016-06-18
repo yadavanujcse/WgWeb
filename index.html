@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -137,7 +136,7 @@
 <header>
     <div id="myCarousel" class="carousel slide">
         <!-- Indicators -->
-        <ol class="carousel-indicators">
+        <ol class="carousel-indicators" style="z-index: 1;">
             <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
             <li data-target="#carousel-example-generic" data-slide-to="1"></li>
             <li data-target="#carousel-example-generic" data-slide-to="2"></li>
@@ -151,31 +150,22 @@
                 </div>
             </div>
             <div class="fill carousel-item">
-                <img src="images/mainSlider/washinggunsHomeCleaning.jpg"  alt="Home Cleaning">
+                <img src="images/mainSlider/washinggunsHomeCleaning.jpg" class="center-block" alt="Home Cleaning">
             </div>
             <div class="fill carousel-item">
-                <img src="images/mainSlider/bathroomcleaning.jpg" alt="Hospital">
+                <img src="images/mainSlider/bathroomcleaning.jpg" class="center-block" alt="Hospital">
             </div>
         </div>
 
-        <!-- Controls -->
-        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-            <span class="icon-prev controlsMainSlider"></span>
-        </a>
-        <a class="right carousel-control" href="#myCarousel" data-slide="next">
-            <span class="icon-next controlsMainSlider"></span>
-        </a>
     </div>
-    <div class="serviceSearchArea">
-        <div class="row">
-
-
-            <div class="col-md-8 col-md-offset-2 text-md-center">
-                <div class="trial" style="position:absolute;top:2em;right:1em;width:100%">
+    <div class="serviceSearchArea container">
+        <div class="row" class"searchElements">
+            <div class="col-md-12 ">
+                <div class="" >
                     <div class="navbar-toggleable-sm collapse">
                         <ul class="nav navbar-nav pull-md-right pull-md-right pull-lg-left pull-xl-right">
                             <li class="nav-item dropdown menu-large">
-                                <a href="#" class="dropdown-toggle" id="initiator" data-toggle="dropdown" style="display:none;">Services <b class="caret"></b></a>
+                                <a href="#" class="dropdown-toggle" id="initiator" data-toggle="dropdown" style="display:block;">Services <b class="caret"></b></a>
                                 <ul class="dropdown-menu megamenu row">
                                     <li class="col-sm-4">
                                         <ul>
@@ -216,15 +206,12 @@
                                             <li class="dropdown-divider"></li>
                                         </ul>
                                     </li>
-
                                 </ul>
-
                             </li>
-
                         </ul>
                     </div>
                 </div>
-                <div class="col-md-5" style="display:block;padding-right:0;margin-right:0;">
+                <div class="col-sm-12 col-md-5" style="display:block;">
                     <div class="input-group">
                         <div class="input-group-btn">
                             <button type="button" class="btn btn-secondary dropdown-toggle bg-primary" id="selectUserLocation" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -246,7 +233,7 @@
                         <input type="text" class="form-control " id="userLocation"  placeholder="DELHI | GURGAON | NOIDA | MUMBAI" aria-label="Text input with dropdown button">
                     </div>
                 </div>
-                <div class="col-md-5" style="margin-left:0;display:block;padding-right:0;margin-right:0;">
+                <div class="col-md-5 col-sm-12" style="display:block;">
                     <div class="input-group">
                         <div class="input-group-btn">
                             <button type="button" id="receiver" class="btn btn-secondary dropdown-toggle bg-primary" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -263,9 +250,9 @@
                         <input type="text" id="userServiceSelection" placeholder="LAUNDRY | DRYCLEANING | OTHER"class="form-control" aria-label="Text input with dropdown button">
                     </div>
                 </div>
-                <div class="col-md-2" style="display:block;text-align: left;margin-left:0;">
+                <div class=" col-md-2 col-sm-12" >
 
-                    <button type="button" id="BookNow"  class="btn btn-success">Book Now <i class="fa fa-chevron-right" ></i></button>
+                    <button type="button" id="BookNow"  class="btn btn-success center-block" style="width:100%;">Book Now <i class="fa fa-chevron-right" ></i></button>
 
 
                 </div>
