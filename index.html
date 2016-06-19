@@ -17,15 +17,28 @@
 <body>
 <div class="container-fluid">
     <div class="navbar navbar-dark navbar-static-top">
-
         <div class="container-fluid">
             <div class="navbar-header">
-                <a class="navbar-brand text-primary" href="#"><img src="images/svg/washinggunslogo.svg" alt="Washingguns" width="300px;"/></a>
+                <div class="col-md-6 ">
+                    <a class="navbar-brand pull-sm-left text-primary" href="#"><img src="images/svg/washinggunslogo.svg" alt="Washingguns" width="300px;"/></a>
+                </div>
+                <div class="col-md-6 ">
+                    <div class="row">
+                        <div class="col-md-6">
+                        </div>
+                        <div class="col-md-6">
+                            <div class="row" style="position:absolute; top:2px; right:0px;">
+                                <div style="width:200px;padding-left:10px;">
+                                    <a href="https://play.google.com/store/apps/details?id=com.washingguns.washingguns&hl=en" target="_blank"><i class="fa fa-mobile" aria-hidden="true"></i> Download App
+                                    <img src="images/googlePlayWg.png" width="150px" /></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-
         </div>
     </div>
-
 </div>
 <!-- Full Page Image Background Carousel Header -->
 <header>
@@ -37,9 +50,9 @@
                 <li data-target="#carousel-example-generic" data-slide-to="2"></li>
             </ol>
             <div class="carousel-inner" role="listbox">
-                <div class="carousel-item active" style="height: 30em;background-position: center;background-repeat: no-repeat;background-image:url('images/mainSlider/SofaCleaning.jpg');background-size: cover;">
-                </div>
                 <div class="carousel-item" style="height: 30em;background-position: center;background-repeat: no-repeat;background-image:url('images/mainSlider/washinggunsHomeCleaning.jpg');background-size: cover;">
+                </div>
+                <div class="carousel-item active" style="height: 30em;background-position: center;background-repeat: no-repeat;background-image:url('images/mainSlider/SofaCleaning.jpg');background-size: cover;">
                 </div>
                 <div class="carousel-item" style="height: 30em;background-position: center;background-repeat: no-repeat;background-image:url('images/mainSlider/bathroomcleaning.jpg');background-size: cover;">
                 </div>
@@ -49,8 +62,8 @@
     <div class="serviceSearchArea container">
         <div class="row" class"searchElements">
             <div class="col-md-12 ">
-
                 <div class="col-sm-12 col-md-5" style="display:block; padding-bottom: 5px;">
+                    <small id="locationError" class="text-danger" style="display:none; padding-left:10px; padding-right:10px; border-radius:4px; background-color: #ffffff; opacity:0.95; position:absolute; z-index: 2; top:-21px;">Please select location</small>
                     <div class="input-group">
                         <div class="input-group-btn">
                             <button type="button" class="btn btn-secondary dropdown-toggle bg-primary" id="selectUserLocation" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -73,6 +86,7 @@
                     </div>
                 </div>
                 <div class="col-md-5 col-sm-12" style="display:block; padding-bottom: 5px;">
+                    <small id="serviceError" class="text-danger" style="display:none; padding-left:10px; padding-right:10px; border-radius:4px; background-color: #ffffff; opacity:0.95; position:absolute; z-index: 2; top:-21px;">Please select service</small>
                     <div class="input-group">
                         <div class="input-group-btn">
                             <button type="button" id="initiator" class="btn btn-secondary dropdown-toggle bg-primary" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -116,13 +130,10 @@
                                         <li class="dropdown-item wgServices">Rodent Control</li>
                                         <li class="dropdown-item wgServices">Termite Control</li>
                                         <li class="dropdown-divider"></li>
+
                                     </ul>
                                 </li>
-                                <a class="dropdown-item linkLocation" href="#"></a>
-                                <a class="dropdown-item linkLocation" href="#">Another action</a>
-                                <a class="dropdown-item linkLocation" href="#">Something else here</a>
-                                <div role="separator" class="dropdown-divider"></div>
-                                <a class="dropdown-item linkLocation" href="#">Separated link</a>
+
                             </div>
                         </div>
                         <input type="text" id="userServiceSelection" placeholder="Laundry | Home | Shoe | Other"class="form-control" aria-label="Text input with dropdown button">
@@ -140,10 +151,10 @@
 
 </header>
 <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+<button type="button" class="btn btn-primary btn-lg" style="display: none;" data-toggle="modal" data-target="#myModal">
     Launch demo modal
 </button>
-<section class="container">
+<section class="container" style="display:none;">
 
     <div class="row">
 
