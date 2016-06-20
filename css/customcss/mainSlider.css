@@ -36,6 +36,14 @@
     top:10em;
     z-index:4;
 }
+
+@font-face {
+    font-family: 'TwCenMT-CondensedExtraBold';
+    src: url('font/TwCenMT-CondensedExtraBold.eot?#iefix') format('embedded-opentype'),  url('font/TwCenMT-CondensedExtraBold.woff') format('woff'), url('font/TwCenMT-CondensedExtraBold.ttf')  format('truetype'), url('font/TwCenMT-CondensedExtraBold.svg#TwCenMT-CondensedExtraBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
 .serviceSearchArea > .row{
     height:4em;
     display:flex;
