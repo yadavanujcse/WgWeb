@@ -31,6 +31,7 @@ $(document).ready(function(){
 
     });
 
+    $('.infoPopOver').popover({trigger: "hover", placement: "bottom"});  // hover
 });
 
 
