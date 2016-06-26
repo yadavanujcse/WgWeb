@@ -1,0 +1,1936 @@
+{
+	"records": [{
+		"Service": "Laundry",
+		"Package": "One time",
+		"Description": [{
+			"icon": "calendar",
+			"desc": "Minimum pickup 4 Kgs"
+		}, {
+			"icon": "shopping-bag",
+			"desc": "Total Laundry Basket 4 Kgs"
+		}, {
+			"icon": "bitbucket",
+			"desc": "Combined Packing"
+		}, {
+			"icon": "clock-o",
+			"desc": "Delivery within *48 hrs"
+		}],
+		"Package_subscription": "One Time",
+		"Slashed_price": "300",
+		"Package_highlights": ["Wash", "Sanitized", "Perfumed", "Laundered", "Ironed"],
+		"Package_amount": "250",
+		"recordEnd": "true",
+		"sliderImage1": "images/mainSlider/laundry-service.jpg",
+		"sliderImage2": "images/mainSlider/online-laundry-service.jpg",
+		"sliderImage3": "images/mainSlider/laundry.jpg",
+		"howItWorks": [{
+			"title": "Location ",
+			"imageUrl": "images/process/Location.png",
+			"infoTitle": "Location Info",
+			"infoDesc": "Delhi | Faridabad | Gurgaon | Noida | Mumbai"
+		}, {
+			"title": "Select Package ",
+			"imageUrl": "images/process/Service.png",
+			"infoTitle": "18+ Services",
+			"infoDesc": "Choose the service you are looking for. We will take care of the rest."
+		}, {
+			"title": "Order Confirmation ",
+			"imageUrl": "images/process/Order-Confirmation.png",
+			"infoTitle": "Confirmation",
+			"infoDesc": "Order confirmation may take a maximum of 30 mins."
+		}, {
+			"title": "Pickup Boy ",
+			"imageUrl": "images/process/serviceguy.png",
+			"infoTitle": "Confirmation",
+			"infoDesc": "In accordance to the scheduled time. The service personal would be visiting for pickup."
+		}, {
+			"title": "Service Turn Around ",
+			"imageUrl": "images/process/delivered.png",
+			"infoTitle": "Service Turn Around",
+			"infoDesc": "Maximum turn around time is 48 hrs | Note: Turn around time mentioned is not valid for weekends."
+		}, {
+			"title": "Make Payment ",
+			"imageUrl": "images/process/MakePayment.png",
+			"infoTitle": "Payment Mode",
+			"infoDesc": "We Accept payments through CASH | CREDIT CARD | DEBIT CARD | PayTm."
+		}],
+		"testimonials": [{
+			"title": "Loved it!",
+			"imageUrl": "images/testimonials/1.png",
+			"description": "A big congratulations to Washingguns team for making a great service experience.A nice and innovative idea of (dhona band dhulwana shuru) need of the hour. Now from my busy schedule I can find time for family & friends. Thankyou guys.Keep up the good work",
+			"name": "Jagruti",
+			"designation": "Software Engineer"
+		}, {
+			"title": "Got pickup on the same",
+			"imageUrl": "images/testimonials/2.png",
+			"description": "Nice work Washingguns team.After using so many services alias found a good laundry service in Delhi NCR.Now Dhona Band or Dhulwana Shuru.Addicted to Washingguns.",
+			"name": "Kim",
+			"designation": "Software Engineer"
+		}, {
+			"title": "Best laundry solution ever",
+			"imageUrl": "images/testimonials/3.png",
+			"description": "Service with a value for money scoop.Laundry was a uphill task for me thanks to Washingguns its no more of a concern. Thumps up to the team of Washingguns.",
+			"name": "Abhishek",
+			"designation": "Software Engineer"
+		}, {
+			"title": "Best laundry service",
+			"imageUrl": "images/testimonials/4.png",
+			"description": "This is by far the best laundry solution in Delhi NCR area. They are thorough professionals with a high sense of timeliness. They maintain proper hygiene. The clothes are neatly washed ,ironed and delivered on time. And the app is super easy to use.",
+			"name": "Swapnil",
+			"designation": "Software Engineer"
+		}, {
+			"title": "Professional and affordable",
+			"imageUrl": "images/testimonials/5.png",
+			"description": "Cleans professionally and timely delivery. They know about fabrics and what detergent to use which is very important for keeping your expensive clothes like new.",
+			"name": "Chitrangad",
+			"designation": "SPM"
+		}, {
+			"title": "Awesome Service",
+			"imageUrl": "images/testimonials/5.png",
+			"description": "Simply awesome I have been waiting for your app so long.convenient and reliable.blessings!!!waiting for your services to start in faridabad soon.",
+			"name": "Swati",
+			"designation": "Software Engineer"
+		}]
+	}, {
+		"Service": "Laundry",
+		"Package": "Silver Class",
+		"Description": [{
+			"icon": "calendar",
+			"desc": "Minimum pickup 4 Kgs"
+		}, {
+			"icon": "shopping-bag",
+			"desc": "Total Laundry Basket 10 Kgs"
+		}, {
+			"icon": "bitbucket",
+			"desc": "Combined Packing"
+		}, {
+			"icon": "clock-o",
+			"desc": "Delivery within *48 hrs"
+		}],
+		"Package_subscription": "/month",
+		"Slashed_price": "699",
+		"Package_highlights": ["Wash", "Sanitized", "Perfumed", "Laundered", "Ironed"],
+		"Package_amount": "499",
+		"recordEnd": "true"
+	}, {
+		"Service": "Laundry",
+		"Package": "Gold Class",
+		"Description": [{
+			"icon": "calendar",
+			"desc": "Minimum pickup 4 Kgs"
+		}, {
+			"icon": "shopping-bag",
+			"desc": "Total Laundry Basket 10 Kgs"
+		}, {
+			"icon": "bitbucket",
+			"desc": "Combined Packing"
+		}, {
+			"icon": "clock-o",
+			"desc": "Delivery within *48 hrs"
+		}],
+		"Package_subscription": "/month",
+		"Slashed_price": "1200",
+		"Package_highlights": ["Wash", "Sanitized", "Perfumed", "Laundered", "Ironed"],
+		"Package_amount": "899",
+		"recordEnd": "true"
+	}, {
+		"Service": "Laundry",
+		"Package": "Premium",
+		"Description": [{
+			"icon": "calendar",
+			"desc": "Minimum pickup 4 Kgs"
+		}, {
+			"icon": "shopping-bag",
+			"desc": "Individual Packaging"
+		}, {
+			"icon": "bitbucket",
+			"desc": "Minimum Pickup weight 4 Kgs"
+		}, {
+			"icon": "clock-o",
+			"desc": "Delivery within *24 hrs"
+		}],
+		"Package_subscription": "/kg",
+		"Slashed_price": "120",
+		"Package_highlights": ["Wash", "Sanitized", "Perfumed", "Laundered", "Steam Ironed"],
+		"Package_amount": "100",
+		"recordEnd": "true"
+	}, {
+		"Service": "Dry-clean",
+		"Package": "Light wear",
+		"Description": [{
+			"icon": "calendar",
+			"desc": "Minimum pickup is of 300 Rs"
+		}, {
+			"icon": "shopping-bag",
+			"desc": "Solvents for Strain Removal"
+		}, {
+			"icon": "bitbucket",
+			"desc": "Individual Packing"
+		}, {
+			"icon": "clock-o",
+			"desc": "Delivery within *72 hrs"
+		}],
+		"Package_subscription": "One Time",
+		"Slashed_price": "100",
+		"Package_highlights": ["Shirt", "Jeans", "Pants", "Skirt", "Trouser"],
+		"Package_amount": "70",
+		"recordEnd": "true",
+		"sliderImage1": "images/mainSlider/drycleaning-service.jpg",
+		"sliderImage2": "images/mainSlider/online-drycleaning-service.jpg",
+		"sliderImage3": "images/mainSlider/drycleaning.jpg",
+		"howItWorks": [{
+			"title": "Location ",
+			"imageUrl": "images/process/Location.png",
+			"infoTitle": "Location Info",
+			"infoDesc": "Delhi | Faridabad | Gurgaon | Noida | Mumbai"
+		}, {
+			"title": "Select Package ",
+			"imageUrl": "images/process/Service.png",
+			"infoTitle": "18+ Services",
+			"infoDesc": "Choose the service you are looking for. We will take care of the rest."
+		}, {
+			"title": "Order Confirmation ",
+			"imageUrl": "images/process/Order-Confirmation.png",
+			"infoTitle": "Confirmation",
+			"infoDesc": "Order confirmation may take a maximum of 30 mins."
+		}, {
+			"title": "Pickup Boy ",
+			"imageUrl": "images/process/serviceguy.png",
+			"infoTitle": "Confirmation",
+			"infoDesc": "In accordance to the scheduled time. The service personal would be visiting for pickup."
+		}, {
+			"title": "Service Turn Around ",
+			"imageUrl": "images/process/delivered.png",
+			"infoTitle": "Service Turn Around",
+			"infoDesc": "Maximum turn around time is 72 hrs | Note: Turn around time mentioned is not valid for weekends."
+		}, {
+			"title": "Make Payment ",
+			"imageUrl": "images/process/MakePayment.png",
+			"infoTitle": "Payment Mode",
+			"infoDesc": "We Accept payments through CASH | CREDIT CARD | DEBIT CARD | PayTm."
+		}],
+		"testimonials": [{
+			"title": "Loved it!",
+			"imageUrl": "images/testimonials/1.png",
+			"description": "A big congratulations to Washingguns team for making a great service experience.A nice and innovative idea of (dhona band dhulwana shuru) need of the hour. Now from my busy schedule I can find time for family & friends. Thankyou guys.Keep up the good work",
+			"name": "Jagruti",
+			"designation": "Software Engineer"
+		}, {
+			"title": "Got pickup on the same",
+			"imageUrl": "images/testimonials/2.png",
+			"description": "Nice work Washingguns team.After using so many services alias found a good laundry service in Delhi NCR.Now Dhona Band or Dhulwana Shuru.Addicted to Washingguns.",
+			"name": "Kim",
+			"designation": "Software Engineer"
+		}, {
+			"title": "Best laundry solution ever",
+			"imageUrl": "images/testimonials/3.png",
+			"description": "Service with a value for money scoop.Laundry was a uphill task for me thanks to Washingguns its no more of a concern. Thumps up to the team of Washingguns.",
+			"name": "Abhishek",
+			"designation": "Software Engineer"
+		}, {
+			"title": "Best laundry service",
+			"imageUrl": "images/testimonials/4.png",
+			"description": "This is by far the best laundry solution in Delhi NCR area. They are thorough professionals with a high sense of timeliness. They maintain proper hygiene. The clothes are neatly washed ,ironed and delivered on time. And the app is super easy to use.",
+			"name": "Swapnil",
+			"designation": "Software Engineer"
+		}, {
+			"title": "Professional and affordable",
+			"imageUrl": "images/testimonials/5.png",
+			"description": "Cleans professionally and timely delivery. They know about fabrics and what detergent to use which is very important for keeping your expensive clothes like new.",
+			"name": "Chitrangad",
+			"designation": "SPM"
+		}, {
+			"title": "Awesome Service",
+			"imageUrl": "images/testimonials/5.png",
+			"description": "Simply awesome I have been waiting for your app so long.convenient and reliable.blessings!!!waiting for your services to start in faridabad soon.",
+			"name": "Swati",
+			"designation": "Software Engineer"
+		}]
+	}, {
+		"Service": "Dry-clean",
+		"Package": "Medium Wear",
+		"Description": [{
+			"icon": "calendar",
+			"desc": "Minimum pickup is of 300 Rs"
+		}, {
+			"icon": "shopping-bag",
+			"desc": "Solvents for Strain Removal"
+		}, {
+			"icon": "bitbucket",
+			"desc": "Individual Packing"
+		}, {
+			"icon": "clock-o",
+			"desc": "Delivery within *72 hrs"
+		}],
+		"Package_subscription": "One Time",
+		"Slashed_price": "200",
+		"Package_highlights": ["Sweaters", "Cardigans", "Hoods", "Safari Suit", "Sari-Lite"],
+		"Package_amount": "150",
+		"recordEnd": "true"
+	}, {
+		"Service": "Dry-clean",
+		"Package": "Heavy wear",
+		"Description": [{
+			"icon": "calendar",
+			"desc": "Minimum pickup is of 300 Rs"
+		}, {
+			"icon": "shopping-bag",
+			"desc": "Solvents for Strain Removal"
+		}, {
+			"icon": "bitbucket",
+			"desc": "Individual Packing"
+		}, {
+			"icon": "clock-o",
+			"desc": "Delivery within *72 hrs"
+		}],
+		"Package_subscription": "One Time",
+		"Slashed_price": "250",
+		"Package_highlights": ["Blanket-Single", "Jackets", "Coat", "Sari", "Blazer/Coat"],
+		"Package_amount": "200",
+		"recordEnd": "true"
+	}, {
+		"Service": "Dry-clean",
+		"Package": "Elite wear",
+		"Description": [{
+			"icon": "calendar",
+			"desc": "Minimum pickup is of 300 Rs"
+		}, {
+			"icon": "shopping-bag",
+			"desc": "Solvents for Strain Removal"
+		}, {
+			"icon": "bitbucket",
+			"desc": "Individual Packing"
+		}, {
+			"icon": "clock-o",
+			"desc": "Delivery within *72 hrs"
+		}],
+		"Package_subscription": "One Time",
+		"Slashed_price": "300",
+		"Package_highlights": ["Suits-2Piece", "Quilt-Single", "Leather Jacket", "Shawl-Heavy", "Zari Sari"],
+		"Package_amount": "250",
+		"recordEnd": "true"
+	}, {
+		"Service": "Dry-clean",
+		"Package": "Marriage wear",
+		"Description": [{
+			"icon": "calendar",
+			"desc": "Minimum pickup is of 300 Rs"
+		}, {
+			"icon": "shopping-bag",
+			"desc": "Solvents for Strain Removal"
+		}, {
+			"icon": "bitbucket",
+			"desc": "Individual Packing"
+		}, {
+			"icon": "clock-o",
+			"desc": "Delivery within *72 hrs"
+		}],
+		"Package_subscription": "One Time",
+		"Slashed_price": "350",
+		"Package_highlights": ["Embroided Saree", "Embroided Suits", "Embroided Sherwani", "Suits(3 Piece)", "Double Blanket"],
+		"Package_amount": "300",
+		"recordEnd": "true"
+	}, {
+		"Service": "Commercial Laundry",
+		"Package": "Jack Bulk",
+		"Description": [{
+			"icon": "calendar",
+			"desc": "Minimum pickup 40 Kgs"
+		}, {
+			"icon": "shopping-bag",
+			"desc": "Total Laundry Basket 100 Kgs"
+		}, {
+			"icon": "bitbucket",
+			"desc": "Combined Packing"
+		}, {
+			"icon": "clock-o",
+			"desc": "Delivery within *48 hrs"
+		}],
+		"Package_subscription": "30 Days",
+		"Slashed_price": "4000",
+		"Package_highlights": ["Wash", "Sanitized", "Perfumed", "Laundered", "Fold"],
+		"Package_amount": "3500",
+		"recordEnd": "true",
+		"sliderImage1": "images/mainSlider/commercial-laundry-service.jpg",
+		"sliderImage2": "images/mainSlider/online-commercial-laundry-service.jpg",
+		"sliderImage3": "images/mainSlider/commercial-laundry.jpg",
+		"howItWorks": [{
+			"title": "Location ",
+			"imageUrl": "images/process/Location.png",
+			"infoTitle": "Location Info",
+			"infoDesc": "Delhi | Faridabad | Gurgaon | Noida | Mumbai"
+		}, {
+			"title": "Select Package ",
+			"imageUrl": "images/process/Service.png",
+			"infoTitle": "18+ Services",
+			"infoDesc": "Choose the service you are looking for. We will take care of the rest."
+		}, {
+			"title": "Order Confirmation ",
+			"imageUrl": "images/process/Order-Confirmation.png",
+			"infoTitle": "Confirmation",
+			"infoDesc": "Order confirmation may take a maximum of 30 mins."
+		}, {
+			"title": "Pickup Boy ",
+			"imageUrl": "images/process/serviceguy.png",
+			"infoTitle": "Confirmation",
+			"infoDesc": "In accordance to the scheduled time. The service personal would be visiting for pickup."
+		}, {
+			"title": "Service Turn Around ",
+			"imageUrl": "images/process/delivered.png",
+			"infoTitle": "Service Turn Around",
+			"infoDesc": "Maximum turn around time is 48 hrs."
+		}, {
+			"title": "Make Payment ",
+			"imageUrl": "images/process/MakePayment.png",
+			"infoTitle": "Payment Mode",
+			"infoDesc": "We Accept payments through CASH | CREDIT CARD | DEBIT CARD | PayTm."
+		}],
+		"testimonials": [{
+			"title": "Loved it!",
+			"imageUrl": "images/testimonials/1.png",
+			"description": "A big congratulations to Washingguns team for making a great service experience.A nice and innovative idea of (dhona band dhulwana shuru) need of the hour. Now from my busy schedule I can find time for family & friends. Thankyou guys.Keep up the good work",
+			"name": "Jagruti",
+			"designation": "Software Engineer"
+		}, {
+			"title": "Got pickup on the same",
+			"imageUrl": "images/testimonials/2.png",
+			"description": "Nice work Washingguns team.After using so many services alias found a good laundry service in Delhi NCR.Now Dhona Band or Dhulwana Shuru.Addicted to Washingguns.",
+			"name": "Kim",
+			"designation": "Software Engineer"
+		}, {
+			"title": "Best laundry solution ever",
+			"imageUrl": "images/testimonials/3.png",
+			"description": "Service with a value for money scoop.Laundry was a uphill task for me thanks to Washingguns its no more of a concern. Thumps up to the team of Washingguns.",
+			"name": "Abhishek",
+			"designation": "Software Engineer"
+		}, {
+			"title": "Best laundry service",
+			"imageUrl": "images/testimonials/4.png",
+			"description": "This is by far the best laundry solution in Delhi NCR area. They are thorough professionals with a high sense of timeliness. They maintain proper hygiene. The clothes are neatly washed ,ironed and delivered on time. And the app is super easy to use.",
+			"name": "Swapnil",
+			"designation": "Software Engineer"
+		}, {
+			"title": "Professional and affordable",
+			"imageUrl": "images/testimonials/5.png",
+			"description": "Cleans professionally and timely delivery. They know about fabrics and what detergent to use which is very important for keeping your expensive clothes like new.",
+			"name": "Chitrangad",
+			"designation": "SPM"
+		}, {
+			"title": "Awesome Service",
+			"imageUrl": "images/testimonials/5.png",
+			"description": "Simply awesome I have been waiting for your app so long.convenient and reliable.blessings!!!waiting for your services to start in faridabad soon.",
+			"name": "Swati",
+			"designation": "Software Engineer"
+		}]
+	}, {
+		"Service": "Commercial Laundry",
+		"Package": "King bulk",
+		"Description": [{
+			"icon": "calendar",
+			"desc": "Minimum pickup 50 Kgs"
+		}, {
+			"icon": "shopping-bag",
+			"desc": "Total Laundry Basket 200 Kgs"
+		}, {
+			"icon": "bitbucket",
+			"desc": "Combined Packing"
+		}, {
+			"icon": "clock-o",
+			"desc": "Delivery within *48 hrs"
+		}],
+		"Package_subscription": "45 Days",
+		"Slashed_price": "7500",
+		"Package_highlights": ["Wash", "Sanitized", "Perfumed", "Laundered", "Fold"],
+		"Package_amount": "6800",
+		"recordEnd": "true"
+	}, {
+		"Service": "Commercial Laundry",
+		"Package": "Ace bulk",
+		"Description": [{
+			"icon": "calendar",
+			"desc": "Minimum pickup 100 Kgs"
+		}, {
+			"icon": "shopping-bag",
+			"desc": "Total Laundry Basket 500 Kgs"
+		}, {
+			"icon": "bitbucket",
+			"desc": "Combined Packing"
+		}, {
+			"icon": "clock-o",
+			"desc": "Delivery within *48 hrs"
+		}],
+		"Package_subscription": "60 Days",
+		"Slashed_price": "18000",
+		"Package_highlights": ["Wash", "Sanitized", "Perfumed", "Laundered", "Fold"],
+		"Package_amount": "16500",
+		"recordEnd": "true"
+	}, {
+		"Service": "Deep Home Cleaning",
+		"Package": "1 BHK",
+		"Description": [{
+			"icon": "calendar",
+			"desc": "Cobwebs cleaning"
+		}, {
+			"icon": "shopping-bag",
+			"desc": "Dusting and mopping"
+		}, {
+			"icon": "bitbucket",
+			"desc": "Vacuum Cleaning"
+		}, {
+			"icon": "clock-o",
+			"desc": "Floor scrubbing and cleaning"
+		}, {
+			"icon": "clock-o",
+			"desc": "Kitchen Cleaning"
+		}, {
+			"icon": "clock-o",
+			"desc": "Bathroom Cleaning"
+		}, {
+			"icon": "clock-o",
+			"desc": "Sofa cleaning"
+		}, {
+			"icon": "clock-o",
+			"desc": "Carpet Cleaning"
+		}],
+		"Package_subscription": "One Time",
+		"Slashed_price": "4000",
+		"Package_highlights": ["Room", "Hall", "Kitchen", "Bathroom", "Furniture"],
+		"Package_amount": "3499",
+		"recordEnd": "true",
+		"sliderImage1": "images/mainSlider/home-cleaning-service.jpg",
+		"sliderImage2": "images/mainSlider/online-home-cleaning-service.jpg",
+		"sliderImage3": "images/mainSlider/home-cleaning.jpg",
+		"howItWorks": [{
+			"title": "Location ",
+			"imageUrl": "images/process/Location.png",
+			"infoTitle": "Location Info",
+			"infoDesc": "Delhi | Faridabad | Gurgaon | Noida | Mumbai"
+		}, {
+			"title": "Select Package ",
+			"imageUrl": "images/process/Service.png",
+			"infoTitle": "18+ Services",
+			"infoDesc": "Choose the service you are looking for. We will take care of the rest."
+		}, {
+			"title": "Order Confirmation ",
+			"imageUrl": "images/process/Order-Confirmation.png",
+			"infoTitle": "Confirmation",
+			"infoDesc": "Order confirmation may take a maximum of 30 mins."
+		}, {
+			"title": "Service Boy ",
+			"imageUrl": "images/process/serviceguy.png",
+			"infoTitle": "Confirmation",
+			"infoDesc": "In accordance to the scheduled time. The service personal would be visiting you."
+		}, {
+			"title": "Service Turn Around ",
+			"imageUrl": "images/process/delivered.png",
+			"infoTitle": "Service Turn Around",
+			"infoDesc": "Maximum turn around time is around 4 to 8 Hrs."
+		}, {
+			"title": "Make Payment ",
+			"imageUrl": "images/process/MakePayment.png",
+			"infoTitle": "Payment Mode",
+			"infoDesc": "We Accept payments through CASH | CREDIT CARD | DEBIT CARD | PayTm."
+		}],
+		"testimonials": [{
+			"title": "Loved it!",
+			"imageUrl": "images/testimonials/1.png",
+			"description": "A big congratulations to Washingguns team for making a great service experience.A nice and innovative idea of (dhona band dhulwana shuru) need of the hour. Now from my busy schedule I can find time for family & friends. Thankyou guys.Keep up the good work",
+			"name": "Jagruti",
+			"designation": "Software Engineer"
+		}, {
+			"title": "Got pickup on the same",
+			"imageUrl": "images/testimonials/2.png",
+			"description": "Nice work Washingguns team.After using so many services alias found a good laundry service in Delhi NCR.Now Dhona Band or Dhulwana Shuru.Addicted to Washingguns.",
+			"name": "Kim",
+			"designation": "Software Engineer"
+		}, {
+			"title": "Best laundry solution ever",
+			"imageUrl": "images/testimonials/3.png",
+			"description": "Service with a value for money scoop.Laundry was a uphill task for me thanks to Washingguns its no more of a concern. Thumps up to the team of Washingguns.",
+			"name": "Abhishek",
+			"designation": "Software Engineer"
+		}, {
+			"title": "Best laundry service",
+			"imageUrl": "images/testimonials/4.png",
+			"description": "This is by far the best laundry solution in Delhi NCR area. They are thorough professionals with a high sense of timeliness. They maintain proper hygiene. The clothes are neatly washed ,ironed and delivered on time. And the app is super easy to use.",
+			"name": "Swapnil",
+			"designation": "Software Engineer"
+		}, {
+			"title": "Professional and affordable",
+			"imageUrl": "images/testimonials/5.png",
+			"description": "Cleans professionally and timely delivery. They know about fabrics and what detergent to use which is very important for keeping your expensive clothes like new.",
+			"name": "Chitrangad",
+			"designation": "SPM"
+		}, {
+			"title": "Awesome Service",
+			"imageUrl": "images/testimonials/5.png",
+			"description": "Simply awesome I have been waiting for your app so long.convenient and reliable.blessings!!!waiting for your services to start in faridabad soon.",
+			"name": "Swati",
+			"designation": "Software Engineer"
+		}]
+	}, {
+		"Service": "Deep Home Cleaning",
+		"Package": "2 BHK",
+		"Description": [{
+			"icon": "calendar",
+			"desc": "Cobwebs cleaning"
+		}, {
+			"icon": "shopping-bag",
+			"desc": "Dusting and mopping"
+		}, {
+			"icon": "bitbucket",
+			"desc": "Vacuum Cleaning"
+		}, {
+			"icon": "clock-o",
+			"desc": "Floor scrubbing and cleaning"
+		}, {
+			"icon": "clock-o",
+			"desc": "Kitchen Cleaning"
+		}, {
+			"icon": "clock-o",
+			"desc": "Bathroom Cleaning"
+		}, {
+			"icon": "clock-o",
+			"desc": "Sofa cleaning"
+		}, {
+			"icon": "clock-o",
+			"desc": "Carpet Cleaning"
+		}],
+		"Package_subscription": "One Time",
+		"Slashed_price": "5000",
+		"Package_highlights": ["Room", "Hall", "Kitchen", "Bathroom", "Furniture"],
+		"Package_amount": "4499",
+		"recordEnd": "true"
+	}, {
+		"Service": "Deep Home Cleaning",
+		"Package": "3 BHK",
+		"Description": [{
+			"icon": "calendar",
+			"desc": "Cobwebs cleaning"
+		}, {
+			"icon": "shopping-bag",
+			"desc": "Dusting and mopping"
+		}, {
+			"icon": "bitbucket",
+			"desc": "Vacuum Cleaning"
+		}, {
+			"icon": "clock-o",
+			"desc": "Floor scrubbing and cleaning"
+		}, {
+			"icon": "clock-o",
+			"desc": "Kitchen Cleaning"
+		}, {
+			"icon": "clock-o",
+			"desc": "Bathroom Cleaning"
+		}, {
+			"icon": "clock-o",
+			"desc": "Sofa cleaning"
+		}, {
+			"icon": "clock-o",
+			"desc": "Carpet Cleaning"
+		}],
+		"Package_subscription": "One Time",
+		"Slashed_price": "6000",
+		"Package_highlights": ["Room", "Hall", "Kitchen", "Bathroom", "Furniture"],
+		"Package_amount": "5499",
+		"recordEnd": "true"
+	}, {
+		"Service": "Deep Home Cleaning",
+		"Package": "4 BHK",
+		"Description": [{
+			"icon": "calendar",
+			"desc": "Cobwebs cleaning"
+		}, {
+			"icon": "shopping-bag",
+			"desc": "Dusting and mopping"
+		}, {
+			"icon": "bitbucket",
+			"desc": "Vacuum Cleaning"
+		}, {
+			"icon": "clock-o",
+			"desc": "Floor scrubbing and cleaning"
+		}, {
+			"icon": "clock-o",
+			"desc": "Kitchen Cleaning"
+		}, {
+			"icon": "clock-o",
+			"desc": "Bathroom Cleaning"
+		}, {
+			"icon": "clock-o",
+			"desc": "Sofa cleaning"
+		}, {
+			"icon": "clock-o",
+			"desc": "Carpet Cleaning"
+		}],
+		"Package_subscription": "One Time",
+		"Slashed_price": "7000",
+		"Package_highlights": ["Room", "Hall", "Kitchen", "Bathroom", "Furniture"],
+		"Package_amount": "6499",
+		"recordEnd": "true"
+	}, {
+		"Service": "Car Cleaning",
+		"Package": "Small/Hatchback",
+		"Description": [{
+			"icon": "calendar",
+			"desc": "Washing"
+		}, {
+			"icon": "shopping-bag",
+			"desc": "Vacuum Cleaning"
+		}, {
+			"icon": "bitbucket",
+			"desc": "Polishing"
+		}, {
+			"icon": "clock-o",
+			"desc": "Seat Dry-clean"
+		}, {
+			"icon": "clock-o",
+			"desc": "Odor elimination and perfuming"
+		}],
+		"Package_subscription": "One Time",
+		"Slashed_price": "1500",
+		"Package_highlights": ["Interiour", "Exterior", "Seats", "Shampooing", "Polishing"],
+		"Package_amount": "1199",
+		"recordEnd": "true",
+		"sliderImage1": "images/mainSlider/car-cleaning-service.jpg",
+		"sliderImage2": "images/mainSlider/online-car-cleaning-service.jpg",
+		"sliderImage3": "images/mainSlider/car-cleaning.jpg",
+		"howItWorks": [{
+			"title": "Location ",
+			"imageUrl": "images/process/Location.png",
+			"infoTitle": "Location Info",
+			"infoDesc": "Delhi | Faridabad | Gurgaon | Noida | Mumbai"
+		}, {
+			"title": "Select Package ",
+			"imageUrl": "images/process/Service.png",
+			"infoTitle": "18+ Services",
+			"infoDesc": "Choose the service you are looking for. We will take care of the rest."
+		}, {
+			"title": "Order Confirmation ",
+			"imageUrl": "images/process/Order-Confirmation.png",
+			"infoTitle": "Confirmation",
+			"infoDesc": "Order confirmation may take a maximum of 30 mins."
+		}, {
+			"title": "Service Boy ",
+			"imageUrl": "images/process/serviceguy.png",
+			"infoTitle": "Confirmation",
+			"infoDesc": "In accordance to the scheduled time. The service personal would be visiting you."
+		}, {
+			"title": "Service Turn Around ",
+			"imageUrl": "images/process/delivered.png",
+			"infoTitle": "Service Turn Around",
+			"infoDesc": "Maximum turn around time is around 2 to 5 Hrs."
+		}, {
+			"title": "Make Payment ",
+			"imageUrl": "images/process/MakePayment.png",
+			"infoTitle": "Payment Mode",
+			"infoDesc": "We Accept payments through CASH | CREDIT CARD | DEBIT CARD | PayTm."
+		}],
+		"testimonials": [{
+			"title": "Loved it!",
+			"imageUrl": "images/testimonials/1.png",
+			"description": "A big congratulations to Washingguns team for making a great service experience.A nice and innovative idea of (dhona band dhulwana shuru) need of the hour. Now from my busy schedule I can find time for family & friends. Thankyou guys.Keep up the good work",
+			"name": "Jagruti",
+			"designation": "Software Engineer"
+		}, {
+			"title": "Got pickup on the same",
+			"imageUrl": "images/testimonials/2.png",
+			"description": "Nice work Washingguns team.After using so many services alias found a good laundry service in Delhi NCR.Now Dhona Band or Dhulwana Shuru.Addicted to Washingguns.",
+			"name": "Kim",
+			"designation": "Software Engineer"
+		}, {
+			"title": "Best laundry solution ever",
+			"imageUrl": "images/testimonials/3.png",
+			"description": "Service with a value for money scoop.Laundry was a uphill task for me thanks to Washingguns its no more of a concern. Thumps up to the team of Washingguns.",
+			"name": "Abhishek",
+			"designation": "Software Engineer"
+		}, {
+			"title": "Best laundry service",
+			"imageUrl": "images/testimonials/4.png",
+			"description": "This is by far the best laundry solution in Delhi NCR area. They are thorough professionals with a high sense of timeliness. They maintain proper hygiene. The clothes are neatly washed ,ironed and delivered on time. And the app is super easy to use.",
+			"name": "Swapnil",
+			"designation": "Software Engineer"
+		}, {
+			"title": "Professional and affordable",
+			"imageUrl": "images/testimonials/5.png",
+			"description": "Cleans professionally and timely delivery. They know about fabrics and what detergent to use which is very important for keeping your expensive clothes like new.",
+			"name": "Chitrangad",
+			"designation": "SPM"
+		}, {
+			"title": "Awesome Service",
+			"imageUrl": "images/testimonials/5.png",
+			"description": "Simply awesome I have been waiting for your app so long.convenient and reliable.blessings!!!waiting for your services to start in faridabad soon.",
+			"name": "Swati",
+			"designation": "Software Engineer"
+		}]
+	}, {
+		"Service": "Car Cleaning",
+		"Package": "Sedan",
+		"Description": [{
+			"icon": "calendar",
+			"desc": "Washing"
+		}, {
+			"icon": "shopping-bag",
+			"desc": "Vacuum Cleaning"
+		}, {
+			"icon": "bitbucket",
+			"desc": "Polishing"
+		}, {
+			"icon": "clock-o",
+			"desc": "Seat Dry-clean"
+		}, {
+			"icon": "clock-o",
+			"desc": "Odor elimination and perfuming"
+		}],
+		"Package_subscription": "One Time",
+		"Slashed_price": "1800",
+		"Package_highlights": ["Interiour", "Exterior", "Seats", "Shampooing", "Polishing"],
+		"Package_amount": "1499",
+		"recordEnd": "true"
+	}, {
+		"Service": "Car Cleaning",
+		"Package": "SUV/MUV",
+		"Description": [{
+			"icon": "calendar",
+			"desc": "Washing"
+		}, {
+			"icon": "shopping-bag",
+			"desc": "Vacuum Cleaning"
+		}, {
+			"icon": "bitbucket",
+			"desc": "Polishing"
+		}, {
+			"icon": "clock-o",
+			"desc": "Seat Dry-clean"
+		}, {
+			"icon": "clock-o",
+			"desc": "Odor elimination and perfuming"
+		}],
+		"Package_subscription": "One Time",
+		"Slashed_price": "2500",
+		"Package_highlights": ["Interiour", "Exterior", "Seats", "Shampooing", "Polishing"],
+		"Package_amount": "1999",
+		"recordEnd": "true"
+	}, {
+		"Service": "Car Cleaning",
+		"Package": "Luxury",
+		"Description": [{
+			"icon": "calendar",
+			"desc": "Washing"
+		}, {
+			"icon": "shopping-bag",
+			"desc": "Vacuum Cleaning"
+		}, {
+			"icon": "bitbucket",
+			"desc": "Polishing"
+		}, {
+			"icon": "clock-o",
+			"desc": "Seat Dry-clean"
+		}, {
+			"icon": "clock-o",
+			"desc": "Odor elimination and perfuming"
+		}],
+		"Package_subscription": "One Time",
+		"Slashed_price": "3000",
+		"Package_highlights": ["Interiour", "Exterior", "Seats", "Shampooing", "Polishing"],
+		"Package_amount": "2399",
+		"recordEnd": "true"
+	}, {
+		"Service": "Pest Control",
+		"Package": "1 BHK",
+		"Description": [{
+			"icon": "calendar",
+			"desc": "Washing"
+		}, {
+			"icon": "shopping-bag",
+			"desc": "Use of eco-friendly chemicals"
+		}, {
+			"icon": "bitbucket",
+			"desc": "Use of chemicals to avoid pest"
+		}],
+		"Package_subscription": "One Time",
+		"Slashed_price": "1000",
+		"Package_highlights": ["", "", "", "", ""],
+		"Package_amount": "799",
+		"recordEnd": "true",
+		"sliderImage1": "images/mainSlider/pest-control-service.jpg",
+		"sliderImage2": "images/mainSlider/online-pest-control-service.jpg",
+		"sliderImage3": "images/mainSlider/pest-control.jpg",
+		"howItWorks": [{
+			"title": "Location ",
+			"imageUrl": "images/process/Location.png",
+			"infoTitle": "Location Info",
+			"infoDesc": "Delhi | Faridabad | Gurgaon | Noida | Mumbai"
+		}, {
+			"title": "Select Package ",
+			"imageUrl": "images/process/Service.png",
+			"infoTitle": "18+ Services",
+			"infoDesc": "Choose the service you are looking for. We will take care of the rest."
+		}, {
+			"title": "Order Confirmation ",
+			"imageUrl": "images/process/Order-Confirmation.png",
+			"infoTitle": "Confirmation",
+			"infoDesc": "Order confirmation may take a maximum of 30 mins."
+		}, {
+			"title": "Service Boy ",
+			"imageUrl": "images/process/serviceguy.png",
+			"infoTitle": "Confirmation",
+			"infoDesc": "In accordance to the scheduled time. The service personal would be visiting you."
+		}, {
+			"title": "Service Turn Around ",
+			"imageUrl": "images/process/delivered.png",
+			"infoTitle": "Service Turn Around",
+			"infoDesc": "Maximum turn around time is around 2 to 4 Hrs."
+		}, {
+			"title": "Make Payment ",
+			"imageUrl": "images/process/MakePayment.png",
+			"infoTitle": "Payment Mode",
+			"infoDesc": "We Accept payments through CASH | CREDIT CARD | DEBIT CARD | PayTm."
+		}],
+		"testimonials": [{
+			"title": "Loved it!",
+			"imageUrl": "images/testimonials/1.png",
+			"description": "A big congratulations to Washingguns team for making a great service experience.A nice and innovative idea of (dhona band dhulwana shuru) need of the hour. Now from my busy schedule I can find time for family & friends. Thankyou guys.Keep up the good work",
+			"name": "Jagruti",
+			"designation": "Software Engineer"
+		}, {
+			"title": "Got pickup on the same",
+			"imageUrl": "images/testimonials/2.png",
+			"description": "Nice work Washingguns team.After using so many services alias found a good laundry service in Delhi NCR.Now Dhona Band or Dhulwana Shuru.Addicted to Washingguns.",
+			"name": "Kim",
+			"designation": "Software Engineer"
+		}, {
+			"title": "Best laundry solution ever",
+			"imageUrl": "images/testimonials/3.png",
+			"description": "Service with a value for money scoop.Laundry was a uphill task for me thanks to Washingguns its no more of a concern. Thumps up to the team of Washingguns.",
+			"name": "Abhishek",
+			"designation": "Software Engineer"
+		}, {
+			"title": "Best laundry service",
+			"imageUrl": "images/testimonials/4.png",
+			"description": "This is by far the best laundry solution in Delhi NCR area. They are thorough professionals with a high sense of timeliness. They maintain proper hygiene. The clothes are neatly washed ,ironed and delivered on time. And the app is super easy to use.",
+			"name": "Swapnil",
+			"designation": "Software Engineer"
+		}, {
+			"title": "Professional and affordable",
+			"imageUrl": "images/testimonials/5.png",
+			"description": "Cleans professionally and timely delivery. They know about fabrics and what detergent to use which is very important for keeping your expensive clothes like new.",
+			"name": "Chitrangad",
+			"designation": "SPM"
+		}, {
+			"title": "Awesome Service",
+			"imageUrl": "images/testimonials/5.png",
+			"description": "Simply awesome I have been waiting for your app so long.convenient and reliable.blessings!!!waiting for your services to start in faridabad soon.",
+			"name": "Swati",
+			"designation": "Software Engineer"
+		}]
+	}, {
+		"Service": "Pest Control",
+		"Package": "2 BHK",
+		"Description": [{
+			"icon": "calendar",
+			"desc": "Washing"
+		}, {
+			"icon": "shopping-bag",
+			"desc": "Use of eco-friendly chemicals"
+		}, {
+			"icon": "bitbucket",
+			"desc": "Use of chemicals to avoid pest"
+		}],
+		"Package_subscription": "One Time",
+		"Slashed_price": "1500",
+		"Package_highlights": ["", "", "", "", ""],
+		"Package_amount": "999",
+		"recordEnd": "true"
+	}, {
+		"Service": "Pest Control",
+		"Package": "3 BHK",
+		"Description": [{
+			"icon": "calendar",
+			"desc": "Washing"
+		}, {
+			"icon": "shopping-bag",
+			"desc": "Use of eco-friendly chemicals"
+		}, {
+			"icon": "bitbucket",
+			"desc": "Use of chemicals to avoid pest"
+		}],
+		"Package_subscription": "One Time",
+		"Slashed_price": "1700",
+		"Package_highlights": ["", "", "", "", ""],
+		"Package_amount": "1199",
+		"recordEnd": "true"
+	}, {
+		"Service": "Pest Control",
+		"Package": "4 BHK",
+		"Description": [{
+			"icon": "calendar",
+			"desc": "Washing"
+		}, {
+			"icon": "shopping-bag",
+			"desc": "Use of eco-friendly chemicals"
+		}, {
+			"icon": "bitbucket",
+			"desc": "Use of chemicals to avoid pest"
+		}],
+		"Package_subscription": "One Time",
+		"Slashed_price": "2000",
+		"Package_highlights": ["", "", "", "", ""],
+		"Package_amount": "1399",
+		"recordEnd": "true"
+	}, {
+		"Service": "Kitchen Cleaning",
+		"Package": "1 Kitchen",
+		"Description": [{
+			"icon": "calendar",
+			"desc": "Washing"
+		}, {
+			"icon": "shopping-bag",
+			"desc": "Cleaning all cabinets"
+		}, {
+			"icon": "bitbucket",
+			"desc": "Cleaning of appliances from outside"
+		}, {
+			"icon": "bitbucket",
+			"desc": "Scouring your sink"
+		}, {
+			"icon": "bitbucket",
+			"desc": "Cleaning of appliances from outside"
+		}, {
+			"icon": "bitbucket",
+			"desc": "cleaning of chimney and gas"
+		}, {
+			"icon": "bitbucket",
+			"desc": "cleaning of counter area"
+		}, {
+			"icon": "bitbucket",
+			"desc": "Mopping your floor and removing dirt in between tiles"
+		}, {
+			"icon": "bitbucket",
+			"desc": "Cleaning of lighting fixtures"
+		}],
+		"Package_subscription": "One Time",
+		"Slashed_price": "1500",
+		"Package_highlights": ["Sink", "Floor", "Gas", "Rust", "Dirt"],
+		"Package_amount": "1199",
+		"recordEnd": "true",
+		"sliderImage1": "images/mainSlider/kitchen-cleaning-service.jpg",
+		"sliderImage2": "images/mainSlider/online-kitchen-cleaning-service.jpg",
+		"sliderImage3": "images/mainSlider/kitchen-cleaning.jpg",
+		"howItWorks": [{
+			"title": "Location ",
+			"imageUrl": "images/process/Location.png",
+			"infoTitle": "Location Info",
+			"infoDesc": "Delhi | Faridabad | Gurgaon | Noida | Mumbai"
+		}, {
+			"title": "Select Package ",
+			"imageUrl": "images/process/Service.png",
+			"infoTitle": "18+ Services",
+			"infoDesc": "Choose the service you are looking for. We will take care of the rest."
+		}, {
+			"title": "Order Confirmation ",
+			"imageUrl": "images/process/Order-Confirmation.png",
+			"infoTitle": "Confirmation",
+			"infoDesc": "Order confirmation may take a maximum of 30 mins."
+		}, {
+			"title": "Service Boy ",
+			"imageUrl": "images/process/serviceguy.png",
+			"infoTitle": "Confirmation",
+			"infoDesc": "In accordance to the scheduled time. The service personal would be visiting you."
+		}, {
+			"title": "Service Turn Around ",
+			"imageUrl": "images/process/delivered.png",
+			"infoTitle": "Service Turn Around",
+			"infoDesc": "Maximum turn around time is around 2 to 4 Hrs."
+		}, {
+			"title": "Make Payment ",
+			"imageUrl": "images/process/MakePayment.png",
+			"infoTitle": "Payment Mode",
+			"infoDesc": "We Accept payments through CASH | CREDIT CARD | DEBIT CARD | PayTm."
+		}],
+		"testimonials": [{
+			"title": "Loved it!",
+			"imageUrl": "images/testimonials/1.png",
+			"description": "A big congratulations to Washingguns team for making a great service experience.A nice and innovative idea of (dhona band dhulwana shuru) need of the hour. Now from my busy schedule I can find time for family & friends. Thankyou guys.Keep up the good work",
+			"name": "Jagruti",
+			"designation": "Software Engineer"
+		}, {
+			"title": "Got pickup on the same",
+			"imageUrl": "images/testimonials/2.png",
+			"description": "Nice work Washingguns team.After using so many services alias found a good laundry service in Delhi NCR.Now Dhona Band or Dhulwana Shuru.Addicted to Washingguns.",
+			"name": "Kim",
+			"designation": "Software Engineer"
+		}, {
+			"title": "Best laundry solution ever",
+			"imageUrl": "images/testimonials/3.png",
+			"description": "Service with a value for money scoop.Laundry was a uphill task for me thanks to Washingguns its no more of a concern. Thumps up to the team of Washingguns.",
+			"name": "Abhishek",
+			"designation": "Software Engineer"
+		}, {
+			"title": "Best laundry service",
+			"imageUrl": "images/testimonials/4.png",
+			"description": "This is by far the best laundry solution in Delhi NCR area. They are thorough professionals with a high sense of timeliness. They maintain proper hygiene. The clothes are neatly washed ,ironed and delivered on time. And the app is super easy to use.",
+			"name": "Swapnil",
+			"designation": "Software Engineer"
+		}, {
+			"title": "Professional and affordable",
+			"imageUrl": "images/testimonials/5.png",
+			"description": "Cleans professionally and timely delivery. They know about fabrics and what detergent to use which is very important for keeping your expensive clothes like new.",
+			"name": "Chitrangad",
+			"designation": "SPM"
+		}, {
+			"title": "Awesome Service",
+			"imageUrl": "images/testimonials/5.png",
+			"description": "Simply awesome I have been waiting for your app so long.convenient and reliable.blessings!!!waiting for your services to start in faridabad soon.",
+			"name": "Swati",
+			"designation": "Software Engineer"
+		}]
+	}, {
+		"Service": "Bathroom Cleaning",
+		"Package": "1 Bathroom",
+		"Description": [{
+			"icon": "calendar",
+			"desc": "Washing"
+		}, {
+			"icon": "shopping-bag",
+			"desc": "Cleaning"
+		}, {
+			"icon": "bitbucket",
+			"desc": "disinfect toilets and tubs"
+		}, {
+			"icon": "bitbucket",
+			"desc": "Clean sink/basins"
+		}, {
+			"icon": "bitbucket",
+			"desc": "counters"
+		}, {
+			"icon": "bitbucket",
+			"desc": "Mirrors cleaned and wiped dry"
+		}, {
+			"icon": "bitbucket",
+			"desc": "Remove stains from shower mirrors"
+		}, {
+			"icon": "bitbucket",
+			"desc": "Mopping your floor and removing dirt in between tiles"
+		}],
+		"Package_subscription": "One Time",
+		"Slashed_price": "1000",
+		"Package_highlights": ["Sink", "Floor", "Basins", "Mirrors", "Tiles"],
+		"Package_amount": "799",
+		"recordEnd": "true",
+		"sliderImage1": "images/mainSlider/bathroom-cleaning-service.jpg",
+		"sliderImage2": "images/mainSlider/online-bathroom-cleaning-service.jpg",
+		"sliderImage3": "images/mainSlider/bathroom-cleaning.jpg",
+		"howItWorks": [{
+			"title": "Location ",
+			"imageUrl": "images/process/Location.png",
+			"infoTitle": "Location Info",
+			"infoDesc": "Delhi | Faridabad | Gurgaon | Noida | Mumbai"
+		}, {
+			"title": "Select Package ",
+			"imageUrl": "images/process/Service.png",
+			"infoTitle": "18+ Services",
+			"infoDesc": "Choose the service you are looking for. We will take care of the rest."
+		}, {
+			"title": "Order Confirmation ",
+			"imageUrl": "images/process/Order-Confirmation.png",
+			"infoTitle": "Confirmation",
+			"infoDesc": "Order confirmation may take a maximum of 30 mins."
+		}, {
+			"title": "Service Boy ",
+			"imageUrl": "images/process/serviceguy.png",
+			"infoTitle": "Confirmation",
+			"infoDesc": "In accordance to the scheduled time. The service personal would be visiting you."
+		}, {
+			"title": "Service Turn Around ",
+			"imageUrl": "images/process/delivered.png",
+			"infoTitle": "Service Turn Around",
+			"infoDesc": "Maximum turn around time is around 2 to 4 Hrs."
+		}, {
+			"title": "Make Payment ",
+			"imageUrl": "images/process/MakePayment.png",
+			"infoTitle": "Payment Mode",
+			"infoDesc": "We Accept payments through CASH | CREDIT CARD | DEBIT CARD | PayTm."
+		}],
+		"testimonials": [{
+			"title": "Loved it!",
+			"imageUrl": "images/testimonials/1.png",
+			"description": "A big congratulations to Washingguns team for making a great service experience.A nice and innovative idea of (dhona band dhulwana shuru) need of the hour. Now from my busy schedule I can find time for family & friends. Thankyou guys.Keep up the good work",
+			"name": "Jagruti",
+			"designation": "Software Engineer"
+		}, {
+			"title": "Got pickup on the same",
+			"imageUrl": "images/testimonials/2.png",
+			"description": "Nice work Washingguns team.After using so many services alias found a good laundry service in Delhi NCR.Now Dhona Band or Dhulwana Shuru.Addicted to Washingguns.",
+			"name": "Kim",
+			"designation": "Software Engineer"
+		}, {
+			"title": "Best laundry solution ever",
+			"imageUrl": "images/testimonials/3.png",
+			"description": "Service with a value for money scoop.Laundry was a uphill task for me thanks to Washingguns its no more of a concern. Thumps up to the team of Washingguns.",
+			"name": "Abhishek",
+			"designation": "Software Engineer"
+		}, {
+			"title": "Best laundry service",
+			"imageUrl": "images/testimonials/4.png",
+			"description": "This is by far the best laundry solution in Delhi NCR area. They are thorough professionals with a high sense of timeliness. They maintain proper hygiene. The clothes are neatly washed ,ironed and delivered on time. And the app is super easy to use.",
+			"name": "Swapnil",
+			"designation": "Software Engineer"
+		}, {
+			"title": "Professional and affordable",
+			"imageUrl": "images/testimonials/5.png",
+			"description": "Cleans professionally and timely delivery. They know about fabrics and what detergent to use which is very important for keeping your expensive clothes like new.",
+			"name": "Chitrangad",
+			"designation": "SPM"
+		}, {
+			"title": "Awesome Service",
+			"imageUrl": "images/testimonials/5.png",
+			"description": "Simply awesome I have been waiting for your app so long.convenient and reliable.blessings!!!waiting for your services to start in faridabad soon.",
+			"name": "Swati",
+			"designation": "Software Engineer"
+		}]
+	}, {
+		"Service": "Sofa Cleaning",
+		"Package": "Fabric Sofa",
+		"Description": [{
+			"icon": "calendar",
+			"desc": "Dust Removal"
+		}, {
+			"icon": "shopping-bag",
+			"desc": "Shampooing"
+		}, {
+			"icon": "bitbucket",
+			"desc": "Vacuuming"
+		}, {
+			"icon": "bitbucket",
+			"desc": "Disinfecting"
+		}, {
+			"icon": "bitbucket",
+			"desc": "Freshener"
+		}, {
+			"icon": "bitbucket",
+			"desc": "Fabric Protector"
+		}],
+		"Package_subscription": "One Time",
+		"Slashed_price": "300",
+		"Package_highlights": ["Dust", "Shampooing", "Vaccuming", "Disinfecting", "Fabric"],
+		"Package_amount": "250",
+		"recordEnd": "true",
+		"sliderImage1": "images/mainSlider/sofa-cleaning-service.jpg",
+		"sliderImage2": "images/mainSlider/online-sofa-cleaning-service.jpg",
+		"sliderImage3": "images/mainSlider/sofa-cleaning.jpg",
+		"howItWorks": [{
+			"title": "Location ",
+			"imageUrl": "images/process/Location.png",
+			"infoTitle": "Location Info",
+			"infoDesc": "Delhi | Faridabad | Gurgaon | Noida | Mumbai"
+		}, {
+			"title": "Select Package ",
+			"imageUrl": "images/process/Service.png",
+			"infoTitle": "18+ Services",
+			"infoDesc": "Choose the service you are looking for. We will take care of the rest."
+		}, {
+			"title": "Order Confirmation ",
+			"imageUrl": "images/process/Order-Confirmation.png",
+			"infoTitle": "Confirmation",
+			"infoDesc": "Order confirmation may take a maximum of 30 mins."
+		}, {
+			"title": "Service Boy ",
+			"imageUrl": "images/process/serviceguy.png",
+			"infoTitle": "Confirmation",
+			"infoDesc": "In accordance to the scheduled time. The service personal would be visiting you."
+		}, {
+			"title": "Service Turn Around ",
+			"imageUrl": "images/process/delivered.png",
+			"infoTitle": "Service Turn Around",
+			"infoDesc": "Maximum turn around time is around 2 to 4 Hrs."
+		}, {
+			"title": "Make Payment ",
+			"imageUrl": "images/process/MakePayment.png",
+			"infoTitle": "Payment Mode",
+			"infoDesc": "We Accept payments through CASH | CREDIT CARD | DEBIT CARD | PayTm."
+		}],
+		"testimonials": [{
+			"title": "Loved it!",
+			"imageUrl": "images/testimonials/1.png",
+			"description": "A big congratulations to Washingguns team for making a great service experience.A nice and innovative idea of (dhona band dhulwana shuru) need of the hour. Now from my busy schedule I can find time for family & friends. Thankyou guys.Keep up the good work",
+			"name": "Jagruti",
+			"designation": "Software Engineer"
+		}, {
+			"title": "Got pickup on the same",
+			"imageUrl": "images/testimonials/2.png",
+			"description": "Nice work Washingguns team.After using so many services alias found a good laundry service in Delhi NCR.Now Dhona Band or Dhulwana Shuru.Addicted to Washingguns.",
+			"name": "Kim",
+			"designation": "Software Engineer"
+		}, {
+			"title": "Best laundry solution ever",
+			"imageUrl": "images/testimonials/3.png",
+			"description": "Service with a value for money scoop.Laundry was a uphill task for me thanks to Washingguns its no more of a concern. Thumps up to the team of Washingguns.",
+			"name": "Abhishek",
+			"designation": "Software Engineer"
+		}, {
+			"title": "Best laundry service",
+			"imageUrl": "images/testimonials/4.png",
+			"description": "This is by far the best laundry solution in Delhi NCR area. They are thorough professionals with a high sense of timeliness. They maintain proper hygiene. The clothes are neatly washed ,ironed and delivered on time. And the app is super easy to use.",
+			"name": "Swapnil",
+			"designation": "Software Engineer"
+		}, {
+			"title": "Professional and affordable",
+			"imageUrl": "images/testimonials/5.png",
+			"description": "Cleans professionally and timely delivery. They know about fabrics and what detergent to use which is very important for keeping your expensive clothes like new.",
+			"name": "Chitrangad",
+			"designation": "SPM"
+		}, {
+			"title": "Awesome Service",
+			"imageUrl": "images/testimonials/5.png",
+			"description": "Simply awesome I have been waiting for your app so long.convenient and reliable.blessings!!!waiting for your services to start in faridabad soon.",
+			"name": "Swati",
+			"designation": "Software Engineer"
+		}]
+	}, {
+		"Service": "Sofa Cleaning",
+		"Package": "Leather Sofa",
+		"Description": [{
+			"icon": "calendar",
+			"desc": "Dust Removal"
+		}, {
+			"icon": "shopping-bag",
+			"desc": "Shampooing"
+		}, {
+			"icon": "bitbucket",
+			"desc": "Vacuuming"
+		}, {
+			"icon": "bitbucket",
+			"desc": "Disinfecting"
+		}, {
+			"icon": "bitbucket",
+			"desc": "Freshener"
+		}, {
+			"icon": "bitbucket",
+			"desc": "Fabric Protector"
+		}],
+		"Package_subscription": "One Time",
+		"Slashed_price": "350",
+		"Package_highlights": ["Dust", "Shampooing", "Vaccuming", "Disinfecting", "Fabric"],
+		"Package_amount": "300",
+		"recordEnd": "true"
+	}, {
+		"Service": "Carpet Cleaning",
+		"Package": "Home Carpet Cleaning",
+		"Description": [{
+			"icon": "calendar",
+			"desc": "Minimum Order Rs 500"
+		}, {
+			"icon": "shopping-bag",
+			"desc": "Deep Vacuuming"
+		}, {
+			"icon": "bitbucket",
+			"desc": "Spot & Stain removal"
+		}, {
+			"icon": "bitbucket",
+			"desc": "Hot water extraction"
+		}, {
+			"icon": "bitbucket",
+			"desc": "Add Scotch Guard"
+		}, {
+			"icon": "bitbucket",
+			"desc": "Fabric Protector"
+		}],
+		"Package_subscription": "/Sqr Feet",
+		"Slashed_price": "12",
+		"Package_highlights": ["Dust", "Shampooing", "Vaccuming", "Disinfecting", "Fabric"],
+		"Package_amount": "10",
+		"recordEnd": "true",
+		"sliderImage1": "images/mainSlider/carpet-cleaning-service.jpg",
+		"sliderImage2": "images/mainSlider/online-carpet-cleaning-service.jpg",
+		"sliderImage3": "images/mainSlider/carpet-cleaning.jpg",
+		"howItWorks": [{
+			"title": "Location ",
+			"imageUrl": "images/process/Location.png",
+			"infoTitle": "Location Info",
+			"infoDesc": "Delhi | Faridabad | Gurgaon | Noida | Mumbai"
+		}, {
+			"title": "Select Package ",
+			"imageUrl": "images/process/Service.png",
+			"infoTitle": "18+ Services",
+			"infoDesc": "Choose the service you are looking for. We will take care of the rest."
+		}, {
+			"title": "Order Confirmation ",
+			"imageUrl": "images/process/Order-Confirmation.png",
+			"infoTitle": "Confirmation",
+			"infoDesc": "Order confirmation may take a maximum of 30 mins."
+		}, {
+			"title": "Service Boy ",
+			"imageUrl": "images/process/serviceguy.png",
+			"infoTitle": "Confirmation",
+			"infoDesc": "In accordance to the scheduled time. The service personal would be visiting you."
+		}, {
+			"title": "Service Turn Around ",
+			"imageUrl": "images/process/delivered.png",
+			"infoTitle": "Service Turn Around",
+			"infoDesc": "Maximum turn around time is around 2 to 4 Hrs."
+		}, {
+			"title": "Make Payment ",
+			"imageUrl": "images/process/MakePayment.png",
+			"infoTitle": "Payment Mode",
+			"infoDesc": "We Accept payments through CASH | CREDIT CARD | DEBIT CARD | PayTm."
+		}],
+		"testimonials": [{
+			"title": "Loved it!",
+			"imageUrl": "images/testimonials/1.png",
+			"description": "A big congratulations to Washingguns team for making a great service experience.A nice and innovative idea of (dhona band dhulwana shuru) need of the hour. Now from my busy schedule I can find time for family & friends. Thankyou guys.Keep up the good work",
+			"name": "Jagruti",
+			"designation": "Software Engineer"
+		}, {
+			"title": "Got pickup on the same",
+			"imageUrl": "images/testimonials/2.png",
+			"description": "Nice work Washingguns team.After using so many services alias found a good laundry service in Delhi NCR.Now Dhona Band or Dhulwana Shuru.Addicted to Washingguns.",
+			"name": "Kim",
+			"designation": "Software Engineer"
+		}, {
+			"title": "Best laundry solution ever",
+			"imageUrl": "images/testimonials/3.png",
+			"description": "Service with a value for money scoop.Laundry was a uphill task for me thanks to Washingguns its no more of a concern. Thumps up to the team of Washingguns.",
+			"name": "Abhishek",
+			"designation": "Software Engineer"
+		}, {
+			"title": "Best laundry service",
+			"imageUrl": "images/testimonials/4.png",
+			"description": "This is by far the best laundry solution in Delhi NCR area. They are thorough professionals with a high sense of timeliness. They maintain proper hygiene. The clothes are neatly washed ,ironed and delivered on time. And the app is super easy to use.",
+			"name": "Swapnil",
+			"designation": "Software Engineer"
+		}, {
+			"title": "Professional and affordable",
+			"imageUrl": "images/testimonials/5.png",
+			"description": "Cleans professionally and timely delivery. They know about fabrics and what detergent to use which is very important for keeping your expensive clothes like new.",
+			"name": "Chitrangad",
+			"designation": "SPM"
+		}, {
+			"title": "Awesome Service",
+			"imageUrl": "images/testimonials/5.png",
+			"description": "Simply awesome I have been waiting for your app so long.convenient and reliable.blessings!!!waiting for your services to start in faridabad soon.",
+			"name": "Swati",
+			"designation": "Software Engineer"
+		}]
+	}, {
+		"Service": "Carpet Cleaning",
+		"Package": "Commercial Carpet Cleaning",
+		"Description": [{
+			"icon": "calendar",
+			"desc": "Minimum Order Rs 500"
+		}, {
+			"icon": "shopping-bag",
+			"desc": "Deep Vacuuming"
+		}, {
+			"icon": "bitbucket",
+			"desc": "Spot & Stain removal"
+		}, {
+			"icon": "bitbucket",
+			"desc": "Hot water extraction"
+		}, {
+			"icon": "bitbucket",
+			"desc": "Add Scotch Guard"
+		}, {
+			"icon": "bitbucket",
+			"desc": "Fabric Protector"
+		}],
+		"Package_subscription": "/Sqr Feet",
+		"Slashed_price": "6",
+		"Package_highlights": ["Dust", "Shampooing", "Vaccuming", "Disinfecting", "Fabric"],
+		"Package_amount": "5",
+		"recordEnd": "true"
+	}, {
+		"Service": "Shoe Cleaning",
+		"Package": "Sports Shoes",
+		"Description": [{
+			"icon": "calendar",
+			"desc": "Delivery "
+		}, {
+			"icon": "shopping-bag",
+			"desc": "Sanitizing"
+		}, {
+			"icon": "bitbucket",
+			"desc": "Moisturizing"
+		}, {
+			"icon": "bitbucket",
+			"desc": "Delivery within *72 hrs"
+		}],
+		"Package_subscription": "/Shoe Pair",
+		"Slashed_price": "300",
+		"Package_highlights": ["Polishing", "Coloring", "Vaccuming", "Disinfecting", "Fabric"],
+		"Package_amount": "250",
+		"recordEnd": "true",
+		"sliderImage1": "images/mainSlider/shoe-cleaning-service.jpg",
+		"sliderImage2": "images/mainSlider/online-shoe-cleaning-service.jpg",
+		"sliderImage3": "images/mainSlider/shoe-cleaning.jpg",
+		"howItWorks": [{
+			"title": "Location ",
+			"imageUrl": "images/process/Location.png",
+			"infoTitle": "Location Info",
+			"infoDesc": "Delhi | Faridabad | Gurgaon | Noida | Mumbai"
+		}, {
+			"title": "Select Package ",
+			"imageUrl": "images/process/Service.png",
+			"infoTitle": "18+ Services",
+			"infoDesc": "Choose the service you are looking for. We will take care of the rest."
+		}, {
+			"title": "Order Confirmation ",
+			"imageUrl": "images/process/Order-Confirmation.png",
+			"infoTitle": "Confirmation",
+			"infoDesc": "Order confirmation may take a maximum of 30 mins."
+		}, {
+			"title": "Pickup Boy ",
+			"imageUrl": "images/process/serviceguy.png",
+			"infoTitle": "Confirmation",
+			"infoDesc": "In accordance to the scheduled time. The service personal would be visiting for pickup."
+		}, {
+			"title": "Service Turn Around ",
+			"imageUrl": "images/process/delivered.png",
+			"infoTitle": "Service Turn Around",
+			"infoDesc": "Maximum turn around time is 72 hrs | Note: Turn around time mentioned is not valid for weekends."
+		}, {
+			"title": "Make Payment ",
+			"imageUrl": "images/process/MakePayment.png",
+			"infoTitle": "Payment Mode",
+			"infoDesc": "We Accept payments through CASH | CREDIT CARD | DEBIT CARD | PayTm."
+		}],
+		"testimonials": [{
+			"title": "Loved it!",
+			"imageUrl": "images/testimonials/1.png",
+			"description": "A big congratulations to Washingguns team for making a great service experience.A nice and innovative idea of (dhona band dhulwana shuru) need of the hour. Now from my busy schedule I can find time for family & friends. Thankyou guys.Keep up the good work",
+			"name": "Jagruti",
+			"designation": "Software Engineer"
+		}, {
+			"title": "Got pickup on the same",
+			"imageUrl": "images/testimonials/2.png",
+			"description": "Nice work Washingguns team.After using so many services alias found a good laundry service in Delhi NCR.Now Dhona Band or Dhulwana Shuru.Addicted to Washingguns.",
+			"name": "Kim",
+			"designation": "Software Engineer"
+		}, {
+			"title": "Best laundry solution ever",
+			"imageUrl": "images/testimonials/3.png",
+			"description": "Service with a value for money scoop.Laundry was a uphill task for me thanks to Washingguns its no more of a concern. Thumps up to the team of Washingguns.",
+			"name": "Abhishek",
+			"designation": "Software Engineer"
+		}, {
+			"title": "Best laundry service",
+			"imageUrl": "images/testimonials/4.png",
+			"description": "This is by far the best laundry solution in Delhi NCR area. They are thorough professionals with a high sense of timeliness. They maintain proper hygiene. The clothes are neatly washed ,ironed and delivered on time. And the app is super easy to use.",
+			"name": "Swapnil",
+			"designation": "Software Engineer"
+		}, {
+			"title": "Professional and affordable",
+			"imageUrl": "images/testimonials/5.png",
+			"description": "Cleans professionally and timely delivery. They know about fabrics and what detergent to use which is very important for keeping your expensive clothes like new.",
+			"name": "Chitrangad",
+			"designation": "SPM"
+		}, {
+			"title": "Awesome Service",
+			"imageUrl": "images/testimonials/5.png",
+			"description": "Simply awesome I have been waiting for your app so long.convenient and reliable.blessings!!!waiting for your services to start in faridabad soon.",
+			"name": "Swati",
+			"designation": "Software Engineer"
+		}]
+	}, {
+		"Service": "Shoe Cleaning",
+		"Package": "Leather Shoes",
+		"Description": [{
+			"icon": "calendar",
+			"desc": "Delivery "
+		}, {
+			"icon": "shopping-bag",
+			"desc": "Sanitizing"
+		}, {
+			"icon": "bitbucket",
+			"desc": "Moisturizing"
+		}, {
+			"icon": "bitbucket",
+			"desc": "Delivery within *72 hrs"
+		}],
+		"Package_subscription": "/Shoe Pair",
+		"Slashed_price": "500",
+		"Package_highlights": ["Polishing", "Coloring", "Cleaning", "Moisturizing", "Fabric"],
+		"Package_amount": "400",
+		"recordEnd": "true"
+	}, {
+		"Service": "Window Blinds Cleaning",
+		"Package": "Window Blinds Cleaning",
+		"Description": [{
+			"icon": "calendar",
+			"desc": "Minimum Order Rs 500 "
+		}, {
+			"icon": "shopping-bag",
+			"desc": "Cleaning"
+		}, {
+			"icon": "bitbucket",
+			"desc": "Deep Vacuuming"
+		}, {
+			"icon": "bitbucket",
+			"desc": "Spot & Stain removal"
+		}],
+		"Package_subscription": "/Sq Feet",
+		"Slashed_price": "6",
+		"Package_highlights": ["Spot", "Strains", "Cleaning", "Dusting", "Vacuuming"],
+		"Package_amount": "5",
+		"recordEnd": "true",
+		"sliderImage1": "images/mainSlider/window-blinds-cleaning-service.jpg",
+		"sliderImage3": "images/mainSlider/online-window-blinds-cleaning-service.jpg",
+		"sliderImage2": "images/mainSlider/window-blinds-cleaning.jpg",
+		"howItWorks": [{
+			"title": "Location ",
+			"imageUrl": "images/process/Location.png",
+			"infoTitle": "Location Info",
+			"infoDesc": "Delhi | Faridabad | Gurgaon | Noida | Mumbai"
+		}, {
+			"title": "Select Package ",
+			"imageUrl": "images/process/Service.png",
+			"infoTitle": "18+ Services",
+			"infoDesc": "Choose the service you are looking for. We will take care of the rest."
+		}, {
+			"title": "Order Confirmation ",
+			"imageUrl": "images/process/Order-Confirmation.png",
+			"infoTitle": "Confirmation",
+			"infoDesc": "Order confirmation may take a maximum of 30 mins."
+		}, {
+			"title": "Service Boy ",
+			"imageUrl": "images/process/serviceguy.png",
+			"infoTitle": "Confirmation",
+			"infoDesc": "In accordance to the scheduled time. The service personal would be visiting you."
+		}, {
+			"title": "Service Turn Around ",
+			"imageUrl": "images/process/delivered.png",
+			"infoTitle": "Service Turn Around",
+			"infoDesc": "Maximum turn around time is around 2 to 4 Hrs."
+		}, {
+			"title": "Make Payment ",
+			"imageUrl": "images/process/MakePayment.png",
+			"infoTitle": "Payment Mode",
+			"infoDesc": "We Accept payments through CASH | CREDIT CARD | DEBIT CARD | PayTm."
+		}],
+		"testimonials": [{
+			"title": "Loved it!",
+			"imageUrl": "images/testimonials/1.png",
+			"description": "A big congratulations to Washingguns team for making a great service experience.A nice and innovative idea of (dhona band dhulwana shuru) need of the hour. Now from my busy schedule I can find time for family & friends. Thankyou guys.Keep up the good work",
+			"name": "Jagruti",
+			"designation": "Software Engineer"
+		}, {
+			"title": "Got pickup on the same",
+			"imageUrl": "images/testimonials/2.png",
+			"description": "Nice work Washingguns team.After using so many services alias found a good laundry service in Delhi NCR.Now Dhona Band or Dhulwana Shuru.Addicted to Washingguns.",
+			"name": "Kim",
+			"designation": "Software Engineer"
+		}, {
+			"title": "Best laundry solution ever",
+			"imageUrl": "images/testimonials/3.png",
+			"description": "Service with a value for money scoop.Laundry was a uphill task for me thanks to Washingguns its no more of a concern. Thumps up to the team of Washingguns.",
+			"name": "Abhishek",
+			"designation": "Software Engineer"
+		}, {
+			"title": "Best laundry service",
+			"imageUrl": "images/testimonials/4.png",
+			"description": "This is by far the best laundry solution in Delhi NCR area. They are thorough professionals with a high sense of timeliness. They maintain proper hygiene. The clothes are neatly washed ,ironed and delivered on time. And the app is super easy to use.",
+			"name": "Swapnil",
+			"designation": "Software Engineer"
+		}, {
+			"title": "Professional and affordable",
+			"imageUrl": "images/testimonials/5.png",
+			"description": "Cleans professionally and timely delivery. They know about fabrics and what detergent to use which is very important for keeping your expensive clothes like new.",
+			"name": "Chitrangad",
+			"designation": "SPM"
+		}, {
+			"title": "Awesome Service",
+			"imageUrl": "images/testimonials/5.png",
+			"description": "Simply awesome I have been waiting for your app so long.convenient and reliable.blessings!!!waiting for your services to start in faridabad soon.",
+			"name": "Swati",
+			"designation": "Software Engineer"
+		}]
+	}, {
+		"Service": "Glass Cleaning",
+		"Package": "Glass Cleaning",
+		"Description": [{
+			"icon": "calendar",
+			"desc": "Prices Depends On-"
+		}, {
+			"icon": "shopping-bag",
+			"desc": "Structure Of Building"
+		}, {
+			"icon": "bitbucket",
+			"desc": "Area Of The Glass"
+		}, {
+			"icon": "bitbucket",
+			"desc": "Final Price On Inspection"
+		}],
+		"Package_subscription": "/Sq Feet",
+		"Slashed_price": "12",
+		"Package_highlights": ["Spot", "Strains", "Cleaning", "Dusting", "Vacuuming"],
+		"Package_amount": "3-10",
+		"recordEnd": "true",
+		"sliderImage1": "images/mainSlider/glass-cleaning-service.jpg",
+		"sliderImage2": "images/mainSlider/online-glass-cleaning-service.jpg",
+		"sliderImage3": "images/mainSlider/glass-cleaning.jpg",
+		"howItWorks": [{
+			"title": "Location ",
+			"imageUrl": "images/process/Location.png",
+			"infoTitle": "Location Info",
+			"infoDesc": "Delhi | Faridabad | Gurgaon | Noida | Mumbai"
+		}, {
+			"title": "Select Package ",
+			"imageUrl": "images/process/Service.png",
+			"infoTitle": "18+ Services",
+			"infoDesc": "Choose the service you are looking for. We will take care of the rest."
+		}, {
+			"title": "Order Confirmation ",
+			"imageUrl": "images/process/Order-Confirmation.png",
+			"infoTitle": "Confirmation",
+			"infoDesc": "Order confirmation may take a maximum of 30 mins."
+		}, {
+			"title": "Service Boy ",
+			"imageUrl": "images/process/serviceguy.png",
+			"infoTitle": "Confirmation",
+			"infoDesc": "In accordance to the scheduled time. The service personal would be visiting you."
+		}, {
+			"title": "Service Turn Around ",
+			"imageUrl": "images/process/delivered.png",
+			"infoTitle": "Service Turn Around",
+			"infoDesc": "Depends on the Structure of building."
+		}, {
+			"title": "Make Payment ",
+			"imageUrl": "images/process/MakePayment.png",
+			"infoTitle": "Payment Mode",
+			"infoDesc": "We Accept payments through CASH | CREDIT CARD | DEBIT CARD | PayTm."
+		}],
+		"testimonials": [{
+			"title": "Loved it!",
+			"imageUrl": "images/testimonials/1.png",
+			"description": "A big congratulations to Washingguns team for making a great service experience.A nice and innovative idea of (dhona band dhulwana shuru) need of the hour. Now from my busy schedule I can find time for family & friends. Thankyou guys.Keep up the good work",
+			"name": "Jagruti",
+			"designation": "Software Engineer"
+		}, {
+			"title": "Got pickup on the same",
+			"imageUrl": "images/testimonials/2.png",
+			"description": "Nice work Washingguns team.After using so many services alias found a good laundry service in Delhi NCR.Now Dhona Band or Dhulwana Shuru.Addicted to Washingguns.",
+			"name": "Kim",
+			"designation": "Software Engineer"
+		}, {
+			"title": "Best laundry solution ever",
+			"imageUrl": "images/testimonials/3.png",
+			"description": "Service with a value for money scoop.Laundry was a uphill task for me thanks to Washingguns its no more of a concern. Thumps up to the team of Washingguns.",
+			"name": "Abhishek",
+			"designation": "Software Engineer"
+		}, {
+			"title": "Best laundry service",
+			"imageUrl": "images/testimonials/4.png",
+			"description": "This is by far the best laundry solution in Delhi NCR area. They are thorough professionals with a high sense of timeliness. They maintain proper hygiene. The clothes are neatly washed ,ironed and delivered on time. And the app is super easy to use.",
+			"name": "Swapnil",
+			"designation": "Software Engineer"
+		}, {
+			"title": "Professional and affordable",
+			"imageUrl": "images/testimonials/5.png",
+			"description": "Cleans professionally and timely delivery. They know about fabrics and what detergent to use which is very important for keeping your expensive clothes like new.",
+			"name": "Chitrangad",
+			"designation": "SPM"
+		}, {
+			"title": "Awesome Service",
+			"imageUrl": "images/testimonials/5.png",
+			"description": "Simply awesome I have been waiting for your app so long.convenient and reliable.blessings!!!waiting for your services to start in faridabad soon.",
+			"name": "Swati",
+			"designation": "Software Engineer"
+		}]
+	}, {
+		"Service": "Chair Cleaning",
+		"Package": "Chair Cleaning",
+		"Description": [{
+			"icon": "calendar",
+			"desc": "Minimum Order Rs 500"
+		}, {
+			"icon": "shopping-bag",
+			"desc": "Vacuuming"
+		}, {
+			"icon": "bitbucket",
+			"desc": "Disinfecting"
+		}, {
+			"icon": "bitbucket",
+			"desc": "Dust Removal"
+		}],
+		"Package_subscription": "",
+		"Slashed_price": "120",
+		"Package_highlights": ["Spot", "Freshener", "Cleaning", "Dusting", "Vacuuming"],
+		"Package_amount": "80",
+		"recordEnd": "true",
+		"sliderImage1": "images/mainSlider/chair-cleaning-service.jpg",
+		"sliderImage2": "images/mainSlider/online-chair-cleaning-service.jpg",
+		"sliderImage3": "images/mainSlider/chair-cleaning.jpg",
+		"howItWorks": [{
+			"title": "Location ",
+			"imageUrl": "images/process/Location.png",
+			"infoTitle": "Location Info",
+			"infoDesc": "Delhi | Faridabad | Gurgaon | Noida | Mumbai"
+		}, {
+			"title": "Select Package ",
+			"imageUrl": "images/process/Service.png",
+			"infoTitle": "18+ Services",
+			"infoDesc": "Choose the service you are looking for. We will take care of the rest."
+		}, {
+			"title": "Order Confirmation ",
+			"imageUrl": "images/process/Order-Confirmation.png",
+			"infoTitle": "Confirmation",
+			"infoDesc": "Order confirmation may take a maximum of 30 mins."
+		}, {
+			"title": "Service Boy ",
+			"imageUrl": "images/process/serviceguy.png",
+			"infoTitle": "Confirmation",
+			"infoDesc": "In accordance to the scheduled time. The service personal would be visiting you."
+		}, {
+			"title": "Service Turn Around ",
+			"imageUrl": "images/process/delivered.png",
+			"infoTitle": "Service Turn Around",
+			"infoDesc": "Depends on the Structure of building."
+		}, {
+			"title": "Make Payment ",
+			"imageUrl": "images/process/MakePayment.png",
+			"infoTitle": "Payment Mode",
+			"infoDesc": "We Accept payments through CASH | CREDIT CARD | DEBIT CARD | PayTm."
+		}],
+		"testimonials": [{
+			"title": "Loved it!",
+			"imageUrl": "images/testimonials/1.png",
+			"description": "A big congratulations to Washingguns team for making a great service experience.A nice and innovative idea of (dhona band dhulwana shuru) need of the hour. Now from my busy schedule I can find time for family & friends. Thankyou guys.Keep up the good work",
+			"name": "Jagruti",
+			"designation": "Software Engineer"
+		}, {
+			"title": "Got pickup on the same day",
+			"imageUrl": "images/testimonials/2.png",
+			"description": "Nice work Washingguns team.After using so many services alias found a good laundry service in Delhi NCR.Now Dhona Band or Dhulwana Shuru.Addicted to Washingguns.",
+			"name": "Kim",
+			"designation": "Software Engineer"
+		}, {
+			"title": "Best laundry solution ever",
+			"imageUrl": "images/testimonials/3.png",
+			"description": "Service with a value for money scoop.Laundry was a uphill task for me thanks to Washingguns its no more of a concern. Thumps up to the team of Washingguns.",
+			"name": "Abhishek",
+			"designation": "Software Engineer"
+		}, {
+			"title": "Best laundry service",
+			"imageUrl": "images/testimonials/4.png",
+			"description": "This is by far the best laundry solution in Delhi NCR area. They are thorough professionals with a high sense of timeliness. They maintain proper hygiene. The clothes are neatly washed ,ironed and delivered on time. And the app is super easy to use.",
+			"name": "Swapnil",
+			"designation": "Software Engineer"
+		}, {
+			"title": "Professional and affordable",
+			"imageUrl": "images/testimonials/5.png",
+			"description": "Cleans professionally and timely delivery. They know about fabrics and what detergent to use which is very important for keeping your expensive clothes like new.",
+			"name": "Chitrangad",
+			"designation": "SPM"
+		}, {
+			"title": "Awesome Service",
+			"imageUrl": "images/testimonials/5.png",
+			"description": "Simply awesome I have been waiting for your app so long.convenient and reliable.blessings!!!waiting for your services to start in faridabad soon.",
+			"name": "Swati",
+			"designation": "Software Engineer"
+		}]
+	},
+{
+		"Service": "Office Cleaning",
+		"Package": "Office Cleaning",
+		"Description": [{
+			"icon": "calendar",
+			"desc": "Dusting"
+		}, {
+			"icon": "shopping-bag",
+			"desc": "Vacuuming"
+		}, {
+			"icon": "bitbucket",
+			"desc": "Scrubbing"
+		}, {
+			"icon": "bitbucket",
+			"desc": "Dry Cleaning"
+		},{
+			"icon": "bitbucket",
+			"desc": "Disinfection"
+		},{
+			"icon": "bitbucket",
+			"desc": "Glass Cleaning"
+		},{
+			"icon": "bitbucket",
+			"desc": "Final Price After Inspection"
+		}
+		],
+		"Package_subscription": "/Sqr Feet",
+		"Slashed_price": "6",
+		"Package_highlights": ["Spot", "Freshener", "Cleaning", "Dusting", "Vacuuming"],
+		"Package_amount": "3-5",
+		"recordEnd": "true",
+		"sliderImage1": "images/mainSlider/office-cleaning-service.jpg",
+		"sliderImage2": "images/mainSlider/online-office-cleaning-service.jpg",
+		"sliderImage3": "images/mainSlider/office-cleaning.jpg",
+		"howItWorks": [{
+			"title": "Location ",
+			"imageUrl": "images/process/Location.png",
+			"infoTitle": "Location Info",
+			"infoDesc": "Delhi | Faridabad | Gurgaon | Noida | Mumbai"
+		}, {
+			"title": "Select Package ",
+			"imageUrl": "images/process/Service.png",
+			"infoTitle": "18+ Services",
+			"infoDesc": "Choose the service you are looking for. We will take care of the rest."
+		}, {
+			"title": "Order Confirmation ",
+			"imageUrl": "images/process/Order-Confirmation.png",
+			"infoTitle": "Confirmation",
+			"infoDesc": "Order confirmation may take a maximum of 30 mins."
+		}, {
+			"title": "Service Boy ",
+			"imageUrl": "images/process/serviceguy.png",
+			"infoTitle": "Confirmation",
+			"infoDesc": "In accordance to the scheduled time. The service personal would be visiting you."
+		}, {
+			"title": "Service Turn Around ",
+			"imageUrl": "images/process/delivered.png",
+			"infoTitle": "Service Turn Around",
+			"infoDesc": "Depends on the Structure of building."
+		}, {
+			"title": "Make Payment ",
+			"imageUrl": "images/process/MakePayment.png",
+			"infoTitle": "Payment Mode",
+			"infoDesc": "We Accept payments through CASH | CREDIT CARD | DEBIT CARD | PayTm."
+		}],
+		"testimonials": [{
+			"title": "Loved it!",
+			"imageUrl": "images/testimonials/1.png",
+			"description": "A big congratulations to Washingguns team for making a great service experience.A nice and innovative idea of (dhona band dhulwana shuru) need of the hour. Now from my busy schedule I can find time for family & friends. Thankyou guys.Keep up the good work",
+			"name": "Jagruti",
+			"designation": "Software Engineer"
+		}, {
+			"title": "Got pickup on the same day",
+			"imageUrl": "images/testimonials/2.png",
+			"description": "Nice work Washingguns team.After using so many services alias found a good laundry service in Delhi NCR.Now Dhona Band or Dhulwana Shuru.Addicted to Washingguns.",
+			"name": "Kim",
+			"designation": "Software Engineer"
+		}, {
+			"title": "Best laundry solution ever",
+			"imageUrl": "images/testimonials/3.png",
+			"description": "Service with a value for money scoop.Laundry was a uphill task for me thanks to Washingguns its no more of a concern. Thumps up to the team of Washingguns.",
+			"name": "Abhishek",
+			"designation": "Software Engineer"
+		}, {
+			"title": "Best laundry service",
+			"imageUrl": "images/testimonials/4.png",
+			"description": "This is by far the best laundry solution in Delhi NCR area. They are thorough professionals with a high sense of timeliness. They maintain proper hygiene. The clothes are neatly washed ,ironed and delivered on time. And the app is super easy to use.",
+			"name": "Swapnil",
+			"designation": "Software Engineer"
+		}, {
+			"title": "Professional and affordable",
+			"imageUrl": "images/testimonials/5.png",
+			"description": "Cleans professionally and timely delivery. They know about fabrics and what detergent to use which is very important for keeping your expensive clothes like new.",
+			"name": "Chitrangad",
+			"designation": "SPM"
+		}, {
+			"title": "Awesome Service",
+			"imageUrl": "images/testimonials/5.png",
+			"description": "Simply awesome I have been waiting for your app so long.convenient and reliable.blessings!!!waiting for your services to start in faridabad soon.",
+			"name": "Swati",
+			"designation": "Software Engineer"
+		}]
+	},	{
+		"dummy": "end"
+	}]
+}
