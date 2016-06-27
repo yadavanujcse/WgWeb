@@ -1,5 +1,8 @@
 $(document).ready(function(){
-
+    $.ajax({url: "getServiceMeta", success: function(result){
+        window.serviceMeta = JSON.parse(result);
+        console.log(window.serviceMeta);
+    }});
 });
 
 $('#buyPackageModal').on('shown.bs.modal', function () {

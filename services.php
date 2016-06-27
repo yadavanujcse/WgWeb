@@ -276,76 +276,102 @@ foreach ($serviceData['records'] as &$value) {
             </div>
         </div>
     </section>
-    <section class="services  container-fluid" style="display:block; background: url('images/checkBackground.jpg') fixed; background-size: cover;">
-        <div class="container">
-            <div class="row text-sm-center" style="background-color: rgba(255,255,255,0.75); padding-top:30px;">
-                <h1 style="padding:10px 0px; font-family:TwCenMT-CondensedExtraBold;">ALL SERVICES</h1>
-                <hr>
-            </div>
-            <div class="row text-sm-center" style="padding-top:10px;">
-                <a href="laundry.html" target="_self">
-                    <div class="service-grid col-xs-3" style="border:2px dashed rgba(255,255,255,1);margin-top:1px; margin-bottom:1px;">
-                        <img src="images/services/Laundry.png" style="padding-top:0.5em; padding-bottom:0.3em; width:40%;"/><br/>
-                        <span style="font-size: 2em; font-family:TwCenMT-CondensedExtraBold;  color:rgb(255,255,255); ">Laundry</span>
-                    </div>
-                </a>
-                <a href="drycleaning.html" target="_self">
-                    <div class="service-grid col-xs-3" style="border:2px dashed rgba(255,255,255,1);margin-top:1px; margin-bottom:1px;">
-                        <img src="images/services/DryClean.png" style="padding-top:0.5em; padding-bottom:0.3em; width:40%;"/><br/>
-                        <span style="font-size: 2em; font-family:TwCenMT-CondensedExtraBold;  color:rgb(255,255,255); ">Drycleaning</span>
-                    </div>
-                </a>
-                <a href="laundry.html" target="_self">
-                    <div class="service-grid col-xs-3" style="border:2px dashed rgba(255,255,255,1);margin-top:1px; margin-bottom:1px;">
-                        <img src="images/services/HomeCleaning.png" style="padding-top:0.5em; padding-bottom:0.3em; width:40%;"/><br/>
-                        <span style="font-size: 2em; font-family:TwCenMT-CondensedExtraBold;  color:rgb(255,255,255); ">Home Cleaning</span>
-                    </div>
-                </a>
-                <div class="service-grid col-xs-3" style="border:2px dashed rgba(255,255,255,1);margin-top:1px; margin-bottom:1px;">
-                    <img src="images/services/CarpetCleaning.png" style="padding-top:0.5em; padding-bottom:0.3em; width:40%;"/><br/>
-                    <span style="font-size: 2em; font-family:TwCenMT-CondensedExtraBold;  color:rgb(255,255,255); ">Carpet Cleaning</span>
-                </div>
-                <div class="service-grid col-xs-3" style="border:2px dashed rgba(255,255,255,1);margin-top:1px; margin-bottom:1px;">
-                    <img src="images/services/ShoeCleaning.png" style="padding-top:0.5em; padding-bottom:0.3em; width:40%;"/><br/>
-                    <span style="font-size: 2em; font-family:TwCenMT-CondensedExtraBold;  color:rgb(255,255,255); ">Shoe Cleaning</span>
-                </div>
-                <div class="service-grid col-xs-3" style="border:2px dashed rgba(255,255,255,1);margin-top:1px; margin-bottom:1px;">
-                    <img src="images/services/wgsofaclean.png" style="padding-top:0.5em; padding-bottom:0.3em; width:40%;"/><br/>
-                    <span style="font-size: 2em; font-family:TwCenMT-CondensedExtraBold;  color:rgb(255,255,255); ">Sofa Cleaning</span>
-                </div>
-                <div class="service-grid col-xs-3" style="border:2px dashed rgba(255,255,255,1);margin-top:1px; margin-bottom:1px;">
-                    <img src="images/services/ChairCleaning.png" style="padding-top:0.5em; padding-bottom:0.3em; width:40%;"/><br/>
-                    <span style="font-size: 2em; font-family:TwCenMT-CondensedExtraBold;  color:rgb(255,255,255); ">Chair Cleaning</span>
-                </div>
-                <div class="service-grid col-xs-3" style="border:2px dashed rgba(255,255,255,1);margin-top:1px; margin-bottom:1px;">
-                    <img src="images/services/Kichen.png" style="padding-top:0.5em; padding-bottom:0.3em; width:40%;"/><br/>
-                    <span style="font-size: 2em; font-family:TwCenMT-CondensedExtraBold;  color:rgb(255,255,255); ">Kitchen Cleaning</span>
-                </div>
-                <div class="service-grid col-xs-3" style="border:2px dashed rgba(255,255,255,1);margin-top:1px; margin-bottom:1px;">
-                    <img src="images/services/PestControl.png" style="padding-top:0.5em; padding-bottom:0.3em; width:40%;"/><br/>
-                    <span style="font-size: 2em; font-family:TwCenMT-CondensedExtraBold;  color:rgb(255,255,255); ">Pest Control</span>
-                </div>
-                <div class="service-grid col-xs-3" style="border:2px dashed rgba(255,255,255,1);margin-top:1px; margin-bottom:1px;">
-                    <img src="images/services/CarCleaning.png" style="padding-top:0.5em; padding-bottom:0.3em; width:40%;"/><br/>
-                    <span style="font-size: 2em; font-family:TwCenMT-CondensedExtraBold;  color:rgb(255,255,255); ">Car Cleaning</span>
-                </div>
-                <div class="service-grid col-xs-3" style="border:2px dashed rgba(255,255,255,1);margin-top:1px; margin-bottom:1px;">
-                    <img src="images/services/WindowCleaning.png" style="padding-top:0.5em; padding-bottom:0.3em; width:40%;"/><br/>
-                    <span style="font-size: 2em; font-family:TwCenMT-CondensedExtraBold;  color:rgb(255,255,255); ">Window Cleaning</span>
-                </div>
-                <div class="service-grid col-xs-3" style="border:2px dashed rgba(255,255,255,1);margin-top:1px; margin-bottom:1px;">
-                    <img src="images/services/Bathroom.png" style="padding-top:0.5em; padding-bottom:0.3em; width:40%;"/><br/>
-                    <span style="font-size: 2em; font-family:TwCenMT-CondensedExtraBold;  color:rgb(255,255,255); ">Bathroom Cleaning</span>
-                </div>
-                <div class="service-grid col-xs-3" style="border:2px dashed rgba(255,255,255,1);margin-top:1px; margin-bottom:1px;">
-                    <img src="images/services/Blinds-Cleaning.png" style="padding-top:0.5em; padding-bottom:0.3em; width:40%;"/><br/>
-                    <span style="font-size: 2em; font-family:TwCenMT-CondensedExtraBold;  color:rgb(255,255,255); ">Blinds Cleaning</span>
-                </div>
+	<section class="services  container-fluid" style="display:block; background: url('images/checkBackground.jpg') fixed; background-size: cover;">
+		<div class="container">
+			<div class="row text-sm-center" style="background-color: rgba(255,255,255,0.75); padding-top:30px;">
+				<h1 style="padding:10px 0px; font-family:TwCenMT-CondensedExtraBold;">SERVICES</h1>
+				<hr>
+			</div>
+			<div class="row text-sm-center" style="padding-top:10px;">
+				<a href="services?serviceType=Laundry" target="_self">
+					<div class="service-grid col-xs-3" style="border:2px dashed rgba(255,255,255,1);margin-top:1px; margin-bottom:1px;">
+						<img src="images/services/Laundry.png" style="padding-top:0.5em; padding-bottom:0.3em; width:40%;"/><br/>
+						<span style="font-size: 2em; font-family:TwCenMT-CondensedExtraBold;  color:rgb(255,255,255); ">Laundry</span>
+					</div>
+				</a>
+				<a href="services?serviceType=Dry-clean" target="_self">
+					<div class="service-grid col-xs-3" style="border:2px dashed rgba(255,255,255,1);margin-top:1px; margin-bottom:1px;">
+						<img src="images/services/DryClean.png" style="padding-top:0.5em; padding-bottom:0.3em; width:40%;"/><br/>
+						<span style="font-size: 2em; font-family:TwCenMT-CondensedExtraBold;  color:rgb(255,255,255); ">Drycleaning</span>
+					</div>
+				</a>
+				<a href="services?serviceType=Deep Home Cleaning" target="_self">
+					<div class="service-grid col-xs-3" style="border:2px dashed rgba(255,255,255,1);margin-top:1px; margin-bottom:1px;">
+						<img src="images/services/HomeCleaning.png" style="padding-top:0.5em; padding-bottom:0.3em; width:40%;"/><br/>
+						<span style="font-size: 2em; font-family:TwCenMT-CondensedExtraBold;  color:rgb(255,255,255); ">Home Cleaning</span>
+					</div>
+				</a>
+				<a href="services?serviceType=Carpet Cleaning" target="_self">
+					<div class="service-grid col-xs-3" style="border:2px dashed rgba(255,255,255,1);margin-top:1px; margin-bottom:1px;">
+						<img src="images/services/CarpetCleaning.png" style="padding-top:0.5em; padding-bottom:0.3em; width:40%;"/><br/>
+						<span style="font-size: 2em; font-family:TwCenMT-CondensedExtraBold;  color:rgb(255,255,255); ">Carpet Cleaning</span>
+					</div>
+				</a>
+				<a href="services?serviceType=Shoe Cleaning" target="_self">
+					<div class="service-grid col-xs-3" style="border:2px dashed rgba(255,255,255,1);margin-top:1px; margin-bottom:1px;">
+						<img src="images/services/ShoeCleaning.png" style="padding-top:0.5em; padding-bottom:0.3em; width:40%;"/><br/>
+						<span style="font-size: 2em; font-family:TwCenMT-CondensedExtraBold;  color:rgb(255,255,255); ">Shoe Cleaning</span>
+					</div>
+				</a>
+				<a href="services?serviceType=Sofa Cleaning" target="_self">
+					<div class="service-grid col-xs-3" style="border:2px dashed rgba(255,255,255,1);margin-top:1px; margin-bottom:1px;">
+						<img src="images/services/wgsofaclean.png" style="padding-top:0.5em; padding-bottom:0.3em; width:40%;"/><br/>
+						<span style="font-size: 2em; font-family:TwCenMT-CondensedExtraBold;  color:rgb(255,255,255); ">Sofa Cleaning</span>
+					</div>
+				</a>
+				<a href="services?serviceType=Deep Home Cleaning" target="_self">
+					<div class="service-grid col-xs-3" style="border:2px dashed rgba(255,255,255,1);margin-top:1px; margin-bottom:1px;">
+						<img src="images/services/ChairCleaning.png" style="padding-top:0.5em; padding-bottom:0.3em; width:40%;"/><br/>
+						<span style="font-size: 2em; font-family:TwCenMT-CondensedExtraBold;  color:rgb(255,255,255); ">Chair Cleaning</span>
+					</div>
+				</a>
+				<a href="services?serviceType=Kitchen Cleaning" target="_self">
+					<div class="service-grid col-xs-3" style="border:2px dashed rgba(255,255,255,1);margin-top:1px; margin-bottom:1px;">
+						<img src="images/services/Kichen.png" style="padding-top:0.5em; padding-bottom:0.3em; width:40%;"/><br/>
+						<span style="font-size: 2em; font-family:TwCenMT-CondensedExtraBold;  color:rgb(255,255,255); ">Kitchen Cleaning</span>
+					</div>
+				</a>
+				<a href="services?serviceType=Pest Control" target="_self">
+					<div class="service-grid col-xs-3" style="border:2px dashed rgba(255,255,255,1);margin-top:1px; margin-bottom:1px;">
+						<img src="images/services/PestControl.png" style="padding-top:0.5em; padding-bottom:0.3em; width:40%;"/><br/>
+						<span style="font-size: 2em; font-family:TwCenMT-CondensedExtraBold;  color:rgb(255,255,255); ">Pest Control</span>
+					</div>
+				</a>
+				<a href="services?serviceType=Car Cleaning" target="_self">
+					<div class="service-grid col-xs-3" style="border:2px dashed rgba(255,255,255,1);margin-top:1px; margin-bottom:1px;">
+						<img src="images/services/CarCleaning.png" style="padding-top:0.5em; padding-bottom:0.3em; width:40%;"/><br/>
+						<span style="font-size: 2em; font-family:TwCenMT-CondensedExtraBold;  color:rgb(255,255,255); ">Car Cleaning</span>
+					</div>
+				</a>
+				<a href="services?serviceType=Glass Cleaning" target="_self">
+					<div class="service-grid col-xs-3" style="border:2px dashed rgba(255,255,255,1);margin-top:1px; margin-bottom:1px;">
+						<img src="images/services/WindowCleaning.png" style="padding-top:0.5em; padding-bottom:0.3em; width:40%;"/><br/>
+						<span style="font-size: 2em; font-family:TwCenMT-CondensedExtraBold;  color:rgb(255,255,255); ">Glass Cleaning</span>
+					</div>
+				</a>
+				<a href="services?serviceType=Bathroom Cleaning" target="_self">
+					<div class="service-grid col-xs-3" style="border:2px dashed rgba(255,255,255,1);margin-top:1px; margin-bottom:1px;">
+						<img src="images/services/Bathroom.png" style="padding-top:0.5em; padding-bottom:0.3em; width:40%;"/><br/>
+						<span style="font-size: 2em; font-family:TwCenMT-CondensedExtraBold;  color:rgb(255,255,255); ">Bathroom Cleaning</span>
+					</div>
+				</a>
+				<a href="services?serviceType=Window Blinds Cleaning" target="_self">
+					<div class="service-grid col-xs-3" style="border:2px dashed rgba(255,255,255,1);margin-top:1px; margin-bottom:1px;">
+						<img src="images/services/Blinds-Cleaning.png" style="padding-top:0.5em; padding-bottom:0.3em; width:40%;"/><br/>
+						<span style="font-size: 2em; font-family:TwCenMT-CondensedExtraBold;  color:rgb(255,255,255); ">Blinds Cleaning</span>
+					</div>
+				</a>
+				<a href="services?serviceType=Office Cleaning" target="_self">
+					<div class="service-grid col-xs-3" style="border:2px dashed rgba(255,255,255,1);margin-top:1px; margin-bottom:1px;">
+						<img src="images/services/Office-Cleaning.png" style="padding-top:0.5em; padding-bottom:0.3em; width:40%;"/><br/>
+						<span style="font-size: 2em; font-family:TwCenMT-CondensedExtraBold;  color:rgb(255,255,255); ">Office Cleaning</span>
+					</div>
+				</a>
 
-            </div>
+			</div>
 
-        </div>
+		</div>
 
-    </section>
+	</section>
 
 <?php include 'footer.php';?>

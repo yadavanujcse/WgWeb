@@ -3,13 +3,13 @@
 		"Service": "Laundry",
 		"Package": "One time",
 		"Description": [{
-			"icon": "calendar",
+			"icon": "balance-scale",
 			"desc": "Minimum pickup 4 Kgs"
 		}, {
 			"icon": "shopping-bag",
 			"desc": "Total Laundry Basket 4 Kgs"
 		}, {
-			"icon": "bitbucket",
+			"icon": "align-justify",
 			"desc": "Combined Packing"
 		}, {
 			"icon": "clock-o",
@@ -27,22 +27,22 @@
 			"title": "Location ",
 			"imageUrl": "images/process/Location.png",
 			"infoTitle": "Location Info",
-			"infoDesc": "Delhi | Faridabad | Gurgaon | Noida | Mumbai"
+			"infoDesc": "Enter your pickup location"
 		}, {
 			"title": "Select Package ",
 			"imageUrl": "images/process/Service.png",
-			"infoTitle": "18+ Services",
-			"infoDesc": "Choose the service you are looking for. We will take care of the rest."
+			"infoTitle": "Laundry Package",
+			"infoDesc": "Select the Laundry Package according your requirement."
 		}, {
 			"title": "Order Confirmation ",
 			"imageUrl": "images/process/Order-Confirmation.png",
 			"infoTitle": "Confirmation",
-			"infoDesc": "Order confirmation may take a maximum of 30 mins."
+			"infoDesc": "You will receive a call from us confirming your pickup time."
 		}, {
 			"title": "Pickup Boy ",
 			"imageUrl": "images/process/serviceguy.png",
-			"infoTitle": "Confirmation",
-			"infoDesc": "In accordance to the scheduled time. The service personal would be visiting for pickup."
+			"infoTitle": "Pickup",
+			"infoDesc": "Our pickup boy will reach at your doorstep at scheduled time."
 		}, {
 			"title": "Service Turn Around ",
 			"imageUrl": "images/process/delivered.png",
@@ -95,13 +95,13 @@
 		"Service": "Laundry",
 		"Package": "Silver Class",
 		"Description": [{
-			"icon": "calendar",
+			"icon": "balance-scale",
 			"desc": "Minimum pickup 4 Kgs"
 		}, {
 			"icon": "shopping-bag",
 			"desc": "Total Laundry Basket 10 Kgs"
 		}, {
-			"icon": "bitbucket",
+			"icon": "align-justify",
 			"desc": "Combined Packing"
 		}, {
 			"icon": "clock-o",
@@ -116,13 +116,13 @@
 		"Service": "Laundry",
 		"Package": "Gold Class",
 		"Description": [{
-			"icon": "calendar",
+			"icon": "balance-scale",
 			"desc": "Minimum pickup 4 Kgs"
 		}, {
 			"icon": "shopping-bag",
 			"desc": "Total Laundry Basket 10 Kgs"
 		}, {
-			"icon": "bitbucket",
+			"icon": "align-justify",
 			"desc": "Combined Packing"
 		}, {
 			"icon": "clock-o",
@@ -137,14 +137,14 @@
 		"Service": "Laundry",
 		"Package": "Premium",
 		"Description": [{
-			"icon": "calendar",
+			"icon": "balance-scale",
 			"desc": "Minimum pickup 4 Kgs"
 		}, {
 			"icon": "shopping-bag",
-			"desc": "Individual Packaging"
-		}, {
-			"icon": "bitbucket",
 			"desc": "Minimum Pickup weight 4 Kgs"
+		}, {
+			"icon": "file",
+			"desc": "Individual Packaging"
 		}, {
 			"icon": "clock-o",
 			"desc": "Delivery within *24 hrs"
@@ -158,19 +158,19 @@
 		"Service": "Dry-clean",
 		"Package": "Light wear",
 		"Description": [{
-			"icon": "calendar",
+			"icon": "money",
 			"desc": "Minimum pickup is of 300 Rs"
 		}, {
-			"icon": "shopping-bag",
+			"icon": "flask",
 			"desc": "Solvents for Strain Removal"
 		}, {
-			"icon": "bitbucket",
+			"icon": "file",
 			"desc": "Individual Packing"
 		}, {
 			"icon": "clock-o",
 			"desc": "Delivery within *72 hrs"
 		}],
-		"Package_subscription": "One Time",
+		"Package_subscription": "",
 		"Slashed_price": "100",
 		"Package_highlights": ["Shirt", "Jeans", "Pants", "Skirt", "Trouser"],
 		"Package_amount": "70",
@@ -182,22 +182,22 @@
 			"title": "Location ",
 			"imageUrl": "images/process/Location.png",
 			"infoTitle": "Location Info",
-			"infoDesc": "Delhi | Faridabad | Gurgaon | Noida | Mumbai"
+			"infoDesc": "Enter your pickup location"
 		}, {
 			"title": "Select Package ",
 			"imageUrl": "images/process/Service.png",
-			"infoTitle": "18+ Services",
-			"infoDesc": "Choose the service you are looking for. We will take care of the rest."
+			"infoTitle": "Dry-Cleaning Package",
+			"infoDesc": "Select the Dry-Cleaning according your requirement."
 		}, {
 			"title": "Order Confirmation ",
 			"imageUrl": "images/process/Order-Confirmation.png",
 			"infoTitle": "Confirmation",
-			"infoDesc": "Order confirmation may take a maximum of 30 mins."
+			"infoDesc": "You will receive a call from us confirming your pickup time."
 		}, {
 			"title": "Pickup Boy ",
 			"imageUrl": "images/process/serviceguy.png",
-			"infoTitle": "Confirmation",
-			"infoDesc": "In accordance to the scheduled time. The service personal would be visiting for pickup."
+			"infoTitle": "Pickup",
+			"infoDesc": "Our pickup boy will reach at your doorstep at scheduled time."
 		}, {
 			"title": "Service Turn Around ",
 			"imageUrl": "images/process/delivered.png",
@@ -250,19 +250,19 @@
 		"Service": "Dry-clean",
 		"Package": "Medium Wear",
 		"Description": [{
-			"icon": "calendar",
+			"icon": "money",
 			"desc": "Minimum pickup is of 300 Rs"
 		}, {
-			"icon": "shopping-bag",
+			"icon": "flask",
 			"desc": "Solvents for Strain Removal"
 		}, {
-			"icon": "bitbucket",
+			"icon": "file",
 			"desc": "Individual Packing"
 		}, {
 			"icon": "clock-o",
 			"desc": "Delivery within *72 hrs"
 		}],
-		"Package_subscription": "One Time",
+		"Package_subscription": "",
 		"Slashed_price": "200",
 		"Package_highlights": ["Sweaters", "Cardigans", "Hoods", "Safari Suit", "Sari-Lite"],
 		"Package_amount": "150",
@@ -271,19 +271,19 @@
 		"Service": "Dry-clean",
 		"Package": "Heavy wear",
 		"Description": [{
-			"icon": "calendar",
+			"icon": "money",
 			"desc": "Minimum pickup is of 300 Rs"
 		}, {
-			"icon": "shopping-bag",
+			"icon": "flask",
 			"desc": "Solvents for Strain Removal"
 		}, {
-			"icon": "bitbucket",
+			"icon": "file",
 			"desc": "Individual Packing"
 		}, {
 			"icon": "clock-o",
 			"desc": "Delivery within *72 hrs"
 		}],
-		"Package_subscription": "One Time",
+		"Package_subscription": "",
 		"Slashed_price": "250",
 		"Package_highlights": ["Blanket-Single", "Jackets", "Coat", "Sari", "Blazer/Coat"],
 		"Package_amount": "200",
@@ -292,19 +292,19 @@
 		"Service": "Dry-clean",
 		"Package": "Elite wear",
 		"Description": [{
-			"icon": "calendar",
+			"icon": "money",
 			"desc": "Minimum pickup is of 300 Rs"
 		}, {
-			"icon": "shopping-bag",
+			"icon": "flask",
 			"desc": "Solvents for Strain Removal"
 		}, {
-			"icon": "bitbucket",
+			"icon": "file",
 			"desc": "Individual Packing"
 		}, {
 			"icon": "clock-o",
 			"desc": "Delivery within *72 hrs"
 		}],
-		"Package_subscription": "One Time",
+		"Package_subscription": "",
 		"Slashed_price": "300",
 		"Package_highlights": ["Suits-2Piece", "Quilt-Single", "Leather Jacket", "Shawl-Heavy", "Zari Sari"],
 		"Package_amount": "250",
@@ -313,19 +313,19 @@
 		"Service": "Dry-clean",
 		"Package": "Marriage wear",
 		"Description": [{
-			"icon": "calendar",
+			"icon": "money",
 			"desc": "Minimum pickup is of 300 Rs"
 		}, {
-			"icon": "shopping-bag",
+			"icon": "flask",
 			"desc": "Solvents for Strain Removal"
 		}, {
-			"icon": "bitbucket",
+			"icon": "file",
 			"desc": "Individual Packing"
 		}, {
 			"icon": "clock-o",
 			"desc": "Delivery within *72 hrs"
 		}],
-		"Package_subscription": "One Time",
+		"Package_subscription": "",
 		"Slashed_price": "350",
 		"Package_highlights": ["Embroided Saree", "Embroided Suits", "Embroided Sherwani", "Suits(3 Piece)", "Double Blanket"],
 		"Package_amount": "300",
@@ -334,13 +334,13 @@
 		"Service": "Commercial Laundry",
 		"Package": "Jack Bulk",
 		"Description": [{
-			"icon": "calendar",
+			"icon": "balance-scale",
 			"desc": "Minimum pickup 40 Kgs"
 		}, {
 			"icon": "shopping-bag",
 			"desc": "Total Laundry Basket 100 Kgs"
 		}, {
-			"icon": "bitbucket",
+			"icon": "align-justify",
 			"desc": "Combined Packing"
 		}, {
 			"icon": "clock-o",
@@ -358,22 +358,22 @@
 			"title": "Location ",
 			"imageUrl": "images/process/Location.png",
 			"infoTitle": "Location Info",
-			"infoDesc": "Delhi | Faridabad | Gurgaon | Noida | Mumbai"
+			"infoDesc": "Enter your pickup location"
 		}, {
 			"title": "Select Package ",
 			"imageUrl": "images/process/Service.png",
-			"infoTitle": "18+ Services",
-			"infoDesc": "Choose the service you are looking for. We will take care of the rest."
+			"infoTitle": "Laundry Package",
+			"infoDesc": "Select the Laundry Package according your requirement."
 		}, {
 			"title": "Order Confirmation ",
 			"imageUrl": "images/process/Order-Confirmation.png",
 			"infoTitle": "Confirmation",
-			"infoDesc": "Order confirmation may take a maximum of 30 mins."
+			"infoDesc": "You will receive a call from us confirming your pickup time."
 		}, {
 			"title": "Pickup Boy ",
 			"imageUrl": "images/process/serviceguy.png",
-			"infoTitle": "Confirmation",
-			"infoDesc": "In accordance to the scheduled time. The service personal would be visiting for pickup."
+			"infoTitle": "Pickup",
+			"infoDesc": "Our pickup boy will reach at your doorstep at scheduled time."
 		}, {
 			"title": "Service Turn Around ",
 			"imageUrl": "images/process/delivered.png",
@@ -426,13 +426,13 @@
 		"Service": "Commercial Laundry",
 		"Package": "King bulk",
 		"Description": [{
-			"icon": "calendar",
+			"icon": "balance-scale",
 			"desc": "Minimum pickup 50 Kgs"
 		}, {
 			"icon": "shopping-bag",
 			"desc": "Total Laundry Basket 200 Kgs"
 		}, {
-			"icon": "bitbucket",
+			"icon": "align-justify",
 			"desc": "Combined Packing"
 		}, {
 			"icon": "clock-o",
@@ -447,13 +447,13 @@
 		"Service": "Commercial Laundry",
 		"Package": "Ace bulk",
 		"Description": [{
-			"icon": "calendar",
+			"icon": "balance-scale",
 			"desc": "Minimum pickup 100 Kgs"
 		}, {
 			"icon": "shopping-bag",
 			"desc": "Total Laundry Basket 500 Kgs"
 		}, {
-			"icon": "bitbucket",
+			"icon": "align-justify",
 			"desc": "Combined Packing"
 		}, {
 			"icon": "clock-o",
@@ -468,31 +468,31 @@
 		"Service": "Deep Home Cleaning",
 		"Package": "1 BHK",
 		"Description": [{
-			"icon": "calendar",
+			"icon": "paint-brush",
 			"desc": "Cobwebs cleaning"
 		}, {
-			"icon": "shopping-bag",
+			"icon": "hand-rock-o",
 			"desc": "Dusting and mopping"
 		}, {
-			"icon": "bitbucket",
+			"icon": "fire-extinguisher",
 			"desc": "Vacuum Cleaning"
 		}, {
-			"icon": "clock-o",
+			"icon": "hand-paper-o",
 			"desc": "Floor scrubbing and cleaning"
 		}, {
-			"icon": "clock-o",
+			"icon": "spoon",
 			"desc": "Kitchen Cleaning"
 		}, {
-			"icon": "clock-o",
+			"icon": "wheelchair",
 			"desc": "Bathroom Cleaning"
 		}, {
-			"icon": "clock-o",
+			"icon": "braille",
 			"desc": "Sofa cleaning"
 		}, {
-			"icon": "clock-o",
+			"icon": "server",
 			"desc": "Carpet Cleaning"
 		}],
-		"Package_subscription": "One Time",
+		"Package_subscription": "",
 		"Slashed_price": "4000",
 		"Package_highlights": ["Room", "Hall", "Kitchen", "Bathroom", "Furniture"],
 		"Package_amount": "3499",
@@ -572,31 +572,31 @@
 		"Service": "Deep Home Cleaning",
 		"Package": "2 BHK",
 		"Description": [{
-			"icon": "calendar",
+			"icon": "paint-brush",
 			"desc": "Cobwebs cleaning"
 		}, {
-			"icon": "shopping-bag",
+			"icon": "hand-rock-o",
 			"desc": "Dusting and mopping"
 		}, {
-			"icon": "bitbucket",
+			"icon": "fire-extinguisher",
 			"desc": "Vacuum Cleaning"
 		}, {
-			"icon": "clock-o",
+			"icon": "hand-paper-o",
 			"desc": "Floor scrubbing and cleaning"
 		}, {
-			"icon": "clock-o",
+			"icon": "spoon",
 			"desc": "Kitchen Cleaning"
 		}, {
-			"icon": "clock-o",
+			"icon": "wheelchair",
 			"desc": "Bathroom Cleaning"
 		}, {
-			"icon": "clock-o",
+			"icon": "braille",
 			"desc": "Sofa cleaning"
 		}, {
-			"icon": "clock-o",
+			"icon": "server",
 			"desc": "Carpet Cleaning"
 		}],
-		"Package_subscription": "One Time",
+		"Package_subscription": "",
 		"Slashed_price": "5000",
 		"Package_highlights": ["Room", "Hall", "Kitchen", "Bathroom", "Furniture"],
 		"Package_amount": "4499",
@@ -605,31 +605,31 @@
 		"Service": "Deep Home Cleaning",
 		"Package": "3 BHK",
 		"Description": [{
-			"icon": "calendar",
+			"icon": "paint-brush",
 			"desc": "Cobwebs cleaning"
 		}, {
-			"icon": "shopping-bag",
+			"icon": "hand-rock-o",
 			"desc": "Dusting and mopping"
 		}, {
-			"icon": "bitbucket",
+			"icon": "fire-extinguisher",
 			"desc": "Vacuum Cleaning"
 		}, {
-			"icon": "clock-o",
+			"icon": "hand-paper-o",
 			"desc": "Floor scrubbing and cleaning"
 		}, {
-			"icon": "clock-o",
+			"icon": "spoon",
 			"desc": "Kitchen Cleaning"
 		}, {
-			"icon": "clock-o",
+			"icon": "wheelchair",
 			"desc": "Bathroom Cleaning"
 		}, {
-			"icon": "clock-o",
+			"icon": "braille",
 			"desc": "Sofa cleaning"
 		}, {
-			"icon": "clock-o",
+			"icon": "server",
 			"desc": "Carpet Cleaning"
 		}],
-		"Package_subscription": "One Time",
+		"Package_subscription": "",
 		"Slashed_price": "6000",
 		"Package_highlights": ["Room", "Hall", "Kitchen", "Bathroom", "Furniture"],
 		"Package_amount": "5499",
@@ -638,31 +638,31 @@
 		"Service": "Deep Home Cleaning",
 		"Package": "4 BHK",
 		"Description": [{
-			"icon": "calendar",
+			"icon": "paint-brush",
 			"desc": "Cobwebs cleaning"
 		}, {
-			"icon": "shopping-bag",
+			"icon": "hand-rock-o",
 			"desc": "Dusting and mopping"
 		}, {
-			"icon": "bitbucket",
+			"icon": "fire-extinguisher",
 			"desc": "Vacuum Cleaning"
 		}, {
-			"icon": "clock-o",
+			"icon": "hand-paper-o",
 			"desc": "Floor scrubbing and cleaning"
 		}, {
-			"icon": "clock-o",
+			"icon": "spoon",
 			"desc": "Kitchen Cleaning"
 		}, {
-			"icon": "clock-o",
+			"icon": "wheelchair",
 			"desc": "Bathroom Cleaning"
 		}, {
-			"icon": "clock-o",
+			"icon": "braille",
 			"desc": "Sofa cleaning"
 		}, {
-			"icon": "clock-o",
+			"icon": "server",
 			"desc": "Carpet Cleaning"
 		}],
-		"Package_subscription": "One Time",
+		"Package_subscription": "",
 		"Slashed_price": "7000",
 		"Package_highlights": ["Room", "Hall", "Kitchen", "Bathroom", "Furniture"],
 		"Package_amount": "6499",
@@ -671,22 +671,22 @@
 		"Service": "Car Cleaning",
 		"Package": "Small/Hatchback",
 		"Description": [{
-			"icon": "calendar",
+			"icon": "hand-paper-o",
 			"desc": "Washing"
 		}, {
-			"icon": "shopping-bag",
+			"icon": "fire-extinguisher",
 			"desc": "Vacuum Cleaning"
 		}, {
-			"icon": "bitbucket",
+			"icon": "hand-rock-o",
 			"desc": "Polishing"
 		}, {
-			"icon": "clock-o",
+			"icon": "venus-double",
 			"desc": "Seat Dry-clean"
 		}, {
-			"icon": "clock-o",
+			"icon": "flask",
 			"desc": "Odor elimination and perfuming"
 		}],
-		"Package_subscription": "One Time",
+		"Package_subscription": "",
 		"Slashed_price": "1500",
 		"Package_highlights": ["Interiour", "Exterior", "Seats", "Shampooing", "Polishing"],
 		"Package_amount": "1199",
@@ -766,22 +766,22 @@
 		"Service": "Car Cleaning",
 		"Package": "Sedan",
 		"Description": [{
-			"icon": "calendar",
+			"icon": "hand-paper-o",
 			"desc": "Washing"
 		}, {
-			"icon": "shopping-bag",
+			"icon": "fire-extinguisher",
 			"desc": "Vacuum Cleaning"
 		}, {
-			"icon": "bitbucket",
+			"icon": "hand-rock-o",
 			"desc": "Polishing"
 		}, {
-			"icon": "clock-o",
+			"icon": "venus-double",
 			"desc": "Seat Dry-clean"
 		}, {
-			"icon": "clock-o",
+			"icon": "flask",
 			"desc": "Odor elimination and perfuming"
 		}],
-		"Package_subscription": "One Time",
+		"Package_subscription": "",
 		"Slashed_price": "1800",
 		"Package_highlights": ["Interiour", "Exterior", "Seats", "Shampooing", "Polishing"],
 		"Package_amount": "1499",
@@ -790,22 +790,22 @@
 		"Service": "Car Cleaning",
 		"Package": "SUV/MUV",
 		"Description": [{
-			"icon": "calendar",
+			"icon": "hand-paper-o",
 			"desc": "Washing"
 		}, {
-			"icon": "shopping-bag",
+			"icon": "fire-extinguisher",
 			"desc": "Vacuum Cleaning"
 		}, {
-			"icon": "bitbucket",
+			"icon": "hand-rock-o",
 			"desc": "Polishing"
 		}, {
-			"icon": "clock-o",
+			"icon": "venus-double",
 			"desc": "Seat Dry-clean"
 		}, {
-			"icon": "clock-o",
+			"icon": "flask",
 			"desc": "Odor elimination and perfuming"
 		}],
-		"Package_subscription": "One Time",
+		"Package_subscription": "",
 		"Slashed_price": "2500",
 		"Package_highlights": ["Interiour", "Exterior", "Seats", "Shampooing", "Polishing"],
 		"Package_amount": "1999",
@@ -814,22 +814,22 @@
 		"Service": "Car Cleaning",
 		"Package": "Luxury",
 		"Description": [{
-			"icon": "calendar",
+			"icon": "hand-paper-o",
 			"desc": "Washing"
 		}, {
-			"icon": "shopping-bag",
+			"icon": "fire-extinguisher",
 			"desc": "Vacuum Cleaning"
 		}, {
-			"icon": "bitbucket",
+			"icon": "hand-rock-o",
 			"desc": "Polishing"
 		}, {
-			"icon": "clock-o",
+			"icon": "venus-double",
 			"desc": "Seat Dry-clean"
 		}, {
-			"icon": "clock-o",
+			"icon": "flask",
 			"desc": "Odor elimination and perfuming"
 		}],
-		"Package_subscription": "One Time",
+		"Package_subscription": "",
 		"Slashed_price": "3000",
 		"Package_highlights": ["Interiour", "Exterior", "Seats", "Shampooing", "Polishing"],
 		"Package_amount": "2399",
@@ -838,16 +838,16 @@
 		"Service": "Pest Control",
 		"Package": "1 BHK",
 		"Description": [{
-			"icon": "calendar",
+			"icon": "hand-paper-o",
 			"desc": "Washing"
 		}, {
-			"icon": "shopping-bag",
+			"icon": "flask",
 			"desc": "Use of eco-friendly chemicals"
 		}, {
-			"icon": "bitbucket",
+			"icon": "filter",
 			"desc": "Use of chemicals to avoid pest"
 		}],
-		"Package_subscription": "One Time",
+		"Package_subscription": "",
 		"Slashed_price": "1000",
 		"Package_highlights": ["", "", "", "", ""],
 		"Package_amount": "799",
@@ -927,16 +927,16 @@
 		"Service": "Pest Control",
 		"Package": "2 BHK",
 		"Description": [{
-			"icon": "calendar",
+			"icon": "hand-paper-o",
 			"desc": "Washing"
 		}, {
-			"icon": "shopping-bag",
+			"icon": "flask",
 			"desc": "Use of eco-friendly chemicals"
 		}, {
-			"icon": "bitbucket",
+			"icon": "filter",
 			"desc": "Use of chemicals to avoid pest"
 		}],
-		"Package_subscription": "One Time",
+		"Package_subscription": "",
 		"Slashed_price": "1500",
 		"Package_highlights": ["", "", "", "", ""],
 		"Package_amount": "999",
@@ -945,16 +945,16 @@
 		"Service": "Pest Control",
 		"Package": "3 BHK",
 		"Description": [{
-			"icon": "calendar",
+			"icon": "hand-paper-o",
 			"desc": "Washing"
 		}, {
-			"icon": "shopping-bag",
+			"icon": "flask",
 			"desc": "Use of eco-friendly chemicals"
 		}, {
-			"icon": "bitbucket",
+			"icon": "filter",
 			"desc": "Use of chemicals to avoid pest"
 		}],
-		"Package_subscription": "One Time",
+		"Package_subscription": "",
 		"Slashed_price": "1700",
 		"Package_highlights": ["", "", "", "", ""],
 		"Package_amount": "1199",
@@ -963,16 +963,16 @@
 		"Service": "Pest Control",
 		"Package": "4 BHK",
 		"Description": [{
-			"icon": "calendar",
+			"icon": "hand-paper-o",
 			"desc": "Washing"
 		}, {
-			"icon": "shopping-bag",
+			"icon": "flask",
 			"desc": "Use of eco-friendly chemicals"
 		}, {
-			"icon": "bitbucket",
+			"icon": "filter",
 			"desc": "Use of chemicals to avoid pest"
 		}],
-		"Package_subscription": "One Time",
+		"Package_subscription": "",
 		"Slashed_price": "2000",
 		"Package_highlights": ["", "", "", "", ""],
 		"Package_amount": "1399",
@@ -981,34 +981,31 @@
 		"Service": "Kitchen Cleaning",
 		"Package": "1 Kitchen",
 		"Description": [{
-			"icon": "calendar",
+			"icon": "hand-paper-o",
 			"desc": "Washing"
 		}, {
-			"icon": "shopping-bag",
+			"icon": "th",
 			"desc": "Cleaning all cabinets"
 		}, {
-			"icon": "bitbucket",
+			"icon": "spoon",
 			"desc": "Cleaning of appliances from outside"
 		}, {
-			"icon": "bitbucket",
+			"icon": "bitbucket-square",
 			"desc": "Scouring your sink"
 		}, {
-			"icon": "bitbucket",
-			"desc": "Cleaning of appliances from outside"
-		}, {
-			"icon": "bitbucket",
+			"icon": "flask",
 			"desc": "cleaning of chimney and gas"
 		}, {
-			"icon": "bitbucket",
+			"icon": "columns",
 			"desc": "cleaning of counter area"
 		}, {
-			"icon": "bitbucket",
+			"icon": "align-right",
 			"desc": "Mopping your floor and removing dirt in between tiles"
 		}, {
-			"icon": "bitbucket",
+			"icon": "paint-brush",
 			"desc": "Cleaning of lighting fixtures"
 		}],
-		"Package_subscription": "One Time",
+		"Package_subscription": "",
 		"Slashed_price": "1500",
 		"Package_highlights": ["Sink", "Floor", "Gas", "Rust", "Dirt"],
 		"Package_amount": "1199",
@@ -1088,31 +1085,31 @@
 		"Service": "Bathroom Cleaning",
 		"Package": "1 Bathroom",
 		"Description": [{
-			"icon": "calendar",
+			"icon": "hand-paper-o",
 			"desc": "Washing"
 		}, {
-			"icon": "shopping-bag",
+			"icon": "filter",
 			"desc": "Cleaning"
 		}, {
-			"icon": "bitbucket",
+			"icon": "wheelchair",
 			"desc": "disinfect toilets and tubs"
 		}, {
-			"icon": "bitbucket",
+			"icon": "columns",
 			"desc": "Clean sink/basins"
 		}, {
-			"icon": "bitbucket",
+			"icon": "th",
 			"desc": "counters"
 		}, {
-			"icon": "bitbucket",
+			"icon": "braille",
 			"desc": "Mirrors cleaned and wiped dry"
 		}, {
-			"icon": "bitbucket",
+			"icon": "hand-rock-o",
 			"desc": "Remove stains from shower mirrors"
 		}, {
-			"icon": "bitbucket",
+			"icon": "align-right",
 			"desc": "Mopping your floor and removing dirt in between tiles"
 		}],
-		"Package_subscription": "One Time",
+		"Package_subscription": "",
 		"Slashed_price": "1000",
 		"Package_highlights": ["Sink", "Floor", "Basins", "Mirrors", "Tiles"],
 		"Package_amount": "799",
@@ -1192,25 +1189,25 @@
 		"Service": "Sofa Cleaning",
 		"Package": "Fabric Sofa",
 		"Description": [{
-			"icon": "calendar",
+			"icon": "fire-extinguisher",
 			"desc": "Dust Removal"
 		}, {
-			"icon": "shopping-bag",
+			"icon": "braille  ",
 			"desc": "Shampooing"
 		}, {
-			"icon": "bitbucket",
+			"icon": "fire-extinguisher",
 			"desc": "Vacuuming"
 		}, {
-			"icon": "bitbucket",
+			"icon": "flask",
 			"desc": "Disinfecting"
 		}, {
-			"icon": "bitbucket",
+			"icon": "filter",
 			"desc": "Freshener"
 		}, {
-			"icon": "bitbucket",
+			"icon": "flask",
 			"desc": "Fabric Protector"
 		}],
-		"Package_subscription": "One Time",
+		"Package_subscription": "",
 		"Slashed_price": "300",
 		"Package_highlights": ["Dust", "Shampooing", "Vaccuming", "Disinfecting", "Fabric"],
 		"Package_amount": "250",
@@ -1290,25 +1287,25 @@
 		"Service": "Sofa Cleaning",
 		"Package": "Leather Sofa",
 		"Description": [{
-			"icon": "calendar",
+			"icon": "fire-extinguisher",
 			"desc": "Dust Removal"
 		}, {
-			"icon": "shopping-bag",
+			"icon": "braille  ",
 			"desc": "Shampooing"
 		}, {
-			"icon": "bitbucket",
+			"icon": "fire-extinguisher",
 			"desc": "Vacuuming"
 		}, {
-			"icon": "bitbucket",
+			"icon": "flask",
 			"desc": "Disinfecting"
 		}, {
-			"icon": "bitbucket",
+			"icon": "filter",
 			"desc": "Freshener"
 		}, {
-			"icon": "bitbucket",
+			"icon": "flask",
 			"desc": "Fabric Protector"
 		}],
-		"Package_subscription": "One Time",
+		"Package_subscription": "",
 		"Slashed_price": "350",
 		"Package_highlights": ["Dust", "Shampooing", "Vaccuming", "Disinfecting", "Fabric"],
 		"Package_amount": "300",
@@ -1320,19 +1317,19 @@
 			"icon": "calendar",
 			"desc": "Minimum Order Rs 500"
 		}, {
-			"icon": "shopping-bag",
+			"icon": "fire-extinguisher",
 			"desc": "Deep Vacuuming"
 		}, {
-			"icon": "bitbucket",
+			"icon": "hand-paper-o",
 			"desc": "Spot & Stain removal"
 		}, {
-			"icon": "bitbucket",
+			"icon": "braille",
 			"desc": "Hot water extraction"
 		}, {
-			"icon": "bitbucket",
+			"icon": "flask",
 			"desc": "Add Scotch Guard"
 		}, {
-			"icon": "bitbucket",
+			"icon": "filter",
 			"desc": "Fabric Protector"
 		}],
 		"Package_subscription": "/Sqr Feet",
@@ -1418,19 +1415,19 @@
 			"icon": "calendar",
 			"desc": "Minimum Order Rs 500"
 		}, {
-			"icon": "shopping-bag",
+			"icon": "fire-extinguisher",
 			"desc": "Deep Vacuuming"
 		}, {
-			"icon": "bitbucket",
+			"icon": "hand-paper-o",
 			"desc": "Spot & Stain removal"
 		}, {
-			"icon": "bitbucket",
+			"icon": "braille",
 			"desc": "Hot water extraction"
 		}, {
-			"icon": "bitbucket",
+			"icon": "flask",
 			"desc": "Add Scotch Guard"
 		}, {
-			"icon": "bitbucket",
+			"icon": "filter",
 			"desc": "Fabric Protector"
 		}],
 		"Package_subscription": "/Sqr Feet",
@@ -1442,16 +1439,16 @@
 		"Service": "Shoe Cleaning",
 		"Package": "Sports Shoes",
 		"Description": [{
-			"icon": "calendar",
-			"desc": "Delivery "
+			"icon": "paint-brush",
+			"desc": "Coloring "
 		}, {
-			"icon": "shopping-bag",
+			"icon": "flask",
 			"desc": "Sanitizing"
 		}, {
-			"icon": "bitbucket",
+			"icon": "filter",
 			"desc": "Moisturizing"
 		}, {
-			"icon": "bitbucket",
+			"icon": "clock-o",
 			"desc": "Delivery within *72 hrs"
 		}],
 		"Package_subscription": "/Shoe Pair",
@@ -1466,22 +1463,22 @@
 			"title": "Location ",
 			"imageUrl": "images/process/Location.png",
 			"infoTitle": "Location Info",
-			"infoDesc": "Delhi | Faridabad | Gurgaon | Noida | Mumbai"
+			"infoDesc": "Enter your pickup location"
 		}, {
 			"title": "Select Package ",
 			"imageUrl": "images/process/Service.png",
-			"infoTitle": "18+ Services",
-			"infoDesc": "Choose the service you are looking for. We will take care of the rest."
+			"infoTitle": "Shoe Cleaning Package",
+			"infoDesc": "Select the Shoe Cleaning according your requirement."
 		}, {
 			"title": "Order Confirmation ",
 			"imageUrl": "images/process/Order-Confirmation.png",
 			"infoTitle": "Confirmation",
-			"infoDesc": "Order confirmation may take a maximum of 30 mins."
+			"infoDesc": "You will receive a call from us confirming your pickup time."
 		}, {
 			"title": "Pickup Boy ",
 			"imageUrl": "images/process/serviceguy.png",
-			"infoTitle": "Confirmation",
-			"infoDesc": "In accordance to the scheduled time. The service personal would be visiting for pickup."
+			"infoTitle": "Pickup",
+			"infoDesc": "Our pickup boy will reach at your doorstep at scheduled time."
 		}, {
 			"title": "Service Turn Around ",
 			"imageUrl": "images/process/delivered.png",
@@ -1534,16 +1531,16 @@
 		"Service": "Shoe Cleaning",
 		"Package": "Leather Shoes",
 		"Description": [{
-			"icon": "calendar",
-			"desc": "Delivery "
+			"icon": "paint-brush",
+			"desc": "Coloring "
 		}, {
-			"icon": "shopping-bag",
+			"icon": "flask",
 			"desc": "Sanitizing"
 		}, {
-			"icon": "bitbucket",
+			"icon": "filter",
 			"desc": "Moisturizing"
 		}, {
-			"icon": "bitbucket",
+			"icon": "clock-o",
 			"desc": "Delivery within *72 hrs"
 		}],
 		"Package_subscription": "/Shoe Pair",
@@ -1555,16 +1552,16 @@
 		"Service": "Window Blinds Cleaning",
 		"Package": "Window Blinds Cleaning",
 		"Description": [{
-			"icon": "calendar",
+			"icon": "money",
 			"desc": "Minimum Order Rs 500 "
 		}, {
-			"icon": "shopping-bag",
+			"icon": "hand-paper-o",
 			"desc": "Cleaning"
 		}, {
-			"icon": "bitbucket",
+			"icon": "fire-extinguisher",
 			"desc": "Deep Vacuuming"
 		}, {
-			"icon": "bitbucket",
+			"icon": "filter",
 			"desc": "Spot & Stain removal"
 		}],
 		"Package_subscription": "/Sq Feet",
@@ -1647,16 +1644,16 @@
 		"Service": "Glass Cleaning",
 		"Package": "Glass Cleaning",
 		"Description": [{
-			"icon": "calendar",
+			"icon": "money",
 			"desc": "Prices Depends On-"
 		}, {
-			"icon": "shopping-bag",
+			"icon": "building-o",
 			"desc": "Structure Of Building"
 		}, {
-			"icon": "bitbucket",
+			"icon": "gg",
 			"desc": "Area Of The Glass"
 		}, {
-			"icon": "bitbucket",
+			"icon": "inr",
 			"desc": "Final Price On Inspection"
 		}],
 		"Package_subscription": "/Sq Feet",
@@ -1739,16 +1736,16 @@
 		"Service": "Chair Cleaning",
 		"Package": "Chair Cleaning",
 		"Description": [{
-			"icon": "calendar",
+			"icon": "money",
 			"desc": "Minimum Order Rs 500"
 		}, {
-			"icon": "shopping-bag",
+			"icon": "fire-extinguisher",
 			"desc": "Vacuuming"
 		}, {
-			"icon": "bitbucket",
+			"icon": "flask",
 			"desc": "Disinfecting"
 		}, {
-			"icon": "bitbucket",
+			"icon": "hand-paper-o",
 			"desc": "Dust Removal"
 		}],
 		"Package_subscription": "",
@@ -1832,25 +1829,25 @@
 		"Service": "Office Cleaning",
 		"Package": "Office Cleaning",
 		"Description": [{
-			"icon": "calendar",
+			"icon": "hand-paper-o",
 			"desc": "Dusting"
 		}, {
-			"icon": "shopping-bag",
+			"icon": "fire-extinguisher",
 			"desc": "Vacuuming"
 		}, {
-			"icon": "bitbucket",
+			"icon": "hand-rock-o",
 			"desc": "Scrubbing"
 		}, {
-			"icon": "bitbucket",
+			"icon": "i-cursor",
 			"desc": "Dry Cleaning"
 		},{
-			"icon": "bitbucket",
+			"icon": "flask",
 			"desc": "Disinfection"
 		},{
-			"icon": "bitbucket",
+			"icon": "building",
 			"desc": "Glass Cleaning"
 		},{
-			"icon": "bitbucket",
+			"icon": "inr",
 			"desc": "Final Price After Inspection"
 		}
 		],

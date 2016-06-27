@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html ng-app="wgApp" lang="en">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,12 +16,23 @@
     <link href="css/Testimonials.css" rel="stylesheet">
 </head>
 <style>
+    @media (min-width: 544px){
+        .modal-dialog {
+            width: 90%;
+            margin: 30px auto;
+        }
+    }
+    @media (min-width: 768px){
+        .modal-lg {
+            width: 70%;
+        }
+    }
 
     .service-grid:hover{
         background-color:rgba(255,255,255,0.5);
     }
 </style>
-<body>
+<body ng-controller="wgCtrl">
 <div class="container-fluid">
     <div class="navbar navbar-dark navbar-static-top">
         <div class="container-fluid">
@@ -143,7 +154,7 @@
 
                             </div>
                         </div>
-                        <input type="text" id="userServiceSelection" placeholder="Laundry | Home | Shoe | Other"class="form-control" aria-label="Text input with dropdown button">
+                        <input type="text" ng-model="userServiceSelection" id="userServiceSelection" placeholder="Laundry | Home | Shoe | Other"class="form-control" aria-label="Text input with dropdown button">
                     </div>
                 </div>
                 <div class=" col-md-2 col-sm-12" >
@@ -158,9 +169,105 @@
 
 </header>
 <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary btn-lg" style="display: none;" data-toggle="modal" data-target="#myModal">
-    Launch demo modal
+<button type="button" class="btn btn-primary btn-lg" style="display: block; position:absolute; top:10px; right:250px;" data-toggle="modal" data-target="#myModal">
+    Check
 </button>
+<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" id="myModal" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <progress class="progress progress-primary" style="position:relative;top:0;left:0;height: 0.25em;" value="50" max="100">50%</progress>
+            <div class="modal-body">
+                <div class="choosePackage" style="padding-left:0.5em;padding-right:0.5em;">
+
+                <div  style="" class="row">
+
+                    <a class="left btn btn-info-outline" style="background-image: none;" href="#carousel-product-generic" data-slide="prev">
+                        <span class="icon-prev "></span>
+                        <i class="fa fa-chevron-left"></i> Prev
+                    </a>
+                    <a class="right btn btn-info-outline pull-sm-right" style="background-image: none;" href="#carousel-product-generic" data-slide="next">
+                        <span class="icon-next "></span>
+                        Next <i class="fa fa-chevron-right" ></i>
+                    </a>
+                    <hr/>
+                    <div id="carousel-product-generic" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators" style="display:none;">
+                            <li data-target="#carousel-product-generic" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel-product-generic" data-slide-to="1"></li>
+                            <li data-target="#carousel-product-generic" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner" role="listbox">
+                            <div class="carousel-item active">
+                                <div class="row">
+                                    <div class="col-md-4"  ng-repeat="service in filteredResults =(serviceMeta.records  | filter:packageFilter)">
+                                        <div class="card">
+                                            <div class="card-header text-sm-center bg-warning">
+                                                <span>{{service.Package}}</span>
+                                            </div>
+                                            <div class="card-block text-sm-center" style="background-color: rgba(240, 173, 78, 0.81);">
+                                                <div class="card-title price" style="color:#ffffff;">
+                                                    <strike>{{service.Slashed_price}}</strike>
+                                                    <sup><i class="fa fa-rupee" aria-hidden="true"></i></sup>
+                                                    <span>{{service.Package_amount}}</span>
+                                                    <sub>{{service.Package_subscription}}</sub><br/>
+                                                    <small ng-repeat="high in service.Package_highlights track by $index">{{service.Package_highlights.length==$index-1? " "+high:high+" |"}}</small>
+                                                </div>
+                                            </div>
+                                            <ul class="list-group list-group-flush text-sm-center">
+                                                <li ng-repeat="desc in service.Description" class="list-group-item"><span class="text-warning"><i class="fa fa-{{desc.icon]}"></i>{{desc.desc}}</span></li>
+                                            </ul>
+                                            <div class="card-footer text-sm-center bg-warning">
+                                                <span>{{service.Package}} Package</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-md-offset-4 col-md-4">
+                                        <div class="card">
+                                            <div class="card-header text-sm-center bg-success">
+                                                <span> Premimum Package </span>
+                                            </div>
+                                            <div class="card-block text-sm-center" style="background-color: rgba(92, 184, 92, 0.81);">
+                                                <div class="card-title price" style="color:#ffffff;">
+                                                    <strike>120</strike>
+                                                    <sup><i class="fa fa-rupee" aria-hidden="true"></i></sup>
+                                                    <span>100</span>
+                                                    <sub> / Kg</sub><br/>
+                                                    <small>Sanitized | Perfumed | Laundered | Ironed</small>
+                                                </div>
+                                            </div>
+                                            <ul class="list-group list-group-flush text-sm-center">
+                                                <li class="list-group-item"><span class="text-success"><i class="fa fa-life-saver"></i><strong> One Time Pack </strong></span></li>
+                                                <li class="list-group-item"><span class="text-success"><i class="fa fa-bitbucket"></i> Minimum Pickup<strong> 4 Kgs</strong></span></li>
+                                                <li class="list-group-item"><span class="text-success"><i class="fa fa-flash"></i> Express delivery within<strong> *24 hrs</strong></span></li>
+                                                <li class="list-group-item"><span class="text-success"><i class="fa fa-shopping-bag"></i> <strong>Individual Packaging</strong></span></li>
+                                            </ul>
+                                            <div class="card-footer text-sm-center bg-success">
+                                                <span>Laundry Package</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-footer">
+                <button id="bookAction" type="button" class="btn btn-primary">Next</button>
+            </div>
+        </div>
+    </div>
+</div>
 <section class="container" style="display:none;">
 
     <div class="row">
@@ -612,5 +719,25 @@
 <script src="js/other/ie10-viewport-bug-workaround.js"></script>
 <script src="js/other/customJs/MainNavBar.js"></script>
 <script src="js/other/customJs/buyPack.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+<script>
+
+    var app = angular.module('wgApp', []);
+    app.controller('wgCtrl', function($scope, $http) {
+        $http.get("getServiceMeta")
+                .then(function(response) {
+                    $scope.serviceMeta = response.data;
+                    console.log("Through Angular:"+$scope.serviceMeta.records);
+
+                });
+        $scope.packageFilter = function (record) {
+
+            console.log($scope.userServiceSelection);
+            console.log(record.Service === $scope.userServiceSelection);
+            return record.Service === $scope.userServiceSelection;
+        };
+    });
+
+</script>
 </body>
 </html>

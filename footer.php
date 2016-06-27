@@ -17,16 +17,13 @@
         </div>
         <div class="col-md-4" >
             <ul style="list-style: none; font-family: 'TwCenMT-CondensedExtraBold'; font-size:1.4em;">
-                <li><h4>Get In Touch</h4></li>
-                <li><a href="" style="color:inherit; font-size:2em;"><i class="fa fa-facebook-official" aria-hidden="true"></i></a> <a style="color:inherit; font-size:2em;" href=""><i class="fa fa-twitter-square" aria-hidden="true"></i></a> <a style="color:inherit; font-size:2em;" href=""><i class="fa fa-instagram" aria-hidden="true"></i></a> <a style="color:inherit; font-size:2em;" href=""><i class="fa fa-google-plus-square" aria-hidden="true"></i></a></li>
+                <li><h4 style="">Stay Connected</h4></li>
+                <li><a href="https://www.facebook.com/washingguns/" style="color:inherit; font-size:2em;"><i class="fa fa-facebook-official" aria-hidden="true"></i></a> <a style="color:inherit; font-size:2em;" href="https://twitter.com/washingguns"><i class="fa fa-twitter-square" aria-hidden="true"></i></a> <a style="color:inherit; font-size:2em;" href="http://www.imgrum.net/user/washingguns/3138808535"><i class="fa fa-instagram" aria-hidden="true"></i></a> <a style="color:inherit; font-size:2em;" href="https://plus.google.com/115051384916658048148"><i class="fa fa-google-plus-square" aria-hidden="true"></i></a></li>
                 <li>Download App</li>
-                <li><img src="images/playstore.png" style="margin-left:-10px;width:140px;"/></li>
+                <li><a href="https://play.google.com/store/apps/details?id=com.washingguns.washingguns&hl=en"><img src="images/playstore.png" style="margin-left:-10px;width:140px;"/></a></li>
             </ul>
         </div>
     </div>
-
-
-
 </footer>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 <script src="js/tether.min.js"></script>

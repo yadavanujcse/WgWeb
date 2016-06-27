@@ -7,6 +7,7 @@ $(document).ready(function(){
     });
     $('.wgServices').on('click',function(){
         $('#userServiceSelection').val($(this).text().trim());
+        $('#userServiceSelection').trigger('input');
         if($('#userLocation').val()==''){
             $('#locationError').css("display","block");
         }else{
