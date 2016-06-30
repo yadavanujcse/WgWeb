@@ -26,11 +26,23 @@
         .modal-lg {
             width: 70%;
         }
+        .orderForm{
+            border-left: 1px solid rgb(244, 238, 238);
+        }
+    }
+
+    .packageItem{
+
+        padding: 5px;
+        box-shadow: 1px 1px 3px rgba(0,0,0,0.65);
     }
 
     .service-grid:hover{
         background-color:rgba(255,255,255,0.5);
     }
+    .card:hover{cursor: pointer;}
+    .card:hover .card-header ,.card:hover .card-footer, .card:hover .card-block{ background-color: #5cb85c!important;}
+    .card:hover .text-warning{ color:#5cb85c!important;}
 </style>
 <body ng-controller="wgCtrl">
 <div class="container-fluid">
@@ -81,7 +93,7 @@
         <div class="row" class"searchElements">
             <div class="col-md-12 ">
                 <div class="col-sm-12 col-md-5" style="display:block; padding-bottom: 5px;">
-                    <small id="locationError" class="text-danger" style="display:none; padding-left:10px; padding-right:10px; border-radius:4px; background-color: #ffffff; opacity:0.95; position:absolute; z-index: 2; top:-21px;">Please select location</small>
+                    <small id="locationError" ng-model="locationError" ng-show="locationErrorFlag" class="text-danger" style="padding-left:10px; padding-right:10px; border-radius:4px; background-color: #ffffff; opacity:0.95; position:absolute; z-index: 2; top:-21px;">Please select location</small>
                     <div class="input-group">
                         <div class="input-group-btn">
                             <button type="button" class="btn btn-secondary dropdown-toggle bg-primary" id="selectUserLocation" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -93,18 +105,18 @@
                                 <div class="dropdown-item linkLocation">Faridabad <span class="label label-danger" style="float:right;">New</span></div>
                                 <div class="dropdown-item linkLocation">Gurgaon <span class="label label-danger" style="float:right;">New</span></div>
                                 <div class="dropdown-item linkLocation">Noida </div>
-                                <div role="separator" class="dropdown-divider"></div>
+<!--                            <div role="separator" class="dropdown-divider"></div>
                                 <div class="dropdown-item linkLocation">Banglore <span class="label label-danger" style="float:right;">New</span></div>
                                 <div class="dropdown-item linkLocation">Hyderabad <span class="label label-danger" style="float:right;">New</span></div>
                                 <div class="dropdown-item linkLocation">Mumbai <span class="label label-danger" style="float:right;">New</span></div>
-                                <div class="dropdown-item linkLocation">Pune <span class="label label-danger" style="float:right;">New</span></div>
+                                <div class="dropdown-item linkLocation">Pune <span class="label label-danger" style="float:right;">New</span></div>-->
                             </div>
                         </div>
-                        <input type="text" class="form-control " id="userLocation"  placeholder="Delhi | Gurgaon | Noida | Mumbai" aria-label="Text input with dropdown button">
+                        <input type="text" class="form-control " id="userLocation" ng-model="userLocation"  placeholder="Delhi | Gurgaon | Noida | Mumbai" aria-label="Text input with dropdown button">
                     </div>
                 </div>
                 <div class="col-md-5 col-sm-12" style="display:block; padding-bottom: 5px;">
-                    <small id="serviceError" class="text-danger" style="display:none; padding-left:10px; padding-right:10px; border-radius:4px; background-color: #ffffff; opacity:0.95; position:absolute; z-index: 2; top:-21px;">Please select service</small>
+                    <small id="serviceError" ng-model="serviceError" ng-show="serviceErrorFlag" class="display:none; text-danger" style="padding-left:10px; padding-right:10px; border-radius:4px; background-color: #ffffff; opacity:0.95; position:absolute; z-index: 2; top:-21px;">Please select service</small>
                     <div class="input-group">
                         <div class="input-group-btn">
                             <button type="button" id="initiator" class="btn btn-secondary dropdown-toggle bg-primary" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -148,20 +160,15 @@
                                         <li class="dropdown-item wgServices">Rodent Control</li>
                                         <li class="dropdown-item wgServices">Termite Control</li>
                                         <li class="dropdown-divider"></li>
-
                                     </ul>
                                 </li>
-
                             </div>
                         </div>
                         <input type="text" ng-model="userServiceSelection" id="userServiceSelection" placeholder="Laundry | Home | Shoe | Other"class="form-control" aria-label="Text input with dropdown button">
                     </div>
                 </div>
                 <div class=" col-md-2 col-sm-12" >
-
-                    <button type="button" id="BookNow"  class="btn btn-success center-block" style="width:100%;">Book Now <i class="fa fa-chevron-right" ></i></button>
-
-
+                    <button type="button" id="BookNow"  ng-click="bookNow()" class="btn btn-success center-block" style="width:100%;">Book Now <i class="fa fa-chevron-right" ></i></button>
                 </div>
             </div>
         </div>
@@ -169,240 +176,148 @@
 
 </header>
 <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary btn-lg" style="display: block; position:absolute; top:10px; right:250px;" data-toggle="modal" data-target="#myModal">
-    Check
-</button>
-<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" id="myModal" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+
+<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" id="wgBookingModal" aria-labelledby="myLargeModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg">
         <div class="modal-content">
-            <progress class="progress progress-primary" style="position:relative;top:0;left:0;height: 0.25em;" value="50" max="100">50%</progress>
+            <progress class="progress progress-primary" id="bookingProgress" style="position:relative;top:0;left:0;height: 0.25em;" value="0" max="100">50%</progress>
+
+            <div class="modal-header">
+                <div>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-title text-sm-center">
+                    <h1 style="font-family: TwCenMT-CondensedExtraBold" ng-bind="modalTitle"></h1>
+                </div>
+
+            </div>
             <div class="modal-body">
-                <div class="choosePackage" style="padding-left:0.5em;padding-right:0.5em;">
 
-                <div  style="" class="row">
-
-                    <a class="left btn btn-info-outline" style="background-image: none;" href="#carousel-product-generic" data-slide="prev">
-                        <span class="icon-prev "></span>
-                        <i class="fa fa-chevron-left"></i> Prev
-                    </a>
-                    <a class="right btn btn-info-outline pull-sm-right" style="background-image: none;" href="#carousel-product-generic" data-slide="next">
-                        <span class="icon-next "></span>
-                        Next <i class="fa fa-chevron-right" ></i>
-                    </a>
-                    <hr/>
-                    <div id="carousel-product-generic" class="carousel slide" data-ride="carousel">
-                        <ol class="carousel-indicators" style="display:none;">
-                            <li data-target="#carousel-product-generic" data-slide-to="0" class="active"></li>
-                            <li data-target="#carousel-product-generic" data-slide-to="1"></li>
-                            <li data-target="#carousel-product-generic" data-slide-to="2"></li>
-                        </ol>
-                        <div class="carousel-inner" role="listbox">
-                            <div class="carousel-item active">
-                                <div class="row">
-                                    <div class="col-md-4"  ng-repeat="service in filteredResults =(serviceMeta.records  | filter:packageFilter)">
-                                        <div class="card">
-                                            <div class="card-header text-sm-center bg-warning">
-                                                <span>{{service.Package}}</span>
-                                            </div>
-                                            <div class="card-block text-sm-center" style="background-color: rgba(240, 173, 78, 0.81);">
-                                                <div class="card-title price" style="color:#ffffff;">
-                                                    <strike>{{service.Slashed_price}}</strike>
-                                                    <sup><i class="fa fa-rupee" aria-hidden="true"></i></sup>
-                                                    <span>{{service.Package_amount}}</span>
-                                                    <sub>{{service.Package_subscription}}</sub><br/>
-                                                    <small ng-repeat="high in service.Package_highlights track by $index">{{service.Package_highlights.length==$index-1? " "+high:high+" |"}}</small>
+                <div class="choosePackage" ng-show="flagChoosePackage" style="padding-left:0.5em;padding-right:0.5em;">
+                    <div  style="" class="row">
+                        <a class="left btn btn-info-outline" ng-show="selectPackageChunkMultipleArray.length>1" style="background-image: none;" href="#carousel-product-generic" data-slide="prev">
+                            <span class="icon-prev "></span>
+                            <i class="fa fa-chevron-left"></i> Prev
+                        </a>
+                        <a class="right btn btn-info-outline pull-sm-right" ng-show="selectPackageChunkMultipleArray.length>1" style="background-image: none;" href="#carousel-product-generic" data-slide="next">
+                            <span class="icon-next "></span>
+                            Next <i class="fa fa-chevron-right" ></i>
+                        </a>
+                        <hr ng-show="selectPackageChunkMultipleArray.length>1"/>
+                        <div id="carousel-product-generic" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators" style="display:none;">
+                                <li data-target="#carousel-product-generic" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel-product-generic" data-slide-to="1"></li>
+                                <li data-target="#carousel-product-generic" data-slide-to="2"></li>
+                            </ol>
+                            <div class="carousel-inner" role="listbox">
+                                <div class="carousel-item" ng-repeat="array in selectPackageChunkMultipleArray track by $index" ng-class="{active: $index==0}">
+                                    <div class="row">
+                                        <div class="col-md-4"  ng-repeat="service in array">
+                                            <div class="card" ng-click="userPackageSelection(service)">
+                                                <div class="card-header text-sm-center bg-warning">
+                                                    <span>{{service.Package}}</span>
                                                 </div>
-                                            </div>
-                                            <ul class="list-group list-group-flush text-sm-center">
-                                                <li ng-repeat="desc in service.Description" class="list-group-item"><span class="text-warning"><i class="fa fa-{{desc.icon]}"></i>{{desc.desc}}</span></li>
-                                            </ul>
-                                            <div class="card-footer text-sm-center bg-warning">
-                                                <span>{{service.Package}} Package</span>
+                                                <div class="card-block text-sm-center" style="background-color: rgba(240, 173, 78, 0.81);">
+                                                    <div class="card-title price" style="color:#ffffff;">
+                                                        <strike>{{service.Slashed_price}}</strike>
+                                                        <sup><i class="fa fa-rupee" aria-hidden="true"></i></sup>
+                                                        <span>{{service.Package_amount}}</span>
+                                                        <sub>{{service.Package_subscription}}</sub><br/>
+                                                        <small ng-repeat="high in service.Package_highlights track by $index">{{service.Package_highlights.length==$index+1? " "+high:high+" | "}}</small>
+                                                    </div>
+                                                </div>
+                                                <ul class="list-group list-group-flush text-sm-center">
+                                                    <li ng-repeat="desc in service.Description" class="list-group-item"><span class="text-warning"><i class="fa fa-{{desc.icon]}"></i>{{desc.desc}}</span></li>
+                                                </ul>
+                                                <div class="card-footer text-sm-center bg-warning">
+                                                    <span>{{service.Package}} Package</span>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="carousel-item">
-                                <div class="row">
-                                    <div class="col-md-offset-4 col-md-4">
-                                        <div class="card">
-                                            <div class="card-header text-sm-center bg-success">
-                                                <span> Premimum Package </span>
-                                            </div>
-                                            <div class="card-block text-sm-center" style="background-color: rgba(92, 184, 92, 0.81);">
-                                                <div class="card-title price" style="color:#ffffff;">
-                                                    <strike>120</strike>
-                                                    <sup><i class="fa fa-rupee" aria-hidden="true"></i></sup>
-                                                    <span>100</span>
-                                                    <sub> / Kg</sub><br/>
-                                                    <small>Sanitized | Perfumed | Laundered | Ironed</small>
-                                                </div>
-                                            </div>
-                                            <ul class="list-group list-group-flush text-sm-center">
-                                                <li class="list-group-item"><span class="text-success"><i class="fa fa-life-saver"></i><strong> One Time Pack </strong></span></li>
-                                                <li class="list-group-item"><span class="text-success"><i class="fa fa-bitbucket"></i> Minimum Pickup<strong> 4 Kgs</strong></span></li>
-                                                <li class="list-group-item"><span class="text-success"><i class="fa fa-flash"></i> Express delivery within<strong> *24 hrs</strong></span></li>
-                                                <li class="list-group-item"><span class="text-success"><i class="fa fa-shopping-bag"></i> <strong>Individual Packaging</strong></span></li>
-                                            </ul>
-                                            <div class="card-footer text-sm-center bg-success">
-                                                <span>Laundry Package</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
                         </div>
-
                     </div>
                 </div>
+                <div class="addressForm" ng-show="flagEnterAddress">
+                    <form>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="packageItem">
+                                    <div class="packageHeader">
+                                        <div class="row">
+                                            <div class="col-md-3">
+                                                <img src="{{finalUserPackageSelection.mainIcon}}" class="img-circle"/>
+                                            </div>
+                                            <div class="col-md-5">
+                                                <small><strong>Service</strong></small>
+                                                <h6 ng-bind="finalUserPackageSelection.Service"></h6>
+
+                                                <small><strong>Package</strong></small>
+                                                <h6 ng-bind="finalUserPackageSelection.Package"></h6>
+
+                                            </div>
+                                            <div class="col-md-4 text-sm-right">
+                                                <h4><sup><i class="fa fa-rupee" aria-hidden="true"></i></sup>{{finalUserPackageSelection.Package_amount}}<small class="text-muted"><sub ng-bind="finalUserPackageSelection.Package_subscription"></sub></small></h4>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 orderForm">
+                                <small class="text-warning" style="float:right;">* Fields are mandatory</small>
+                                <fieldset class="form-group" style="clear:both;">
+                                    <label for="userName">Name*</label>
+                                    <input type="text" class="form-control" ng-pattern="\\d+" id="inputUserName" placeholder="Name">
+                                    <small class="text-danger" ng-modal="errName"></small>
+                                </fieldset>
+                                <fieldset class="form-group">
+                                    <label for="lbMobileNo">Mobile No.*</label>
+                                    <div class="input-group">
+                                        <span class="input-group-addon">+91</span>
+                                        <input type="text" pattern="\d*" maxlength="10" class="form-control">
+                                    </div>
+                                    <small class="text-danger" ng-modal="errMobile"></small>
+                                </fieldset>
+                                <fieldset class="form-group">
+                                    <label for="address">Address*</label>
+                                    <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+                                    <small class="text-danger" ng-modal="errAddress"></small>
+                                </fieldset>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <fieldset class="form-group">
+                                            <label for="landmark">Landmark*</label>
+                                            <input type="text" class="form-control" id="inputUserLandmark" placeholder="">
+                                            <small class="text-danger"  ng-modal="errLandmark"></small>
+                                        </fieldset>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <fieldset class="form-group">
+                                            <label for="userName">Pincode</label>
+                                            <input type="text" class="form-control" id="inputUserPincode" placeholder="">
+                                        </fieldset>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </form>
                 </div>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
             </div>
             <div class="modal-footer">
-                <button id="bookAction" type="button" class="btn btn-primary">Next</button>
+                <button id="bookAction" ng-modal="changePackage" ng-click="handleBookActionClick(1)" type="button" ng-show="flagEnterAddress"   class="btn btn-secondary">Change Package</button>
+                <button id="bookAction" ng-modal="bookAction" ng-click="handleBookActionClick(0)" type="button" ng-show="flagEnterAddress" class="btn btn-primary">Place Order</button>
             </div>
         </div>
     </div>
 </div>
-<section class="container" style="display:none;">
 
-    <div class="row">
-
-        <a class="left btn btn-info-outline" style="background-image: none;" href="#carousel-product-generic" data-slide="prev">
-            <span class="icon-prev "></span>
-            <i class="fa fa-chevron-left"></i> Prev
-        </a>
-        <a class="right btn btn-info-outline pull-sm-right" style="background-image: none;" href="#carousel-product-generic" data-slide="next">
-            <span class="icon-next "></span>
-            Next <i class="fa fa-chevron-right" ></i>
-        </a>
-        <hr/>
-        <div id="carousel-product-generic" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators" style="display:none;">
-                <li data-target="#carousel-product-generic" data-slide-to="0" class="active"></li>
-                <li data-target="#carousel-product-generic" data-slide-to="1"></li>
-                <li data-target="#carousel-product-generic" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner" role="listbox">
-                <div class="carousel-item active">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <div class="card">
-                                <div class="card-header text-sm-center bg-warning">
-                                    <span> Gold Class </span>
-                                </div>
-                                <div class="card-block text-sm-center" style="background-color: rgba(240, 173, 78, 0.81);">
-                                    <div class="card-title price" style="color:#ffffff;">
-                                        <strike>1199</strike>
-                                        <sup><i class="fa fa-rupee" aria-hidden="true"></i></sup>
-                                        <span>899</span>
-                                        <sub> / month</sub><br/>
-                                        <small>Sanitized | Perfumed | Laundered | Ironed</small>
-                                    </div>
-                                </div>
-                                <ul class="list-group list-group-flush text-sm-center">
-                                    <li class="list-group-item"><span class="text-warning"><i class="fa fa-calendar"></i> Valid upto <strong>30 Days</strong></span></li>
-                                    <li class="list-group-item"><span class="text-warning"><i class="fa fa-shopping-bag"></i> Total Laundry basket <strong>20 Kgs</strong></span></li>
-                                    <li class="list-group-item"><span class="text-warning"><i class="fa fa-bitbucket"></i> Minimum pickup weight <strong>4 Kgs</strong></span></li>
-                                    <li class="list-group-item"><span class="text-warning"><i class="fa fa-clock-o"></i> Delivery within <strong>*48 hrs</strong></span></li>
-                                </ul>
-                                <div class="card-footer text-sm-center bg-warning">
-                                    <span>Laundry Package</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="card">
-                                <div class="card-header text-sm-center bg-primary">
-                                    <span> Silver Class </span>
-                                </div>
-                                <div class="card-block text-sm-center" style="background-color: rgba(2, 117, 216, 0.81);">
-                                    <div class="card-title price" style="color:#ffffff;">
-                                        <strike>899</strike>
-                                        <sup><i class="fa fa-rupee" aria-hidden="true"></i></sup>
-                                        <span>499</span>
-                                        <sub> / month</sub><br/>
-                                        <small>Perfumed | Laundered | Ironed</small>
-                                    </div>
-                                </div>
-                                <ul class="list-group list-group-flush text-sm-center">
-                                    <li class="list-group-item"><span class="text-primary"><i class="fa fa-calendar"></i> Valid upto <strong>30 Days</strong></span></li>
-                                    <li class="list-group-item"><span class="text-primary"><i class="fa fa-shopping-bag"></i> Total Laundry basket <strong>10 Kgs</strong></span></li>
-                                    <li class="list-group-item"><span class="text-primary"><i class="fa fa-bitbucket"></i> Minimum pickup weight <strong>4 Kgs</strong></span></li>
-                                    <li class="list-group-item"><span class="text-primary"><i class="fa fa-clock-o"></i> Delivery within <strong>*48 hrs</strong></span></li>
-                                </ul>
-                                <div class="card-footer text-sm-center bg-primary">
-                                    <span>Laundry Package</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="card">
-                                <div class="card-header text-sm-center bg-danger">
-                                    <span> One Time ( Trial Pack ) </span>
-                                </div>
-                                <div class="card-block text-sm-center" style="background-color: rgba(217, 83, 79, 0.81);">
-                                    <div class="card-title price" style="color:#ffffff;">
-                                        <strike>349</strike>
-                                        <sup><i class="fa fa-rupee" aria-hidden="true"></i></sup>
-                                        <span>249</span>
-                                        <sub> </sub><br/>
-                                        <small>Sanitized | Perfumed | Laundered | Ironed</small>
-                                    </div>
-                                </div>
-                                <ul class="list-group list-group-flush text-sm-center">
-                                    <li class="list-group-item"><span class="text-danger"><i class="fa fa-warning"></i> <strong>In 1 Go</strong></span></li>
-                                    <li class="list-group-item"><span class="text-danger"><i class="fa fa-shopping-bag"></i> Total Laundry basket <strong>4 Kgs</strong></span></li>
-                                    <li class="list-group-item"><span class="text-danger"><i class="fa fa-bitbucket"></i> <strong>Single Pickup 4 Kgs</strong></span></li>
-                                    <li class="list-group-item"><span class="text-danger"><i class="fa fa-clock-o"></i> Delivery within <strong>*48 hrs</strong></span></li>
-                                </ul>
-                                <div class="card-footer text-sm-center bg-danger">
-                                    <span>Laundry Package</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="row">
-                        <div class="col-md-offset-4 col-md-4">
-                            <div class="card">
-                                <div class="card-header text-sm-center bg-success">
-                                    <span> Premimum Package </span>
-                                </div>
-                                <div class="card-block text-sm-center" style="background-color: rgba(92, 184, 92, 0.81);">
-                                    <div class="card-title price" style="color:#ffffff;">
-                                        <strike>120</strike>
-                                        <sup><i class="fa fa-rupee" aria-hidden="true"></i></sup>
-                                        <span>100</span>
-                                        <sub> / Kg</sub><br/>
-                                        <small>Sanitized | Perfumed | Laundered | Ironed</small>
-                                    </div>
-                                </div>
-                                <ul class="list-group list-group-flush text-sm-center">
-                                    <li class="list-group-item"><span class="text-success"><i class="fa fa-life-saver"></i><strong> One Time Pack </strong></span></li>
-                                    <li class="list-group-item"><span class="text-success"><i class="fa fa-bitbucket"></i> Minimum Pickup<strong> 4 Kgs</strong></span></li>
-                                    <li class="list-group-item"><span class="text-success"><i class="fa fa-flash"></i> Express delivery within<strong> *24 hrs</strong></span></li>
-                                    <li class="list-group-item"><span class="text-success"><i class="fa fa-shopping-bag"></i> <strong>Individual Packaging</strong></span></li>
-                                </ul>
-                                <div class="card-footer text-sm-center bg-success">
-                                    <span>Laundry Package</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
-        </div>
-    </div>
-
-</section>
 <section class="howDoesItWork container" style="padding-bottom:3em;">
     <div class="row text-sm-center" style="padding-top:30px;">
         <h1 style="font-family: 'TwCenMT-CondensedExtraBold';">HOW DOES IT WORK ?</h1>
@@ -410,7 +325,7 @@
 
         <div class="col-md-3">
             <img src="images/process/Location.png" style="padding-bottom:1em; width:40%;"/><br/>
-            <span style="font-family: 'TwCenMT-CondensedExtraBold';font-size: 1.5em;">Location <small><span  class="infoPopOver" data-toggle="popover" title="Location Info" data-content="Delhi | Faridabad | Gurgaon | Noida | Mumbai"><i style="color:gainsboro;"class="fa fa-info-circle" aria-hidden="true"></i></span></small>
+            <span style="font-family: 'TwCenMT-CondensedExtraBold';font-size: 1.5em;">Location <small><span class="infoPopOver" data-toggle="popover" title="Location Info" data-content="Delhi | Faridabad | Gurgaon | Noida"><i style="color:gainsboro;"class="fa fa-info-circle" aria-hidden="true"></i></span></small>
         </div>
         <div class="col-md-3">
             <img src="images/process/Service.png" style="padding-bottom:1em; width:40%;"/><br/>
@@ -708,10 +623,8 @@
         <div class="col-md-3 text-sm-center">
             <button type="button" id="step4"  class="btn btn-warning" style="border-radius: 50%; height:70px; font-size:2em; width:70px; outline: none;"><i class="fa fa-check"></i> </button>
         </div>
-
     </div>
 </section>
-
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 <script src="js/tether.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
@@ -721,23 +634,76 @@
 <script src="js/other/customJs/buyPack.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
 <script>
-
     var app = angular.module('wgApp', []);
-    app.controller('wgCtrl', function($scope, $http) {
+    app.controller('wgCtrl', function($scope, $http, $filter) {
+        $scope.servicePackage = [];
+        $scope.serviceErrorFlag = false;
+        $scope.locationErrorFlag = false;
+        $scope.flagChoosePackage = false;
+        $scope.flagEnterAddress = false;
+        $scope.flagConfirmOrder = false;
+        $scope.finalUserPackageSelection;
+        $scope.modalTitle = "Click a package to select";
         $http.get("getServiceMeta")
                 .then(function(response) {
                     $scope.serviceMeta = response.data;
-                    console.log("Through Angular:"+$scope.serviceMeta.records);
 
                 });
         $scope.packageFilter = function (record) {
-
-            console.log($scope.userServiceSelection);
-            console.log(record.Service === $scope.userServiceSelection);
+            console.log($scope.userServiceSelection+" :"+record.Service === $scope.userServiceSelection);
             return record.Service === $scope.userServiceSelection;
         };
-    });
+        $scope.selectPackageFilter = function () {
+            $scope.servicePackage = [];
+            for(var i=0;i<$scope.serviceMeta.records.length;i++){
+                if($scope.serviceMeta.records[i].Service===$scope.userServiceSelection){
+                    console.log("Filtered:"+$scope.serviceMeta.records[i].Service);
+                    $scope.servicePackage.push($scope.serviceMeta.records[i]);
+                }
+            }
+            return true;
+        };
 
+        $scope.bookNow = function(){
+            if(!$('#userServiceSelection').val()){
+                $scope.serviceErrorFlag = true;
+            }
+            if(!$('#userLocation').val()){
+                $scope.locationErrorFlag = true;
+            }
+            if(!$scope.serviceErrorFlag && !$scope.locationErrorFlag){
+                $scope.selectPackageFilter();
+                $scope.selectPackageChunkMultipleArray = [];
+                var i,j,temparray,chunk = 3;
+                for (i=0,j=$scope.servicePackage.length; i<j; i+=chunk) {
+                    temparray = $scope.servicePackage.slice(i,i+chunk);
+                    $scope.selectPackageChunkMultipleArray.push(temparray);
+                }
+                $scope.flagChoosePackage = true;
+                $('#wgBookingModal').modal('show');
+
+            }
+        }
+        $scope.userPackageSelection = function(service){
+            $scope.finalUserPackageSelection="";
+            $scope.finalUserPackageSelection=service;
+            alert($scope.finalUserPackageSelection.Package);
+            $("#bookingProgress").attr('value',50);
+            $scope.flagChoosePackage = false;
+            $scope.modalTitle = "Confirm Order";
+            $scope.flagEnterAddress = true;
+        }
+        $scope.handleBookActionClick = function(pos){
+            if(pos==0){
+                //submit form;
+            }else{
+                $scope.flagEnterAddress = false;
+                $("#bookingProgress").attr('value',50);
+                $scope.flagChoosePackage = true;
+
+            }
+        }
+    });
 </script>
 </body>
 </html>

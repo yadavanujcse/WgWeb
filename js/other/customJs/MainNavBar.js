@@ -17,21 +17,6 @@ $(document).ready(function(){
             $('#serviceError').css("display","none");
         }
     });
-
-    $('#BookNow').on('click', function () {
-        if($('#userLocation').val()==''){
-            $('#locationError').css("display","block");
-        }else{
-            $('#locationError').css("display","none");
-        }
-        if($('#userServiceSelection').val()==''){
-            $('#serviceError').css("display","block");
-        }else{
-            $('#serviceError').css("display","none");
-        }
-
-    });
-
     $('.infoPopOver').popover({trigger: "hover", placement: "bottom"});  // hover
 });
 

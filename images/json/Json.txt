@@ -20,6 +20,7 @@
 		"Package_highlights": ["Wash", "Sanitized", "Perfumed", "Laundered", "Ironed"],
 		"Package_amount": "250",
 		"recordEnd": "true",
+		"mainIcon":"images/services/Laundry.png",
 		"sliderImage1": "images/mainSlider/laundry-service.jpg",
 		"sliderImage2": "images/mainSlider/online-laundry-service.jpg",
 		"sliderImage3": "images/mainSlider/laundry.jpg",
@@ -107,6 +108,7 @@
 			"icon": "clock-o",
 			"desc": "Delivery within *48 hrs"
 		}],
+		"mainIcon":"images/services/Laundry.png",
 		"Package_subscription": "/month",
 		"Slashed_price": "699",
 		"Package_highlights": ["Wash", "Sanitized", "Perfumed", "Laundered", "Ironed"],
@@ -130,6 +132,8 @@
 		}],
 		"Package_subscription": "/month",
 		"Slashed_price": "1200",
+		"mainIcon":"images/services/Laundry.png",
+		"mainIcon":"images/services/Laundry.png",
 		"Package_highlights": ["Wash", "Sanitized", "Perfumed", "Laundered", "Ironed"],
 		"Package_amount": "899",
 		"recordEnd": "true"
@@ -157,6 +161,7 @@
 	}, {
 		"Service": "Dry-clean",
 		"Package": "Light wear",
+		"mainIcon":"images/services/DryClean.png",
 		"Description": [{
 			"icon": "money",
 			"desc": "Minimum pickup is of 300 Rs"
@@ -249,6 +254,7 @@
 	}, {
 		"Service": "Dry-clean",
 		"Package": "Medium Wear",
+		
 		"Description": [{
 			"icon": "money",
 			"desc": "Minimum pickup is of 300 Rs"
@@ -283,6 +289,7 @@
 			"icon": "clock-o",
 			"desc": "Delivery within *72 hrs"
 		}],
+		"mainIcon":"images/services/DryClean.png",
 		"Package_subscription": "",
 		"Slashed_price": "250",
 		"Package_highlights": ["Blanket-Single", "Jackets", "Coat", "Sari", "Blazer/Coat"],
@@ -304,6 +311,7 @@
 			"icon": "clock-o",
 			"desc": "Delivery within *72 hrs"
 		}],
+		"mainIcon":"images/services/DryClean.png",
 		"Package_subscription": "",
 		"Slashed_price": "300",
 		"Package_highlights": ["Suits-2Piece", "Quilt-Single", "Leather Jacket", "Shawl-Heavy", "Zari Sari"],
@@ -326,6 +334,7 @@
 			"desc": "Delivery within *72 hrs"
 		}],
 		"Package_subscription": "",
+		"mainIcon":"images/services/DryClean.png",
 		"Slashed_price": "350",
 		"Package_highlights": ["Embroided Saree", "Embroided Suits", "Embroided Sherwani", "Suits(3 Piece)", "Double Blanket"],
 		"Package_amount": "300",
@@ -346,6 +355,7 @@
 			"icon": "clock-o",
 			"desc": "Delivery within *48 hrs"
 		}],
+		"mainIcon":"images/services/Laundry.png",
 		"Package_subscription": "30 Days",
 		"Slashed_price": "4000",
 		"Package_highlights": ["Wash", "Sanitized", "Perfumed", "Laundered", "Fold"],
@@ -441,6 +451,7 @@
 		"Package_subscription": "45 Days",
 		"Slashed_price": "7500",
 		"Package_highlights": ["Wash", "Sanitized", "Perfumed", "Laundered", "Fold"],
+		"mainIcon":"images/services/Laundry.png",
 		"Package_amount": "6800",
 		"recordEnd": "true"
 	}, {
@@ -459,7 +470,9 @@
 			"icon": "clock-o",
 			"desc": "Delivery within *48 hrs"
 		}],
+		"mainIcon":"images/services/Laundry.png",
 		"Package_subscription": "60 Days",
+		"mainIcon":"images/services/Laundry.png",
 		"Slashed_price": "18000",
 		"Package_highlights": ["Wash", "Sanitized", "Perfumed", "Laundered", "Fold"],
 		"Package_amount": "16500",
@@ -492,8 +505,10 @@
 			"icon": "server",
 			"desc": "Carpet Cleaning"
 		}],
+		"mainIcon":"images/services/DryClean.png",
 		"Package_subscription": "",
 		"Slashed_price": "4000",
+		"mainIcon":"images/services/HomeCleaning.png",
 		"Package_highlights": ["Room", "Hall", "Kitchen", "Bathroom", "Furniture"],
 		"Package_amount": "3499",
 		"recordEnd": "true",
@@ -599,6 +614,7 @@
 		"Package_subscription": "",
 		"Slashed_price": "5000",
 		"Package_highlights": ["Room", "Hall", "Kitchen", "Bathroom", "Furniture"],
+		"mainIcon":"images/services/HomeCleaning.png",
 		"Package_amount": "4499",
 		"recordEnd": "true"
 	}, {
@@ -664,12 +680,14 @@
 		}],
 		"Package_subscription": "",
 		"Slashed_price": "7000",
+		"mainIcon":"images/services/HomeCleaning.png",
 		"Package_highlights": ["Room", "Hall", "Kitchen", "Bathroom", "Furniture"],
 		"Package_amount": "6499",
 		"recordEnd": "true"
 	}, {
 		"Service": "Car Cleaning",
 		"Package": "Small/Hatchback",
+		"mainIcon":"images/services/CarCleaning.png",
 		"Description": [{
 			"icon": "hand-paper-o",
 			"desc": "Washing"
@@ -980,6 +998,7 @@
 	}, {
 		"Service": "Kitchen Cleaning",
 		"Package": "1 Kitchen",
+		"mainIcon":"images/services/Kitchen.png",
 		"Description": [{
 			"icon": "hand-paper-o",
 			"desc": "Washing"
@@ -1084,6 +1103,7 @@
 	}, {
 		"Service": "Bathroom Cleaning",
 		"Package": "1 Bathroom",
+		"mainIcon":"images/services/Bathroom.png",
 		"Description": [{
 			"icon": "hand-paper-o",
 			"desc": "Washing"
@@ -1208,6 +1228,7 @@
 			"desc": "Fabric Protector"
 		}],
 		"Package_subscription": "",
+		"mainIcon":"images/services/wgsofaclean.png",
 		"Slashed_price": "300",
 		"Package_highlights": ["Dust", "Shampooing", "Vaccuming", "Disinfecting", "Fabric"],
 		"Package_amount": "250",
@@ -1307,6 +1328,7 @@
 		}],
 		"Package_subscription": "",
 		"Slashed_price": "350",
+		"mainIcon":"images/services/wgsofaclean.png",
 		"Package_highlights": ["Dust", "Shampooing", "Vaccuming", "Disinfecting", "Fabric"],
 		"Package_amount": "300",
 		"recordEnd": "true"
@@ -1432,6 +1454,7 @@
 		}],
 		"Package_subscription": "/Sqr Feet",
 		"Slashed_price": "6",
+		"mainIcon":"images/services/CarpetCleaning.png",
 		"Package_highlights": ["Dust", "Shampooing", "Vaccuming", "Disinfecting", "Fabric"],
 		"Package_amount": "5",
 		"recordEnd": "true"
@@ -1451,6 +1474,7 @@
 			"icon": "clock-o",
 			"desc": "Delivery within *72 hrs"
 		}],
+		"mainIcon":"images/services/ShoeCleaning.png",
 		"Package_subscription": "/Shoe Pair",
 		"Slashed_price": "300",
 		"Package_highlights": ["Polishing", "Coloring", "Vaccuming", "Disinfecting", "Fabric"],
@@ -1545,6 +1569,7 @@
 		}],
 		"Package_subscription": "/Shoe Pair",
 		"Slashed_price": "500",
+		"mainIcon":"images/services/ShoeCleaning.png",
 		"Package_highlights": ["Polishing", "Coloring", "Cleaning", "Moisturizing", "Fabric"],
 		"Package_amount": "400",
 		"recordEnd": "true"
@@ -1658,6 +1683,7 @@
 		}],
 		"Package_subscription": "/Sq Feet",
 		"Slashed_price": "12",
+		"mainIcon":"images/services/WindowCleaning.png",
 		"Package_highlights": ["Spot", "Strains", "Cleaning", "Dusting", "Vacuuming"],
 		"Package_amount": "3-10",
 		"recordEnd": "true",
@@ -1748,6 +1774,7 @@
 			"icon": "hand-paper-o",
 			"desc": "Dust Removal"
 		}],
+		"mainIcon":"images/services/ChairCleaning.png",
 		"Package_subscription": "",
 		"Slashed_price": "120",
 		"Package_highlights": ["Spot", "Freshener", "Cleaning", "Dusting", "Vacuuming"],
@@ -1853,6 +1880,7 @@
 		],
 		"Package_subscription": "/Sqr Feet",
 		"Slashed_price": "6",
+		"mainIcon":"images/services/Office-Cleaning.png",
 		"Package_highlights": ["Spot", "Freshener", "Cleaning", "Dusting", "Vacuuming"],
 		"Package_amount": "3-5",
 		"recordEnd": "true",
