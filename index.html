@@ -7,7 +7,15 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" href="images/favicon.ico">
-    <title>Washingguns</title>
+
+    <title>Washingguns || Ondemand Services &amp;Online Laundry &amp; Dry Cleaning Services(Delhi-NCR) </title>
+    <meta name="description" content="Washingguns Provides Online Laundry & Dry Cleaning Services for Homes, individuals & Commercial Offices in  Delhi, Noida & Gurgaon (Delhi-NCR). We have also started Car Cleaning Services in Bangalore, Chennai &amp; Mumbai. Schedule your free Pickup through Tollfree 1800 833 2020" />
+    <meta name="keywords" content="Laundry service in Delhi, Laundry Service in Noida, Laundry Service in Gurgaon, Online Laundry" />
+    <meta name="googlebot" content="noodp" />
+    <meta name="robots" content="index, follow" />
+    <meta name="author" content="WashingGuns Technologies Pvt. Ltd." />
+    <link rel="canonical" href="http://www.washingguns.com" />
+
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/customcss/navbar.css" rel="stylesheet">
     <link href="css/customcss/mainSlider.css" rel="stylesheet">
@@ -16,6 +24,13 @@
     <link href="css/Testimonials.css" rel="stylesheet">
 </head>
 <style>
+    input[type=number]::-webkit-inner-spin-button,
+    input[type=number]::-webkit-outer-spin-button {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        margin: 0;
+    }
     @media (min-width: 544px){
         .modal-dialog {
             width: 90%;
@@ -45,31 +60,45 @@
     .card:hover .text-warning{ color:#5cb85c!important;}
 </style>
 <body ng-controller="wgCtrl">
-<div class="container-fluid">
-    <div class="navbar navbar-dark navbar-static-top">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <div class="col-md-6 ">
-                    <a class="navbar-brand pull-sm-left text-primary" href="#"><img src="images/svg/washinggunslogo.svg" alt="Washingguns" width="300px;"/></a>
-                </div>
-                <div class="col-md-6 ">
-                    <div class="row">
-                        <div class="col-md-6">
-                        </div>
-                        <div class="col-md-6">
-                            <div class="row" style="position:absolute; top:2px; right:0px;">
-                                <div style="width:200px;padding-left:10px;">
-                                    <a href="https://play.google.com/store/apps/details?id=com.washingguns.washingguns&hl=en" target="_blank"><i class="fa fa-mobile" aria-hidden="true"></i> Download App
-                                    <img src="images/googlePlayWg.png" width="150px" /></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+<nav class="navbar navbar-static-top custom-navbar" role="navigation">
+    <div class="container-fluid">
+        <button type="button" class="navbar-toggle collapsed hidden-sm-up" data-toggle="collapse" data-target="#navbar-collapse-1">
+            &#9776;
+        </button>
+        <div class="navbar-header">
+            <a class="navbar-brand pull-sm-left text-primary" href="#"><img src="images/svg/washinggunslogo.svg" alt="Washingguns" width="300px;"/></a>
+        </div>
+        <div class="row hidden-sm-down" style="position:absolute; top:2px; right:0px;">
+            <div style="width:200px;padding-left:10px;">
+                <a href="https://play.google.com/store/apps/details?id=com.washingguns.washingguns&hl=en" target="_blank"><i class="fa fa-mobile" aria-hidden="true"></i> Download App
+                    <img src="images/googlePlayWg.png" width="150px" /></a>
             </div>
         </div>
+        <!-- Non-collapsing right-side icons -->
+        <!--    <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="#" class="fa fa-cog"></a>
+                </li>
+                <li>
+                    <a href="#" class="fa fa-home"></a>
+                </li>
+            </ul>-->
+        <!-- the collapsing menu -->
+        <div class="collapse navbar-collapse navbar-left" id="navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li class="active">
+                    <div style="width:200px;padding-left:10px;">
+                        <a href="https://play.google.com/store/apps/details?id=com.washingguns.washingguns&hl=en" target="_blank"><i class="fa fa-mobile" aria-hidden="true"></i> Download App
+                            <img src="images/googlePlayWg.png" width="150px" /></a>
+                    </div>
+                </li>
+            </ul>
+
+        </div>
+        <!--/.nav-collapse -->
     </div>
-</div>
+    <!--/.container -->
+</nav>
 <!-- Full Page Image Background Carousel Header -->
 <header>
     <div class="container-fluid" style="padding-left:0;padding-right:0;">
@@ -112,7 +141,7 @@
                                 <div class="dropdown-item linkLocation">Pune <span class="label label-danger" style="float:right;">New</span></div>-->
                             </div>
                         </div>
-                        <input type="text" class="form-control " id="userLocation" ng-model="userLocation"  placeholder="Delhi | Gurgaon | Noida | Mumbai" aria-label="Text input with dropdown button">
+                        <input type="text" class="form-control " id="userLocation" ng-model="userLocation"  placeholder="Delhi | Gurgaon | Noida" aria-label="Text input with dropdown button">
                     </div>
                 </div>
                 <div class="col-md-5 col-sm-12" style="display:block; padding-bottom: 5px;">
@@ -156,7 +185,7 @@
                                         <li class="dropdown-header">Pest Control</li>
                                         <li class="dropdown-item wgServices">Bed Bugs Control</li>
                                         <li class="dropdown-item wgServices">Cockroach Control</li>
-                                        <li class="dropdown-item wgServices">General Pest COntrol</li>
+                                        <li class="dropdown-item wgServices">General Pest Control</li>
                                         <li class="dropdown-item wgServices">Rodent Control</li>
                                         <li class="dropdown-item wgServices">Termite Control</li>
                                         <li class="dropdown-divider"></li>
@@ -207,13 +236,11 @@
                         </a>
                         <hr ng-show="selectPackageChunkMultipleArray.length>1"/>
                         <div id="carousel-product-generic" class="carousel slide" data-ride="carousel">
-                            <ol class="carousel-indicators" style="display:none;">
-                                <li data-target="#carousel-product-generic" data-slide-to="0" class="active"></li>
-                                <li data-target="#carousel-product-generic" data-slide-to="1"></li>
-                                <li data-target="#carousel-product-generic" data-slide-to="2"></li>
+                            <ol class="carousel-indicators"  style="display:none;">
+                                <li data-target="#carousel-product-generic" ng-repeat="array in selectPackageChunkMultipleArray track by $index" ng-class="{active: $index==0}" data-slide-to="{{$index}}" class="active"></li>
                             </ol>
                             <div class="carousel-inner" role="listbox">
-                                <div class="carousel-item" ng-repeat="array in selectPackageChunkMultipleArray track by $index" ng-class="{active: $index==0}">
+                                <div class="carousel-item"  ng-repeat="array in selectPackageChunkMultipleArray track by $index" ng-class="{active: $index==0}">
                                     <div class="row">
                                         <div class="col-md-4"  ng-repeat="service in array">
                                             <div class="card" ng-click="userPackageSelection(service)">
@@ -251,19 +278,29 @@
                                     <div class="packageHeader">
                                         <div class="row">
                                             <div class="col-md-3">
-                                                <img src="{{finalUserPackageSelection.mainIcon}}" class="img-circle"/>
+                                                <img ng-src="{{finalUserPackageSelection=='' && 'images/process/Service.png' || finalUserPackageSelection.mainIcon}}" class="img-circle"/>
                                             </div>
                                             <div class="col-md-5">
                                                 <small><strong>Service</strong></small>
                                                 <h6 ng-bind="finalUserPackageSelection.Service"></h6>
 
+                                                <small><strong>Service Includes</strong></small>
+                                                <h6><span ng-repeat="high in finalUserPackageSelection.Package_highlights track by $index">{{finalUserPackageSelection.Package_highlights.length==$index+1? " "+high:high+", "}}</span></h6>
+
+                                            </div>
+                                            <div class="col-md-4">
                                                 <small><strong>Package</strong></small>
                                                 <h6 ng-bind="finalUserPackageSelection.Package"></h6>
 
+                                                <small><strong>Amount</strong></small>
+                                                <h6><sup><i class="fa fa-rupee" aria-hidden="true"></i></sup>{{finalUserPackageSelection.Package_amount}}<small class="text-muted"><sub ng-bind="finalUserPackageSelection.Package_subscription"></sub></small></h6>
                                             </div>
-                                            <div class="col-md-4 text-sm-right">
-                                                <h4><sup><i class="fa fa-rupee" aria-hidden="true"></i></sup>{{finalUserPackageSelection.Package_amount}}<small class="text-muted"><sub ng-bind="finalUserPackageSelection.Package_subscription"></sub></small></h4>
-
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6"><br/>
+                                            <ul class="list-inline-item">
+                                                <li ng-repeat="desc in finalUserPackageSelection.Description" class=""><span class="text-muted"><i class="fa fa-{{desc.icon]}"></i>{{desc.desc}}</span></li>
+                                            </ul>
                                             </div>
                                         </div>
                                     </div>
@@ -273,34 +310,34 @@
                                 <small class="text-warning" style="float:right;">* Fields are mandatory</small>
                                 <fieldset class="form-group" style="clear:both;">
                                     <label for="userName">Name*</label>
-                                    <input type="text" class="form-control" ng-pattern="\\d+" id="inputUserName" placeholder="Name">
-                                    <small class="text-danger" ng-modal="errName"></small>
+                                    <input type="text"  id="inputUserName" ng-model="inputUserNameVal" class="form-control">
+                                    <small class="text-danger" id="errName" ng-modal="errName"></small>
                                 </fieldset>
                                 <fieldset class="form-group">
                                     <label for="lbMobileNo">Mobile No.*</label>
                                     <div class="input-group">
                                         <span class="input-group-addon">+91</span>
-                                        <input type="text" pattern="\d*" maxlength="10" class="form-control">
+                                        <input type="number"  id="inputMobileNumber" ng-model="inputMobileNumber" max="9999999999" class="form-control">
                                     </div>
-                                    <small class="text-danger" ng-modal="errMobile"></small>
+                                    <small class="text-danger" id="errMobile" ng-modal="errMobile"></small>
                                 </fieldset>
                                 <fieldset class="form-group">
                                     <label for="address">Address*</label>
-                                    <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
-                                    <small class="text-danger" ng-modal="errAddress"></small>
+                                    <textarea class="form-control" id="inputUserAddress" ng-model="inputUserAddress" rows="3"></textarea>
+                                    <small class="text-danger" id="errAddress" ng-modal="errAddress"></small>
                                 </fieldset>
                                 <div class="row">
                                     <div class="col-md-6">
                                         <fieldset class="form-group">
                                             <label for="landmark">Landmark*</label>
-                                            <input type="text" class="form-control" id="inputUserLandmark" placeholder="">
-                                            <small class="text-danger"  ng-modal="errLandmark"></small>
+                                            <input type="text" class="form-control" id="inputUserLandmark" ng-model="inputUserLandmark" placeholder="">
+                                            <small class="text-danger" id="errLandmark"  ng-modal="errLandmark"></small>
                                         </fieldset>
                                     </div>
                                     <div class="col-md-6">
                                         <fieldset class="form-group">
                                             <label for="userName">Pincode</label>
-                                            <input type="text" class="form-control" id="inputUserPincode" placeholder="">
+                                            <input type="text" class="form-control" maxlength="6" id="inputUserPincode" ng-model="inputUserPincode" placeholder="">
                                         </fieldset>
                                     </div>
                                 </div>
@@ -309,10 +346,70 @@
                         </div>
                     </form>
                 </div>
+                <div class="thankyouModal" ng-show="flagConfirmOrderStatus">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="packageItem">
+                                <div class="packageHeader">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <img ng-src="{{finalUserPackageSelection=='' && 'images/process/Service.png' || finalUserPackageSelection.mainIcon}}" class="img-circle"/>
+                                        </div>
+                                        <div class="col-md-5">
+                                            <small><strong>Service</strong></small>
+                                            <h6 ng-bind="finalUserPackageSelection.Service"></h6>
+
+                                            <small><strong>Service Includes</strong></small>
+                                            <h6><span ng-repeat="high in finalUserPackageSelection.Package_highlights track by $index">{{finalUserPackageSelection.Package_highlights.length==$index+1? " "+high:high+", "}}</span></h6>
+
+                                        </div>
+                                        <div class="col-md-4">
+                                            <small><strong>Package</strong></small>
+                                            <h6 ng-bind="finalUserPackageSelection.Package"></h6>
+
+                                            <small><strong>Amount</strong></small>
+                                            <h6><sup><i class="fa fa-rupee" aria-hidden="true"></i></sup>{{finalUserPackageSelection.Package_amount}}<small class="text-muted"><sub ng-bind="finalUserPackageSelection.Package_subscription"></sub></small></h6>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6"><br/>
+                                            <ul class="list-inline-item">
+                                                <li ng-repeat="desc in finalUserPackageSelection.Description" class=""><span class="text-muted"><i class="fa fa-{{desc.icon]}"></i>{{desc.desc}}</span></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <small><strong>Name</strong></small>
+                            <h6 ng-bind="inputUserNameVal"></h6>
+
+                            <small><strong>Address</strong></small>
+                            <h6 ng-bind="inputUserAddress"></h6>
+
+                            <small><strong>Landmark</strong></small>
+                            <h6 ng-bind="inputUserLandmark"></h6>
+
+                            <small><strong>Mobile No.</strong></small>
+                            <h6 ng-bind="inputMobileNumber"></h6>
+
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+
+                            <div style="margin-top:10px;">
+                                <small ng-bind="userMessage"></small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="modal-footer">
-                <button id="bookAction" ng-modal="changePackage" ng-click="handleBookActionClick(1)" type="button" ng-show="flagEnterAddress"   class="btn btn-secondary">Change Package</button>
-                <button id="bookAction" ng-modal="bookAction" ng-click="handleBookActionClick(0)" type="button" ng-show="flagEnterAddress" class="btn btn-primary">Place Order</button>
+                <button id="" ng-modal="changePackage" ng-click="handleBookActionClick(1)" type="button" ng-show="flagEnterAddress"   class="btn btn-secondary">Change Package</button>
+                <button id="bookAction" ng-modal="bookAction" type="button" ng-show="flagEnterAddress" class="btn btn-primary" ><i class="fa fa-check" aria-hidden="true"></i> Place Order</button>
             </div>
         </div>
     </div>
@@ -642,7 +739,8 @@
         $scope.flagChoosePackage = false;
         $scope.flagEnterAddress = false;
         $scope.flagConfirmOrder = false;
-        $scope.finalUserPackageSelection;
+        $scope.flagConfirmOrderStatus = false;
+        $scope.finalUserPackageSelection="";
         $scope.modalTitle = "Click a package to select";
         $http.get("getServiceMeta")
                 .then(function(response) {
@@ -655,8 +753,11 @@
         };
         $scope.selectPackageFilter = function () {
             $scope.servicePackage = [];
+            if($scope.userServiceSelection.indexOf("Control")!=-1){
+                $scope.userServiceSelection = "Pest Control";
+            }
             for(var i=0;i<$scope.serviceMeta.records.length;i++){
-                if($scope.serviceMeta.records[i].Service===$scope.userServiceSelection){
+                if($scope.serviceMeta.records[i].Category===$scope.userServiceSelection){
                     console.log("Filtered:"+$scope.serviceMeta.records[i].Service);
                     $scope.servicePackage.push($scope.serviceMeta.records[i]);
                 }
@@ -679,6 +780,9 @@
                     temparray = $scope.servicePackage.slice(i,i+chunk);
                     $scope.selectPackageChunkMultipleArray.push(temparray);
                 }
+                $scope.flagConfirmOrderStatus = false;
+                $scope.modalTitle = "Click on a Package to select";
+                $scope.flagEnterAddress = false;
                 $scope.flagChoosePackage = true;
                 $('#wgBookingModal').modal('show');
 
@@ -687,7 +791,7 @@
         $scope.userPackageSelection = function(service){
             $scope.finalUserPackageSelection="";
             $scope.finalUserPackageSelection=service;
-            alert($scope.finalUserPackageSelection.Package);
+            //alert($scope.finalUserPackageSelection.Package);
             $("#bookingProgress").attr('value',50);
             $scope.flagChoosePackage = false;
             $scope.modalTitle = "Confirm Order";
@@ -696,9 +800,18 @@
         $scope.handleBookActionClick = function(pos){
             if(pos==0){
                 //submit form;
+                $("#bookingProgress").attr('value',100);
+                $scope.flagEnterAddress = false;
+                $scope.flagChoosePackage = false;
+                $scope.modalTitle = "-- Thankyou --";
+                $scope.userMessage = "Dear "+$scope.inputUserNameVal+", You will be reciving an Order confirmation call from washingguns within 30 mins. If not you may dial 1800 833 2020 for Order status.";
+                $scope.flagConfirmOrderStatus = true;
+
             }else{
                 $scope.flagEnterAddress = false;
                 $("#bookingProgress").attr('value',50);
+                $scope.flagConfirmOrderStatus = false;
+                $scope.modalTitle = "Click on a Package to select";
                 $scope.flagChoosePackage = true;
 
             }

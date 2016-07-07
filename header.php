@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" href="images/favicon.ico">
-    <title>Washingguns</title>
+    <?php echo $selectedServiceArray[0]['SeoMeta'];?>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/customcss/navbar.css" rel="stylesheet">
     <link href="css/customcss/mainSlider.css" rel="stylesheet">
@@ -16,7 +16,6 @@
     <link href="css/Testimonials.css" rel="stylesheet">
 </head>
 <style>
-
     .service-grid:hover{
         background-color:rgba(255,255,255,0.5);
     }

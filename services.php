@@ -1,4 +1,3 @@
-<?php include 'header.php';?>
 <?php
 error_reporting(0);
 $json = file_get_contents("images/json/Json.txt");
@@ -34,6 +33,8 @@ foreach ($serviceData['records'] as &$value) {
 
 
 ?>
+<?php include 'header.php';?>
+
     <style>
         .serviceHeading{
             height:3em;
@@ -109,7 +110,7 @@ foreach ($serviceData['records'] as &$value) {
             <hr>
             <div id="carousel-product-generic" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators" style="display:none;">
-                    <?php for($i=0;$i<sizeof($selectedServiceArray);$i++){}
+                    <?php $countElements = 0;$tempSelectedArraySize=0; for($i=0;$i<sizeof($selectedServiceArray);$i++){}
                         if($i==0){
                     ?>
                             <li data-target="#carousel-product-generic" data-slide-to="0" class="active"></li>
@@ -118,7 +119,10 @@ foreach ($serviceData['records'] as &$value) {
                     <?php } ?>
                 </ol>
                 <div class="carousel-inner" role="listbox">
-                    <?php for($i=0;$i<sizeof($selectedServiceArray);$i++){
+                    <?php
+                    $tempSelectedArraySize = sizeof($selectedServiceArray);
+                    $coutPackageInside = 0;
+                    for($i=0;$i<sizeof($selectedServiceArray);$i++){
                     if($i==0){
                         ?>
                         <div class="carousel-item active">
@@ -129,7 +133,25 @@ foreach ($serviceData['records'] as &$value) {
                         <div class="carousel-item">
                             <div class="row">
                     <?php } ?>
-                                <div class="col-md-4">
+                                <div class="<?php
+                                if ($countPackageInside == 3) {
+                                    $tempSelectedArraySize = $tempSelectedArraySize - 3;
+                                    $countPackageInside=0;
+                                }
+
+                                if($tempSelectedArraySize>=3 && $countPackageInside<3 ) {
+                                    echo 'col-md-4';
+                                    $countPackageInside++;
+                                }else if ($tempSelectedArraySize == 2) {
+                                    if($countPackageInside==0){
+                                        echo 'col-md-offset-2 col-md-4';
+                                    }else{
+                                        echo 'col-md-4';
+                                    }
+                                    $countPackageInside++;
+                                }else if($tempSelectedArraySize==1){
+                                    echo "col-md-offset-4 col-md-4";
+                                }?>">
                                     <div class="card">
                                         <div class="card-header text-sm-center bg-<?php if($i%3==0){echo 'primary';}else if($i%3==1){echo 'warning';}else if($i%3==2){echo 'danger';} ?>">
                                             <span> <?php echo $selectedServiceArray[$i]['Package'] ?> </span>
